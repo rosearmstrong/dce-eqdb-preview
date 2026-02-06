@@ -1,0 +1,590 @@
+{
+  "category": "software",
+  "subcategory": "dcim",
+  "last_updated": "2026-02-05",
+  "total_products": 20,
+  "vendors": [
+    {
+      "name": "Schneider Electric",
+      "slug": "schneider",
+      "website": "https://www.se.com/ecostruxure-it",
+      "headquarters": "Rueil-Malmaison, France",
+      "founded": 1836
+    },
+    {
+      "name": "Nlyte Software (Carrier)",
+      "slug": "nlyte",
+      "website": "https://www.nlyte.com",
+      "headquarters": "Emeryville, California, USA",
+      "founded": 2004
+    },
+    {
+      "name": "Sunbird Software",
+      "slug": "sunbird",
+      "website": "https://www.sunbirddcim.com",
+      "headquarters": "Somerset, New Jersey, USA",
+      "founded": 2011
+    },
+    {
+      "name": "Vertiv",
+      "slug": "vertiv",
+      "website": "https://www.vertiv.com",
+      "headquarters": "Columbus, Ohio, USA",
+      "founded": 1965
+    },
+    {
+      "name": "Device42",
+      "slug": "device42",
+      "website": "https://www.device42.com",
+      "headquarters": "New Haven, Connecticut, USA",
+      "founded": 2012
+    },
+    {
+      "name": "Panduit",
+      "slug": "panduit",
+      "website": "https://www.panduit.com/smartzone",
+      "headquarters": "Tinley Park, Illinois, USA",
+      "founded": 1955
+    },
+    {
+      "name": "ABB",
+      "slug": "abb",
+      "website": "https://new.abb.com",
+      "headquarters": "Zurich, Switzerland",
+      "founded": 1988
+    },
+    {
+      "name": "Siemens",
+      "slug": "siemens",
+      "website": "https://www.siemens.com",
+      "headquarters": "Munich, Germany",
+      "founded": 1847
+    },
+    {
+      "name": "Cormant",
+      "slug": "cormant",
+      "website": "https://www.cormant.com",
+      "headquarters": "Boston, Massachusetts, USA",
+      "founded": 2006
+    },
+    {
+      "name": "FNT Software",
+      "slug": "fnt",
+      "website": "https://www.fntsoftware.com",
+      "headquarters": "Ellwangen, Germany",
+      "founded": 1994
+    }
+  ],
+  "products": [
+    {
+      "id": "schneider-ecostruxure-it-expert",
+      "vendor": { "name": "Schneider Electric", "slug": "schneider" },
+      "name": "EcoStruxure IT Expert",
+      "slug": "ecostruxure-it-expert",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["cloud", "on-premises", "hybrid"],
+      "capabilities": {
+        "asset_management": true,
+        "capacity_planning": true,
+        "change_management": true,
+        "power_monitoring": true,
+        "environmental_monitoring": true,
+        "cooling_optimization": true,
+        "network_connectivity": true,
+        "workflow_automation": true,
+        "reporting_analytics": true,
+        "3d_visualization": true,
+        "bms_integration": true,
+        "itsm_integration": true,
+        "api_available": true
+      },
+      "integrations": ["ServiceNow", "BMC", "VMware", "Microsoft Azure", "AWS", "Cisco ACI"],
+      "supported_devices": ["APC PDUs", "APC UPS", "NetShelter Racks", "InRow Cooling", "Third-party via SNMP/Modbus"],
+      "pricing": {
+        "model": "subscription",
+        "starting_price": "Contact for pricing",
+        "notes": "Cloud-based subscription with tiered pricing by device count"
+      },
+      "description": "Comprehensive cloud-based DCIM solution for hybrid IT environments. Provides real-time monitoring, AI-driven insights, and seamless integration with Schneider equipment ecosystem.",
+      "key_features": [
+        "Cloud-native architecture",
+        "AI/ML-powered recommendations",
+        "Real-time monitoring dashboards",
+        "Mobile app access",
+        "Automatic device discovery",
+        "Capacity planning analytics",
+        "Alarm correlation and root cause analysis",
+        "Multi-site management"
+      ],
+      "use_cases": ["Enterprise data centers", "Colocation", "Edge sites", "Hybrid cloud"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "schneider-ecostruxure-it-advisor",
+      "vendor": { "name": "Schneider Electric", "slug": "schneider" },
+      "name": "EcoStruxure IT Advisor",
+      "slug": "ecostruxure-it-advisor",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["on-premises"],
+      "capabilities": {
+        "asset_management": true,
+        "capacity_planning": true,
+        "change_management": true,
+        "power_monitoring": true,
+        "environmental_monitoring": true,
+        "workflow_automation": true,
+        "reporting_analytics": true,
+        "3d_visualization": true,
+        "api_available": true
+      },
+      "integrations": ["ServiceNow", "VMware", "Microsoft SCCM"],
+      "pricing": {
+        "model": "perpetual",
+        "notes": "Traditional on-premises licensing with annual maintenance"
+      },
+      "description": "On-premises DCIM for organizations requiring local data sovereignty. Full asset and capacity management with 3D visualization.",
+      "key_features": [
+        "On-premises deployment",
+        "3D floor plan visualization",
+        "Change management workflows",
+        "Capacity forecasting",
+        "Energy cost tracking"
+      ],
+      "use_cases": ["Government", "Financial services", "On-premises only environments"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "nlyte-software-dcim",
+      "vendor": { "name": "Nlyte Software (Carrier)", "slug": "nlyte" },
+      "name": "Nlyte DCIM",
+      "slug": "nlyte-dcim",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["on-premises", "cloud", "hybrid"],
+      "capabilities": {
+        "asset_management": true,
+        "capacity_planning": true,
+        "change_management": true,
+        "power_monitoring": true,
+        "environmental_monitoring": true,
+        "cooling_optimization": true,
+        "workflow_automation": true,
+        "reporting_analytics": true,
+        "3d_visualization": true,
+        "bms_integration": true,
+        "itsm_integration": true,
+        "api_available": true
+      },
+      "integrations": ["ServiceNow", "BMC Remedy", "Cherwell", "VMware", "Microsoft SCOM", "IBM Maximo"],
+      "supported_devices": ["Multi-vendor via SNMP", "BACnet", "Modbus", "REST APIs"],
+      "pricing": {
+        "model": "subscription",
+        "notes": "Modular pricing by capability and device count"
+      },
+      "description": "Enterprise-grade DCIM with industry-leading energy management capabilities. Part of Carrier Global since 2021 acquisition.",
+      "key_features": [
+        "Energy analytics and optimization",
+        "PUE tracking and improvement",
+        "CFD thermal analysis integration",
+        "Automated capacity planning",
+        "Multi-site portfolio management",
+        "Digital twin capabilities",
+        "Carbon footprint tracking"
+      ],
+      "use_cases": ["Large enterprises", "Hyperscale", "Energy optimization focus"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "sunbird-dctrack",
+      "vendor": { "name": "Sunbird Software", "slug": "sunbird" },
+      "name": "dcTrack DCIM",
+      "slug": "dctrack",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["on-premises", "cloud", "saas"],
+      "capabilities": {
+        "asset_management": true,
+        "capacity_planning": true,
+        "change_management": true,
+        "power_monitoring": true,
+        "environmental_monitoring": true,
+        "workflow_automation": true,
+        "reporting_analytics": true,
+        "3d_visualization": true,
+        "itsm_integration": true,
+        "api_available": true
+      },
+      "integrations": ["ServiceNow", "Jira", "Cherwell", "VMware", "Cisco Prime"],
+      "supported_devices": ["Raritan PDUs", "Multi-vendor SNMP", "Custom integrations"],
+      "pricing": {
+        "model": "subscription",
+        "starting_price": "Starting ~$12,000/year",
+        "notes": "Tiered by cabinet count and modules"
+      },
+      "description": "Modern, user-friendly DCIM focused on ease of use and rapid deployment. Known for fast implementation and strong customer support.",
+      "key_features": [
+        "Intuitive drag-and-drop interface",
+        "Rapid deployment (days, not months)",
+        "Pre-built integrations",
+        "Mobile-responsive design",
+        "Automated data collection",
+        "Real-time power chain visibility",
+        "What-if capacity modeling"
+      ],
+      "use_cases": ["Mid-market", "Fast deployment needs", "ITSM-centric organizations"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "sunbird-power-iq",
+      "vendor": { "name": "Sunbird Software", "slug": "sunbird" },
+      "name": "Power IQ",
+      "slug": "power-iq",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["on-premises", "cloud"],
+      "capabilities": {
+        "power_monitoring": true,
+        "environmental_monitoring": true,
+        "reporting_analytics": true,
+        "api_available": true
+      },
+      "supported_devices": ["Multi-vendor PDUs", "UPS", "Environmental sensors"],
+      "pricing": {
+        "model": "subscription",
+        "notes": "Standalone power monitoring or bundle with dcTrack"
+      },
+      "description": "Focused power and environmental monitoring solution. Can be standalone or integrated with dcTrack.",
+      "key_features": [
+        "Multi-vendor PDU support",
+        "Real-time power dashboards",
+        "PUE calculation",
+        "Environmental alerts",
+        "Energy trending"
+      ],
+      "use_cases": ["Power monitoring focus", "Multi-vendor environments"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-trellis",
+      "vendor": { "name": "Vertiv", "slug": "vertiv" },
+      "name": "Vertiv Trellis",
+      "slug": "trellis",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["on-premises"],
+      "capabilities": {
+        "asset_management": true,
+        "capacity_planning": true,
+        "power_monitoring": true,
+        "environmental_monitoring": true,
+        "cooling_optimization": true,
+        "reporting_analytics": true,
+        "3d_visualization": true,
+        "bms_integration": true,
+        "api_available": true
+      },
+      "integrations": ["Liebert equipment", "Geist PDUs", "Third-party via adapters"],
+      "pricing": {
+        "model": "perpetual",
+        "notes": "Enterprise licensing with maintenance"
+      },
+      "description": "Enterprise DCIM platform with deep integration to Vertiv infrastructure. Strong thermal and power optimization capabilities.",
+      "key_features": [
+        "Vertiv equipment integration",
+        "Thermal management optimization",
+        "Predictive analytics",
+        "Comprehensive reporting",
+        "Real-time monitoring"
+      ],
+      "use_cases": ["Vertiv-centric environments", "Large enterprises"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "device42-dcim",
+      "vendor": { "name": "Device42", "slug": "device42" },
+      "name": "Device42 DCIM",
+      "slug": "device42-dcim",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["on-premises", "cloud", "hybrid"],
+      "capabilities": {
+        "asset_management": true,
+        "capacity_planning": true,
+        "change_management": true,
+        "power_monitoring": true,
+        "environmental_monitoring": true,
+        "network_connectivity": true,
+        "workflow_automation": true,
+        "reporting_analytics": true,
+        "3d_visualization": true,
+        "itsm_integration": true,
+        "api_available": true
+      },
+      "integrations": ["ServiceNow", "Jira", "Ansible", "Terraform", "Puppet", "Chef", "Jenkins", "Slack"],
+      "supported_devices": ["Auto-discovery via SNMP/WMI/SSH", "Multi-vendor"],
+      "pricing": {
+        "model": "subscription",
+        "starting_price": "Starting ~$5,000/year",
+        "notes": "Device-based pricing, competitive for mid-market"
+      },
+      "description": "Agile DCIM with strong auto-discovery and DevOps integrations. Popular with IT operations and cloud-native teams.",
+      "key_features": [
+        "Agentless auto-discovery",
+        "Application dependency mapping",
+        "DevOps tool integrations",
+        "REST API-first design",
+        "IP address management",
+        "Cable management",
+        "Rapid deployment"
+      ],
+      "use_cases": ["DevOps-centric", "Hybrid cloud", "Mid-market"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "panduit-smartzone-cloud",
+      "vendor": { "name": "Panduit", "slug": "panduit" },
+      "name": "SmartZone Cloud",
+      "slug": "smartzone-cloud",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["cloud", "hybrid"],
+      "capabilities": {
+        "asset_management": true,
+        "capacity_planning": true,
+        "power_monitoring": true,
+        "environmental_monitoring": true,
+        "reporting_analytics": true,
+        "api_available": true
+      },
+      "integrations": ["Panduit PDUs", "Third-party SNMP devices"],
+      "pricing": {
+        "model": "subscription",
+        "notes": "Cloud subscription with device-based tiers"
+      },
+      "description": "Cloud-native DCIM tightly integrated with Panduit SmartZone PDUs. Simple deployment and intuitive interface.",
+      "key_features": [
+        "Panduit ecosystem integration",
+        "Cloud-native simplicity",
+        "Real-time dashboards",
+        "Automated alerting",
+        "Mobile access"
+      ],
+      "use_cases": ["Panduit customers", "Cloud-first organizations"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "abb-ability-dcim",
+      "vendor": { "name": "ABB", "slug": "abb" },
+      "name": "ABB Ability DCIM",
+      "slug": "ability-dcim",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["on-premises", "cloud"],
+      "capabilities": {
+        "asset_management": true,
+        "capacity_planning": true,
+        "power_monitoring": true,
+        "environmental_monitoring": true,
+        "cooling_optimization": true,
+        "bms_integration": true,
+        "reporting_analytics": true,
+        "api_available": true
+      },
+      "integrations": ["ABB UPS", "ABB switchgear", "Building management systems"],
+      "pricing": {
+        "model": "subscription",
+        "notes": "Enterprise pricing"
+      },
+      "description": "Industrial-grade DCIM with strong electrical infrastructure integration. Part of ABB Ability digital platform.",
+      "key_features": [
+        "ABB electrical integration",
+        "Industrial reliability",
+        "Energy optimization",
+        "Predictive maintenance",
+        "Global support"
+      ],
+      "use_cases": ["Industrial facilities", "ABB equipment environments"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "siemens-desigo-cc",
+      "vendor": { "name": "Siemens", "slug": "siemens" },
+      "name": "Desigo CC for Data Centers",
+      "slug": "desigo-cc",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["on-premises"],
+      "capabilities": {
+        "power_monitoring": true,
+        "environmental_monitoring": true,
+        "cooling_optimization": true,
+        "bms_integration": true,
+        "reporting_analytics": true,
+        "api_available": true
+      },
+      "integrations": ["Siemens building systems", "BACnet", "Modbus", "KNX"],
+      "pricing": {
+        "model": "perpetual",
+        "notes": "Enterprise building management pricing"
+      },
+      "description": "Building management system with data center extensions. Strong for facilities with unified building/DC management.",
+      "key_features": [
+        "Unified building/DC management",
+        "Siemens ecosystem",
+        "Energy management",
+        "Comprehensive BMS integration"
+      ],
+      "use_cases": ["Campus environments", "Siemens buildings"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "cormant-cs",
+      "vendor": { "name": "Cormant", "slug": "cormant" },
+      "name": "Cormant-CS DCIM",
+      "slug": "cormant-cs",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["on-premises", "cloud"],
+      "capabilities": {
+        "asset_management": true,
+        "capacity_planning": true,
+        "change_management": true,
+        "network_connectivity": true,
+        "workflow_automation": true,
+        "reporting_analytics": true,
+        "3d_visualization": true,
+        "api_available": true
+      },
+      "integrations": ["ServiceNow", "BMC", "Custom integrations"],
+      "pricing": {
+        "model": "subscription",
+        "notes": "Mid-market pricing"
+      },
+      "description": "Asset-focused DCIM with strong connectivity and network documentation capabilities.",
+      "key_features": [
+        "Physical/logical connectivity",
+        "Cable documentation",
+        "Port-level tracking",
+        "Automated discovery",
+        "What-if planning"
+      ],
+      "use_cases": ["Network-heavy environments", "Telecom"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "fnt-command",
+      "vendor": { "name": "FNT Software", "slug": "fnt" },
+      "name": "FNT Command",
+      "slug": "fnt-command",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["on-premises", "cloud"],
+      "capabilities": {
+        "asset_management": true,
+        "capacity_planning": true,
+        "change_management": true,
+        "network_connectivity": true,
+        "workflow_automation": true,
+        "reporting_analytics": true,
+        "3d_visualization": true,
+        "itsm_integration": true,
+        "api_available": true
+      },
+      "integrations": ["ServiceNow", "BMC", "HPE Service Manager"],
+      "pricing": {
+        "model": "perpetual",
+        "notes": "Enterprise pricing, strong in Europe"
+      },
+      "description": "German-engineered DCIM with comprehensive service management capabilities. Strong in European enterprise market.",
+      "key_features": [
+        "Service-oriented architecture",
+        "End-to-end service documentation",
+        "Strong ITSM integration",
+        "German engineering quality",
+        "Multi-domain management"
+      ],
+      "use_cases": ["European enterprises", "Service providers", "Telecom"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "netbox-open-source",
+      "vendor": { "name": "NetBox Labs", "slug": "netbox" },
+      "name": "NetBox",
+      "slug": "netbox",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["on-premises", "cloud"],
+      "capabilities": {
+        "asset_management": true,
+        "capacity_planning": true,
+        "network_connectivity": true,
+        "api_available": true
+      },
+      "integrations": ["Ansible", "Terraform", "Nautobot", "Custom via API"],
+      "pricing": {
+        "model": "freemium",
+        "starting_price": "Free (open source)",
+        "notes": "Commercial support available via NetBox Labs"
+      },
+      "description": "Popular open-source DCIM focused on network infrastructure. Source of truth for IP addresses, racks, and network connectivity.",
+      "key_features": [
+        "Open source (Apache 2.0)",
+        "IP address management",
+        "Network documentation",
+        "REST API",
+        "Strong community",
+        "Infrastructure-as-code friendly"
+      ],
+      "use_cases": ["Network-centric", "DevOps", "Budget-conscious"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "opendata-odi",
+      "vendor": { "name": "Modius", "slug": "modius" },
+      "name": "OpenData Infrastructure (ODI)",
+      "slug": "opendata-odi",
+      "category": "software",
+      "subcategory": "dcim",
+      "deployment": ["on-premises", "cloud"],
+      "capabilities": {
+        "power_monitoring": true,
+        "environmental_monitoring": true,
+        "cooling_optimization": true,
+        "reporting_analytics": true,
+        "bms_integration": true,
+        "api_available": true
+      },
+      "integrations": ["Multi-vendor via SNMP/Modbus/BACnet"],
+      "pricing": {
+        "model": "subscription",
+        "notes": "Device-based pricing"
+      },
+      "description": "Monitoring-focused DCIM with strong multi-vendor device support. Emphasis on energy management.",
+      "key_features": [
+        "Vendor-agnostic monitoring",
+        "Energy analytics",
+        "Real-time dashboards",
+        "PUE optimization",
+        "Threshold alerting"
+      ],
+      "use_cases": ["Monitoring focus", "Multi-vendor environments"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    }
+  ]
+}

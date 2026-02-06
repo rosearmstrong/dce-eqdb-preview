@@ -1,0 +1,1437 @@
+{
+  "category": "power",
+  "subcategory": "pdu",
+  "last_updated": "2026-02-05",
+  "total_products": 85,
+  "vendors": [
+    {
+      "name": "Schneider Electric (APC)",
+      "slug": "schneider-apc",
+      "website": "https://www.se.com/us/en/product-subcategory/7410-rack-power-distribution/",
+      "headquarters": "Rueil-Malmaison, France",
+      "founded": 1836
+    },
+    {
+      "name": "Vertiv (Geist)",
+      "slug": "vertiv-geist",
+      "website": "https://www.vertiv.com/en-us/products-catalog/critical-power/power-distribution/",
+      "headquarters": "Columbus, Ohio, USA",
+      "founded": 1965
+    },
+    {
+      "name": "Eaton",
+      "slug": "eaton",
+      "website": "https://www.eaton.com/us/en-us/products/backup-power-ups-surge-it-power-distribution/power-distribution-for-it-equipment.html",
+      "headquarters": "Dublin, Ireland",
+      "founded": 1911
+    },
+    {
+      "name": "Legrand (Server Technology)",
+      "slug": "legrand-servertech",
+      "website": "https://www.legrand.us/server-technology",
+      "headquarters": "Limoges, France",
+      "founded": 1860
+    },
+    {
+      "name": "Legrand (Raritan)",
+      "slug": "legrand-raritan",
+      "website": "https://www.legrand.us/raritan",
+      "headquarters": "Limoges, France",
+      "founded": 1860
+    },
+    {
+      "name": "CyberPower",
+      "slug": "cyberpower",
+      "website": "https://www.cyberpowersystems.com/products/pdus/",
+      "headquarters": "New Taipei City, Taiwan",
+      "founded": 1997
+    },
+    {
+      "name": "Panduit",
+      "slug": "panduit",
+      "website": "https://www.panduit.com/en/products/power-management.html",
+      "headquarters": "Tinley Park, Illinois, USA",
+      "founded": 1955
+    },
+    {
+      "name": "Chatsworth Products (CPI)",
+      "slug": "chatsworth-cpi",
+      "website": "https://www.chatsworth.com/power-management",
+      "headquarters": "Westlake Village, California, USA",
+      "founded": 1991
+    }
+  ],
+  "products": [
+    {
+      "id": "schneider-apc-netshelter-advanced-switched-metered",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "NetShelter Advanced Rack PDU - Switched Metered-by-Outlet",
+      "slug": "netshelter-advanced-switched-metered",
+      "model_number": "APDU99-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "switched-metered",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [208, 230, 400, 415],
+          "phases": "three-phase",
+          "current_a": 60,
+          "frequency_hz": [50, 60],
+          "plug_type": "IEC 60309"
+        },
+        "output": {
+          "total_outlets": 48,
+          "outlet_types": [
+            { "type": "C13/C15 Combo", "quantity": 36 },
+            { "type": "C19/C21 Combo", "quantity": 12 }
+          ],
+          "switched_outlets": 48,
+          "metered_outlets": 48
+        },
+        "power_capacity_kva": 17.3,
+        "power_capacity_kw": 17.3,
+        "max_current_per_phase_a": 20,
+        "dimensions": {
+          "height_mm": 1778,
+          "width_mm": 56,
+          "depth_mm": 51,
+          "rack_units": 0
+        },
+        "certifications": ["UL", "cUL", "CE", "RoHS"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet", "wifi"],
+        "protocols": ["SNMP v3", "Modbus TCP", "REST API", "EcoStruxure IT"],
+        "dcim_compatible": true,
+        "environmental_sensors": ["temperature", "humidity", "door-contact"],
+        "alerting": ["email", "SNMP trap", "syslog"]
+      },
+      "features": {
+        "hot_swappable": true,
+        "dual_input": false,
+        "color_coded_outlets": true,
+        "locking_outlets": true,
+        "surge_protection": false,
+        "circuit_breakers": "magnetic",
+        "daisy_chain_capable": true
+      },
+      "description": "Industry-first 4-in-1 combination outlets (C13/C15/C19/C21) simplify selection and accelerate deployment. Up to 50% more power with double the outlets per rack PDU.",
+      "key_features": [
+        "4-in-1 combination outlets (C13/C15/C19/C21)",
+        "Up to 17.3kW power capacity",
+        "Hot-swappable network management module",
+        "Built-in WiFi option",
+        "EcoStruxure IT Expert compatible",
+        "Color-coded outlets for easy identification"
+      ],
+      "use_cases": ["High-density data centers", "Colocation", "Enterprise IT"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "schneider-apc-netshelter-metered-outlet",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "NetShelter Metered-by-Outlet Rack PDU",
+      "slug": "netshelter-metered-outlet",
+      "model_number": "AP84-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "metered-by-outlet",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [100, 120, 208, 230],
+          "phases": "single-phase",
+          "current_a": 30,
+          "frequency_hz": [50, 60],
+          "plug_type": "L6-30P"
+        },
+        "output": {
+          "total_outlets": 42,
+          "outlet_types": [
+            { "type": "C13", "quantity": 36 },
+            { "type": "C19", "quantity": 6 }
+          ],
+          "switched_outlets": 0,
+          "metered_outlets": 42
+        },
+        "power_capacity_kva": 7.4,
+        "power_capacity_kw": 7.4,
+        "max_current_per_phase_a": 30,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v1/v3", "HTTP/HTTPS", "Telnet/SSH"],
+        "dcim_compatible": true,
+        "environmental_sensors": ["temperature", "humidity"],
+        "alerting": ["email", "SNMP trap"]
+      },
+      "features": {
+        "hot_swappable": true,
+        "dual_input": false,
+        "locking_outlets": true,
+        "circuit_breakers": "thermal"
+      },
+      "description": "Real-time remote monitoring at the outlet level for advanced data center energy management and billing applications.",
+      "key_features": [
+        "Outlet-level power metering",
+        "Real-time energy monitoring",
+        "Web-based management",
+        "Optional environmental sensors",
+        "Device identification"
+      ],
+      "use_cases": ["Colocation billing", "Energy management", "Capacity planning"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "schneider-apc-netshelter-switched",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "NetShelter Switched Rack PDU",
+      "slug": "netshelter-switched",
+      "model_number": "AP89-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "switched",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [208, 230],
+          "phases": "single-phase",
+          "current_a": 20,
+          "frequency_hz": [50, 60],
+          "plug_type": "L6-20P"
+        },
+        "output": {
+          "total_outlets": 24,
+          "outlet_types": [
+            { "type": "C13", "quantity": 21 },
+            { "type": "C19", "quantity": 3 }
+          ],
+          "switched_outlets": 24,
+          "metered_outlets": 0
+        },
+        "power_capacity_kva": 4.9,
+        "power_capacity_kw": 4.9,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "led",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "HTTP/HTTPS"],
+        "dcim_compatible": true,
+        "alerting": ["email", "SNMP trap"]
+      },
+      "features": {
+        "hot_swappable": false,
+        "locking_outlets": true,
+        "circuit_breakers": "thermal"
+      },
+      "description": "Remote outlet-level on/off control for power cycling and load management. Industry-leading reliability, manageability, and security.",
+      "key_features": [
+        "Individual outlet switching",
+        "Remote power cycling",
+        "Programmable power-on sequencing",
+        "Outlet group control",
+        "Load shedding capability"
+      ],
+      "use_cases": ["Remote management", "Equipment reboot", "Load balancing"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "schneider-apc-netshelter-basic",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "NetShelter Basic Rack PDU",
+      "slug": "netshelter-basic",
+      "model_number": "AP94-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "basic",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [100, 120, 208, 230],
+          "phases": "single-phase",
+          "current_a": 30,
+          "frequency_hz": [50, 60]
+        },
+        "output": {
+          "total_outlets": 20,
+          "outlet_types": [
+            { "type": "C13", "quantity": 14 },
+            { "type": "C19", "quantity": 6 }
+          ],
+          "switched_outlets": 0,
+          "metered_outlets": 0
+        },
+        "power_capacity_kva": 7.4,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "none",
+        "network_interface": [],
+        "dcim_compatible": false
+      },
+      "features": {
+        "locking_outlets": false,
+        "circuit_breakers": "thermal"
+      },
+      "description": "Cost-effective power distribution for environments where remote monitoring is not required.",
+      "key_features": [
+        "Simple power distribution",
+        "Reliable circuit protection",
+        "Compact 0U form factor",
+        "Tool-less mounting"
+      ],
+      "use_cases": ["Small server rooms", "Network closets", "Test environments"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-geist-powerit-switched",
+      "vendor": { "name": "Vertiv (Geist)", "slug": "vertiv-geist" },
+      "name": "PowerIT Switched Rack PDU",
+      "slug": "powerit-switched",
+      "model_number": "VP8941-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "switched",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [120, 208, 230],
+          "phases": "single-phase",
+          "current_a": 30,
+          "frequency_hz": [50, 60],
+          "plug_type": "L6-30P"
+        },
+        "output": {
+          "total_outlets": 24,
+          "outlet_types": [
+            { "type": "C13", "quantity": 20 },
+            { "type": "C19", "quantity": 4 }
+          ],
+          "switched_outlets": 24,
+          "metered_outlets": 24
+        },
+        "power_capacity_kva": 4.9,
+        "power_capacity_kw": 4.9,
+        "certifications": ["UL", "cUL", "CE", "RoHS"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v1/v2c/v3", "REST API", "Modbus TCP"],
+        "dcim_compatible": true,
+        "environmental_sensors": ["temperature", "humidity", "airflow", "differential-pressure"],
+        "alerting": ["email", "SNMP trap", "syslog"]
+      },
+      "features": {
+        "hot_swappable": true,
+        "dual_input": false,
+        "locking_outlets": true,
+        "circuit_breakers": "magnetic",
+        "daisy_chain_capable": true
+      },
+      "description": "Next-generation IMD with 128x128 high-contrast LCD. Allows remote outlet on/off control and power cycling for unresponsive equipment.",
+      "key_features": [
+        "High-contrast 128x128 LCD display",
+        "Hot-swappable IMD module",
+        "Remote outlet switching",
+        "Vertiv rPDU Scanner app support",
+        "Environmental monitoring ready",
+        "USB-C port for local management"
+      ],
+      "use_cases": ["Data centers", "Remote locations", "Edge computing"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-geist-powerit-monitored",
+      "vendor": { "name": "Vertiv (Geist)", "slug": "vertiv-geist" },
+      "name": "PowerIT Monitored Rack PDU",
+      "slug": "powerit-monitored",
+      "model_number": "VP7641-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "metered-by-outlet",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [208, 230, 400, 415],
+          "phases": "three-phase",
+          "current_a": 60,
+          "frequency_hz": [50, 60]
+        },
+        "output": {
+          "total_outlets": 42,
+          "outlet_types": [
+            { "type": "C13", "quantity": 36 },
+            { "type": "C19", "quantity": 6 }
+          ],
+          "switched_outlets": 0,
+          "metered_outlets": 42
+        },
+        "power_capacity_kva": 17.3,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "REST API", "Modbus TCP", "BACnet"],
+        "dcim_compatible": true,
+        "alerting": ["email", "SNMP trap"]
+      },
+      "features": {
+        "hot_swappable": true,
+        "locking_outlets": true
+      },
+      "description": "Comprehensive power usage visibility with outlet-level monitoring. Supports Vertiv rPDU Scanner mobile app for VLC data gathering.",
+      "key_features": [
+        "Outlet-level monitoring",
+        "Visual Light Communication (VLC)",
+        "Vertiv rPDU Scanner app",
+        "Branch circuit monitoring",
+        "Billing-grade accuracy"
+      ],
+      "use_cases": ["Colocation", "Energy optimization", "Capacity management"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-geist-powerit-metered",
+      "vendor": { "name": "Vertiv (Geist)", "slug": "vertiv-geist" },
+      "name": "PowerIT Metered Rack PDU",
+      "slug": "powerit-metered",
+      "model_number": "VP6841-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "metered",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [120, 208, 230],
+          "phases": "single-phase",
+          "current_a": 24,
+          "frequency_hz": [50, 60]
+        },
+        "output": {
+          "total_outlets": 30,
+          "outlet_types": [
+            { "type": "C13", "quantity": 24 },
+            { "type": "C19", "quantity": 6 }
+          ]
+        },
+        "power_capacity_kva": 5.7,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "led",
+        "network_interface": [],
+        "dcim_compatible": false
+      },
+      "features": {
+        "locking_outlets": true
+      },
+      "description": "Upgradeable metered PDUs with local current display. VLC upgrade path to full monitoring without downtime.",
+      "key_features": [
+        "Local LED current display",
+        "Upgradeable to monitored",
+        "VLC upgrade capability",
+        "No network required"
+      ],
+      "use_cases": ["Entry-level monitoring", "Cost-conscious deployments"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-geist-powerit-basic",
+      "vendor": { "name": "Vertiv (Geist)", "slug": "vertiv-geist" },
+      "name": "PowerIT Basic Rack PDU",
+      "slug": "powerit-basic",
+      "model_number": "VP1630-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "basic",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [120, 208, 230],
+          "phases": "single-phase",
+          "current_a": 20
+        },
+        "output": {
+          "total_outlets": 20,
+          "outlet_types": [
+            { "type": "C13", "quantity": 16 },
+            { "type": "C19", "quantity": 4 }
+          ]
+        },
+        "power_capacity_kva": 4.1
+      },
+      "monitoring": {
+        "display_type": "none",
+        "network_interface": [],
+        "dcim_compatible": false
+      },
+      "description": "Reliable basic power distribution with quality construction and tool-less mounting.",
+      "key_features": [
+        "Simple power distribution",
+        "Tool-less mounting",
+        "Reliable construction"
+      ],
+      "use_cases": ["Basic power needs", "Budget deployments"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-epdu-g4-managed",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "ePDU G4 Managed",
+      "slug": "epdu-g4-managed",
+      "model_number": "EMG4-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "intelligent",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [100, 120, 200, 208, 220, 230, 240],
+          "phases": "single-phase",
+          "current_a": 32,
+          "frequency_hz": [50, 60]
+        },
+        "output": {
+          "total_outlets": 48,
+          "outlet_types": [
+            { "type": "C13", "quantity": 42 },
+            { "type": "C19", "quantity": 6 }
+          ],
+          "switched_outlets": 48,
+          "metered_outlets": 48
+        },
+        "power_capacity_kva": 7.4,
+        "power_capacity_kw": 7.4,
+        "dimensions": {
+          "height_mm": 1778,
+          "width_mm": 51,
+          "depth_mm": 44,
+          "rack_units": 0
+        },
+        "certifications": ["UL", "cUL", "CE", "CB"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet", "serial"],
+        "protocols": ["SNMP v1/v2c/v3", "REST API", "Modbus TCP/RTU", "BACnet"],
+        "dcim_compatible": true,
+        "environmental_sensors": ["temperature", "humidity", "contact-closure"],
+        "alerting": ["email", "SNMP trap", "syslog", "SMS"]
+      },
+      "features": {
+        "hot_swappable": true,
+        "dual_input": true,
+        "color_coded_outlets": true,
+        "locking_outlets": true,
+        "surge_protection": false,
+        "circuit_breakers": "magnetic",
+        "daisy_chain_capable": true
+      },
+      "description": "Best-in-class power distribution with outlet-level switching and metering. Industry-leading 0U design with 24/42/48 evenly distributed outlets.",
+      "key_features": [
+        "Hot-swappable eNMC module",
+        "USB-C to RJ45 serial rollover",
+        "Advanced LCD pixel display",
+        "Outlet-level switching & metering",
+        "Dual Ethernet ports",
+        "Environmental monitoring"
+      ],
+      "use_cases": ["Enterprise data centers", "Colocation", "High-density computing"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-epdu-g4-metered-outlet",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "ePDU G4 Metered Outlet",
+      "slug": "epdu-g4-metered-outlet",
+      "model_number": "EMO4-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "metered-by-outlet",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [208, 230, 400, 415],
+          "phases": "three-phase",
+          "current_a": 63,
+          "frequency_hz": [50, 60]
+        },
+        "output": {
+          "total_outlets": 42,
+          "outlet_types": [
+            { "type": "C13", "quantity": 36 },
+            { "type": "C19", "quantity": 6 }
+          ],
+          "metered_outlets": 42
+        },
+        "power_capacity_kva": 22,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "REST API", "Modbus"],
+        "dcim_compatible": true,
+        "alerting": ["email", "SNMP trap"]
+      },
+      "features": {
+        "hot_swappable": true,
+        "locking_outlets": true
+      },
+      "description": "Outlet-level metering for accurate PUE calculation and billing applications.",
+      "key_features": [
+        "Billing-grade accuracy (±1%)",
+        "Per-outlet kWh metering",
+        "Historical data logging",
+        "Power quality monitoring"
+      ],
+      "use_cases": ["Colocation billing", "PUE optimization", "Capacity planning"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-epdu-g4-metered-input",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "ePDU G4 Metered Input",
+      "slug": "epdu-g4-metered-input",
+      "model_number": "EMI4-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "metered",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [120, 208, 230],
+          "phases": "single-phase",
+          "current_a": 30
+        },
+        "output": {
+          "total_outlets": 24,
+          "outlet_types": [
+            { "type": "C13", "quantity": 21 },
+            { "type": "C19", "quantity": 3 }
+          ]
+        },
+        "power_capacity_kva": 5.7,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "HTTP"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "hot_swappable": true,
+        "locking_outlets": true
+      },
+      "description": "Input-level monitoring for basic load visibility at cost-effective price point.",
+      "key_features": [
+        "Input current/voltage monitoring",
+        "Power factor display",
+        "kWh accumulation",
+        "Threshold alerting"
+      ],
+      "use_cases": ["Budget-conscious monitoring", "Basic visibility"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-epdu-basic",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "ePDU Basic",
+      "slug": "epdu-basic",
+      "model_number": "EPBZ-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "basic",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [120, 208, 230],
+          "phases": "single-phase",
+          "current_a": 30
+        },
+        "output": {
+          "total_outlets": 20,
+          "outlet_types": [
+            { "type": "C13", "quantity": 16 },
+            { "type": "C19", "quantity": 4 }
+          ]
+        },
+        "power_capacity_kva": 5.7
+      },
+      "monitoring": {
+        "display_type": "none",
+        "network_interface": [],
+        "dcim_compatible": false
+      },
+      "description": "Cost-effective basic power distribution with 0U, 1U and 2U form factors.",
+      "key_features": [
+        "Multiple form factors",
+        "Various receptacle options",
+        "Tool-less mounting",
+        "Branch circuit protection"
+      ],
+      "use_cases": ["Simple deployments", "Test labs", "Network closets"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-hd-pdu-managed",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "High Density Managed Rack PDU",
+      "slug": "hd-pdu-managed",
+      "model_number": "EMG-HD-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "intelligent",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [208, 400, 415],
+          "phases": "three-phase",
+          "current_a": 63,
+          "frequency_hz": [50, 60]
+        },
+        "output": {
+          "total_outlets": 84,
+          "outlet_types": [
+            { "type": "C13", "quantity": 72 },
+            { "type": "C19", "quantity": 12 }
+          ],
+          "switched_outlets": 84,
+          "metered_outlets": 84
+        },
+        "power_capacity_kva": 22,
+        "dimensions": {
+          "width_mm": 51,
+          "rack_units": 0
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "REST API", "Modbus"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "hot_swappable": true,
+        "locking_outlets": true,
+        "circuit_breakers": "magnetic"
+      },
+      "description": "Maximum outlet density for high-power environments. More outlets in same space means fewer PDUs per rack.",
+      "key_features": [
+        "84 outlets in 0U form factor",
+        "High-density design",
+        "Full monitoring & switching",
+        "Narrow profile (2-inch wide)"
+      ],
+      "use_cases": ["AI/ML clusters", "High-density computing", "HPC"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "legrand-servertech-pro3x",
+      "vendor": { "name": "Legrand (Server Technology)", "slug": "legrand-servertech" },
+      "name": "PRO3X Intelligent PDU",
+      "slug": "pro3x",
+      "model_number": "PRO3X-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "intelligent",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [100, 120, 200, 208, 220, 230, 240, 400, 415],
+          "phases": "three-phase",
+          "current_a": 60,
+          "frequency_hz": [50, 60]
+        },
+        "output": {
+          "total_outlets": 54,
+          "outlet_types": [
+            { "type": "C13/C14", "quantity": 42 },
+            { "type": "C19/C20", "quantity": 12 }
+          ],
+          "switched_outlets": 54,
+          "metered_outlets": 54
+        },
+        "power_capacity_kva": 22,
+        "certifications": ["UL", "cUL", "CE", "RoHS"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet", "wifi"],
+        "protocols": ["SNMP v3", "REST API", "Modbus TCP", "JSON-RPC"],
+        "dcim_compatible": true,
+        "environmental_sensors": ["temperature", "humidity", "airflow", "leak-detection"],
+        "alerting": ["email", "SNMP trap", "syslog", "webhook"]
+      },
+      "features": {
+        "hot_swappable": true,
+        "dual_input": true,
+        "color_coded_outlets": true,
+        "locking_outlets": true,
+        "circuit_breakers": "magnetic",
+        "daisy_chain_capable": true
+      },
+      "description": "Next-generation intelligent PDU with integrated WiFi, enhanced security, and advanced environmental monitoring.",
+      "key_features": [
+        "Built-in WiFi connectivity",
+        "HDOT (High Density Outlet Technology)",
+        "Alternating phase outlets",
+        "Zero-RU sensor hub",
+        "Firmware security updates",
+        "Active energy management"
+      ],
+      "use_cases": ["Enterprise data centers", "Colocation", "Edge deployments"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "legrand-servertech-pro2",
+      "vendor": { "name": "Legrand (Server Technology)", "slug": "legrand-servertech" },
+      "name": "PRO2 Smart Rack PDU",
+      "slug": "pro2",
+      "model_number": "PRO2-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "switched-metered",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [120, 208, 230],
+          "phases": "single-phase",
+          "current_a": 30
+        },
+        "output": {
+          "total_outlets": 42,
+          "outlet_types": [
+            { "type": "C13", "quantity": 36 },
+            { "type": "C19", "quantity": 6 }
+          ],
+          "switched_outlets": 42,
+          "metered_outlets": 42
+        },
+        "power_capacity_kva": 7.4,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "REST API", "Modbus"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "hot_swappable": false,
+        "locking_outlets": true
+      },
+      "description": "Proven smart PDU platform with comprehensive monitoring and outlet-level switching.",
+      "key_features": [
+        "Per-outlet monitoring",
+        "Per-outlet switching",
+        "Branch circuit monitoring",
+        "Power cycling"
+      ],
+      "use_cases": ["Data centers", "IT infrastructure"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "legrand-servertech-hdot",
+      "vendor": { "name": "Legrand (Server Technology)", "slug": "legrand-servertech" },
+      "name": "HDOT Switched PDU",
+      "slug": "hdot-switched",
+      "model_number": "HDOT-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "switched-metered",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [208, 400, 415],
+          "phases": "three-phase",
+          "current_a": 60
+        },
+        "output": {
+          "total_outlets": 72,
+          "outlet_types": [
+            { "type": "HDOT Cx", "quantity": 72 }
+          ],
+          "switched_outlets": 72,
+          "metered_outlets": 72
+        },
+        "power_capacity_kva": 22,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "REST API"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "color_coded_outlets": true,
+        "locking_outlets": true
+      },
+      "description": "High Density Outlet Technology provides 42% more outlets than traditional PDUs in the same space.",
+      "key_features": [
+        "HDOT universal outlets",
+        "42% higher density",
+        "Alternating phase design",
+        "Color-coded phases"
+      ],
+      "use_cases": ["High-density racks", "AI/ML deployments"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "legrand-raritan-px3",
+      "vendor": { "name": "Legrand (Raritan)", "slug": "legrand-raritan" },
+      "name": "PX3 Intelligent PDU",
+      "slug": "px3",
+      "model_number": "PX3-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "intelligent",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [100, 120, 200, 208, 220, 230, 240, 380, 400, 415],
+          "phases": "three-phase",
+          "current_a": 63,
+          "frequency_hz": [50, 60]
+        },
+        "output": {
+          "total_outlets": 48,
+          "outlet_types": [
+            { "type": "C13/C14", "quantity": 36 },
+            { "type": "C19/C20", "quantity": 12 }
+          ],
+          "switched_outlets": 48,
+          "metered_outlets": 48
+        },
+        "power_capacity_kva": 22,
+        "certifications": ["UL", "cUL", "CE", "RoHS"]
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet", "wifi"],
+        "protocols": ["SNMP v3", "REST API", "Modbus TCP/RTU", "JSON-RPC", "Redfish"],
+        "dcim_compatible": true,
+        "environmental_sensors": ["temperature", "humidity", "airflow", "door-contact", "leak-detection", "differential-pressure"],
+        "alerting": ["email", "SNMP trap", "syslog", "webhook", "lua-scripting"]
+      },
+      "features": {
+        "hot_swappable": true,
+        "dual_input": true,
+        "color_coded_outlets": true,
+        "locking_outlets": true,
+        "circuit_breakers": "magnetic",
+        "daisy_chain_capable": true
+      },
+      "description": "Enterprise-grade intelligent PDU with touchscreen display, advanced analytics, and Lua scripting for custom automation.",
+      "key_features": [
+        "2.8-inch touchscreen",
+        "Lua scripting engine",
+        "Redfish API support",
+        "Asset tracking via RFID",
+        "Xerus firmware platform",
+        "Zero-U sensor hub"
+      ],
+      "use_cases": ["Fortune 500 data centers", "Hyperscale", "Colocation"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "legrand-raritan-px4",
+      "vendor": { "name": "Legrand (Raritan)", "slug": "legrand-raritan" },
+      "name": "PX4 Intelligent PDU",
+      "slug": "px4",
+      "model_number": "PX4-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "intelligent",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [200, 208, 230, 400, 415],
+          "phases": "three-phase",
+          "current_a": 63
+        },
+        "output": {
+          "total_outlets": 54,
+          "outlet_types": [
+            { "type": "C13/C14", "quantity": 42 },
+            { "type": "C19/C20", "quantity": 12 }
+          ],
+          "switched_outlets": 54,
+          "metered_outlets": 54
+        },
+        "power_capacity_kva": 22,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet", "wifi", "bluetooth"],
+        "protocols": ["SNMP v3", "REST API", "Redfish", "OpenAPI"],
+        "dcim_compatible": true,
+        "alerting": ["email", "webhook", "lua-scripting"]
+      },
+      "features": {
+        "hot_swappable": true,
+        "dual_input": true,
+        "color_coded_outlets": true,
+        "locking_outlets": true
+      },
+      "description": "Next-generation intelligent PDU with enhanced connectivity and AI-ready analytics.",
+      "key_features": [
+        "Bluetooth commissioning",
+        "Enhanced cybersecurity",
+        "Cloud-ready architecture",
+        "Predictive analytics ready"
+      ],
+      "use_cases": ["Next-gen data centers", "AI infrastructure"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "legrand-raritan-nx1",
+      "vendor": { "name": "Legrand (Raritan)", "slug": "legrand-raritan" },
+      "name": "NX1 Smart PDU",
+      "slug": "nx1",
+      "model_number": "NX1-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "metered",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [120, 208, 230],
+          "phases": "single-phase",
+          "current_a": 30
+        },
+        "output": {
+          "total_outlets": 24,
+          "outlet_types": [
+            { "type": "C13", "quantity": 21 },
+            { "type": "C19", "quantity": 3 }
+          ],
+          "metered_outlets": 0
+        },
+        "power_capacity_kva": 5.7,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "led",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "HTTP"],
+        "dcim_compatible": true
+      },
+      "description": "Entry-level smart PDU bridging basic and intelligent categories at accessible price point.",
+      "key_features": [
+        "Simple network connectivity",
+        "Input metering",
+        "Upgrade path to PX3"
+      ],
+      "use_cases": ["SMB", "Branch offices", "Network closets"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "cyberpower-pdu81005",
+      "vendor": { "name": "CyberPower", "slug": "cyberpower" },
+      "name": "Switched Metered-by-Outlet PDU (PDU81005)",
+      "slug": "pdu81005",
+      "model_number": "PDU81005",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "switched-metered",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [200, 208, 230, 240],
+          "phases": "single-phase",
+          "current_a": 30,
+          "frequency_hz": [50, 60],
+          "plug_type": "IEC 60309"
+        },
+        "output": {
+          "total_outlets": 24,
+          "outlet_types": [
+            { "type": "C13", "quantity": 21 },
+            { "type": "C19", "quantity": 3 }
+          ],
+          "switched_outlets": 24,
+          "metered_outlets": 24
+        },
+        "power_capacity_kva": 6.6,
+        "certifications": ["UL", "cUL", "CE", "FCC"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v1/v2c/v3", "HTTP/HTTPS", "SSH"],
+        "dcim_compatible": true,
+        "environmental_sensors": ["temperature", "humidity"],
+        "alerting": ["email", "SNMP trap"]
+      },
+      "features": {
+        "hot_swappable": false,
+        "locking_outlets": true,
+        "circuit_breakers": "thermal"
+      },
+      "description": "Network-grade switched PDU with outlet-level power metering and control. CyberPower Management Console included.",
+      "key_features": [
+        "Per-outlet metering",
+        "Per-outlet switching",
+        "CyberPower Management Console",
+        "Environmental monitoring",
+        "PowerPanel software"
+      ],
+      "use_cases": ["Data centers", "Network closets", "Enterprise IT"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "cyberpower-pdu81101",
+      "vendor": { "name": "CyberPower", "slug": "cyberpower" },
+      "name": "Switched Metered-by-Outlet PDU (PDU81101)",
+      "slug": "pdu81101",
+      "model_number": "PDU81101",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "switched-metered",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [200, 208, 230, 240],
+          "phases": "three-phase",
+          "current_a": 30
+        },
+        "output": {
+          "total_outlets": 30,
+          "outlet_types": [
+            { "type": "C13", "quantity": 24 },
+            { "type": "C19", "quantity": 6 }
+          ],
+          "switched_outlets": 30,
+          "metered_outlets": 30
+        },
+        "power_capacity_kva": 10.8,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "REST API"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "locking_outlets": true
+      },
+      "description": "Three-phase switched PDU with comprehensive power monitoring at competitive price.",
+      "key_features": [
+        "Three-phase input",
+        "Branch circuit monitoring",
+        "Competitive pricing"
+      ],
+      "use_cases": ["Mid-market data centers", "Cost-conscious deployments"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "cyberpower-pdu41001",
+      "vendor": { "name": "CyberPower", "slug": "cyberpower" },
+      "name": "Monitored PDU (PDU41001)",
+      "slug": "pdu41001",
+      "model_number": "PDU41001",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "metered",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [120],
+          "phases": "single-phase",
+          "current_a": 20
+        },
+        "output": {
+          "total_outlets": 24,
+          "outlet_types": [
+            { "type": "NEMA 5-20R", "quantity": 24 }
+          ]
+        },
+        "power_capacity_kva": 1.9,
+        "certifications": ["UL", "cUL"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v2c"],
+        "dcim_compatible": false
+      },
+      "description": "Budget-friendly monitored PDU for basic power visibility.",
+      "key_features": [
+        "Inlet monitoring",
+        "NEMA outlets",
+        "Affordable price"
+      ],
+      "use_cases": ["Small businesses", "Retail IT"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "cyberpower-pdu20sw10atnet",
+      "vendor": { "name": "CyberPower", "slug": "cyberpower" },
+      "name": "ATS PDU (PDU20SW10ATNET)",
+      "slug": "pdu20sw10atnet",
+      "model_number": "PDU20SW10ATNET",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "switched",
+      "form_factor": "rack-mount-horizontal",
+      "specs": {
+        "input": {
+          "voltage_v": [120],
+          "phases": "single-phase",
+          "current_a": 20
+        },
+        "output": {
+          "total_outlets": 10,
+          "outlet_types": [
+            { "type": "NEMA 5-20R", "quantity": 10 }
+          ],
+          "switched_outlets": 10
+        },
+        "power_capacity_kva": 1.9,
+        "dimensions": {
+          "rack_units": 1
+        },
+        "certifications": ["UL", "cUL"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": false
+      },
+      "features": {
+        "dual_input": true
+      },
+      "description": "Automatic Transfer Switch PDU with dual input for redundant power sources.",
+      "key_features": [
+        "Dual power input",
+        "Automatic source switching",
+        "Sub-10ms transfer time"
+      ],
+      "use_cases": ["Critical equipment", "Redundant power"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "panduit-smartzone-g5",
+      "vendor": { "name": "Panduit", "slug": "panduit" },
+      "name": "SmartZone G5 Intelligent PDU",
+      "slug": "smartzone-g5",
+      "model_number": "P0E6H15M-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "intelligent",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [208, 230, 400, 415],
+          "phases": "three-phase",
+          "current_a": 60
+        },
+        "output": {
+          "total_outlets": 42,
+          "outlet_types": [
+            { "type": "C13/C14", "quantity": 36 },
+            { "type": "C19/C20", "quantity": 6 }
+          ],
+          "switched_outlets": 42,
+          "metered_outlets": 42
+        },
+        "power_capacity_kva": 17.3,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet", "wifi", "bluetooth"],
+        "protocols": ["SNMP v3", "REST API", "Modbus", "BACnet"],
+        "dcim_compatible": true,
+        "environmental_sensors": ["temperature", "humidity", "door-contact"],
+        "alerting": ["email", "SNMP trap", "syslog"]
+      },
+      "features": {
+        "hot_swappable": true,
+        "locking_outlets": true,
+        "color_coded_outlets": true
+      },
+      "description": "Fifth-generation intelligent PDU with WiFi, Bluetooth, and comprehensive environmental monitoring.",
+      "key_features": [
+        "WiFi & Bluetooth connectivity",
+        "SmartZone Cloud integration",
+        "Environmental sensing",
+        "Automated asset tracking"
+      ],
+      "use_cases": ["Enterprise", "Colocation", "Edge"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "panduit-smartzone-4",
+      "vendor": { "name": "Panduit", "slug": "panduit" },
+      "name": "SmartZone G4 Rack PDU",
+      "slug": "smartzone-g4",
+      "model_number": "P0E4H-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "switched-metered",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [208, 230],
+          "phases": "single-phase",
+          "current_a": 30
+        },
+        "output": {
+          "total_outlets": 24,
+          "outlet_types": [
+            { "type": "C13", "quantity": 20 },
+            { "type": "C19", "quantity": 4 }
+          ],
+          "switched_outlets": 24,
+          "metered_outlets": 24
+        },
+        "power_capacity_kva": 5.7,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "HTTP/HTTPS"],
+        "dcim_compatible": true
+      },
+      "description": "Previous generation intelligent PDU still widely deployed.",
+      "key_features": [
+        "Proven platform",
+        "Outlet-level control",
+        "Network management"
+      ],
+      "use_cases": ["Existing deployments", "Budget refresh"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "chatsworth-entelligent-switched",
+      "vendor": { "name": "Chatsworth Products (CPI)", "slug": "chatsworth-cpi" },
+      "name": "eConnect Switched PDU",
+      "slug": "econnect-switched",
+      "model_number": "E8S-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "switched-metered",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [120, 208, 230],
+          "phases": "single-phase",
+          "current_a": 30
+        },
+        "output": {
+          "total_outlets": 24,
+          "outlet_types": [
+            { "type": "C13", "quantity": 18 },
+            { "type": "C19", "quantity": 6 }
+          ],
+          "switched_outlets": 24,
+          "metered_outlets": 24
+        },
+        "power_capacity_kva": 5.7,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "HTTP/HTTPS", "Modbus"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "locking_outlets": true
+      },
+      "description": "Switched PDU designed to integrate seamlessly with CPI cabinets and infrastructure.",
+      "key_features": [
+        "CPI cabinet integration",
+        "Per-outlet switching",
+        "Per-outlet metering"
+      ],
+      "use_cases": ["CPI ecosystem", "Integrated solutions"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "chatsworth-econnect-monitored",
+      "vendor": { "name": "Chatsworth Products (CPI)", "slug": "chatsworth-cpi" },
+      "name": "eConnect Monitored PDU",
+      "slug": "econnect-monitored",
+      "model_number": "E8M-Series",
+      "category": "power",
+      "subcategory": "pdu",
+      "pdu_type": "metered-by-outlet",
+      "form_factor": "rack-mount-vertical",
+      "specs": {
+        "input": {
+          "voltage_v": [208, 230, 400],
+          "phases": "three-phase",
+          "current_a": 60
+        },
+        "output": {
+          "total_outlets": 42,
+          "outlet_types": [
+            { "type": "C13", "quantity": 36 },
+            { "type": "C19", "quantity": 6 }
+          ],
+          "metered_outlets": 42
+        },
+        "power_capacity_kva": 17.3,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "Modbus"],
+        "dcim_compatible": true
+      },
+      "description": "Outlet-level monitoring for comprehensive power visibility.",
+      "key_features": [
+        "Billing-grade metering",
+        "Branch circuit monitoring",
+        "CPI integration"
+      ],
+      "use_cases": ["Colocation", "Multi-tenant"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    }
+  ]
+}

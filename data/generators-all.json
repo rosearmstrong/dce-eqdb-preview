@@ -1,0 +1,819 @@
+{
+  "category": "power",
+  "subcategory": "generator",
+  "last_updated": "2026-02-05",
+  "total_products": 35,
+  "vendors": [
+    {
+      "name": "Caterpillar",
+      "slug": "caterpillar",
+      "website": "https://www.cat.com/power-systems",
+      "headquarters": "Deerfield, Illinois, USA",
+      "founded": 1925
+    },
+    {
+      "name": "Cummins",
+      "slug": "cummins",
+      "website": "https://www.cummins.com/generators",
+      "headquarters": "Columbus, Indiana, USA",
+      "founded": 1919
+    },
+    {
+      "name": "Kohler",
+      "slug": "kohler",
+      "website": "https://www.kohlerpower.com",
+      "headquarters": "Kohler, Wisconsin, USA",
+      "founded": 1873
+    },
+    {
+      "name": "Generac",
+      "slug": "generac",
+      "website": "https://www.generac.com/industrial",
+      "headquarters": "Waukesha, Wisconsin, USA",
+      "founded": 1959
+    },
+    {
+      "name": "MTU (Rolls-Royce)",
+      "slug": "mtu",
+      "website": "https://www.mtu-solutions.com",
+      "headquarters": "Friedrichshafen, Germany",
+      "founded": 1909
+    },
+    {
+      "name": "Perkins",
+      "slug": "perkins",
+      "website": "https://www.perkins.com",
+      "headquarters": "Peterborough, UK",
+      "founded": 1932
+    },
+    {
+      "name": "HIMOINSA",
+      "slug": "himoinsa",
+      "website": "https://www.himoinsa.com",
+      "headquarters": "Murcia, Spain",
+      "founded": 1982
+    },
+    {
+      "name": "SDMO (Kohler-SDMO)",
+      "slug": "sdmo",
+      "website": "https://www.kohler-sdmo.com",
+      "headquarters": "Brest, France",
+      "founded": 1966
+    }
+  ],
+  "products": [
+    {
+      "id": "caterpillar-c175-16",
+      "vendor": { "name": "Caterpillar", "slug": "caterpillar" },
+      "name": "Cat C175-16 Diesel Generator Set",
+      "slug": "c175-16",
+      "model_number": "C175-16",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 2500,
+        "prime_power_kw": 2250,
+        "standby_power_kva": 3125,
+        "voltage_v": [480, 4160, 13800],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "Caterpillar",
+          "model": "C175-16",
+          "cylinders": 16,
+          "displacement_l": 85.1
+        },
+        "fuel_consumption_lph": {
+          "full_load": 545,
+          "three_quarter": 415,
+          "half_load": 295
+        },
+        "noise_db": 105,
+        "emissions": "EPA Tier 4 Final",
+        "certifications": ["UL 2200", "CSA", "IBC Seismic"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true,
+        "load_bank_compatible": true
+      },
+      "description": "Caterpillar's flagship data center generator. The C175-16 delivers 2.5MW standby power with EPA Tier 4 Final emissions compliance. Industry standard for mission-critical facilities.",
+      "key_features": [
+        "2.5MW standby power",
+        "EPA Tier 4 Final compliant",
+        "10-second start capability",
+        "Paralleling ready",
+        "Cat Connect remote monitoring",
+        "Extended service intervals"
+      ],
+      "use_cases": ["Hyperscale data centers", "Mission-critical facilities", "Financial services"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "caterpillar-c175-20",
+      "vendor": { "name": "Caterpillar", "slug": "caterpillar" },
+      "name": "Cat C175-20 Diesel Generator Set",
+      "slug": "c175-20",
+      "model_number": "C175-20",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 3250,
+        "prime_power_kw": 2930,
+        "standby_power_kva": 4063,
+        "voltage_v": [480, 4160, 13800],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "Caterpillar",
+          "model": "C175-20",
+          "cylinders": 20,
+          "displacement_l": 106.4
+        },
+        "emissions": "EPA Tier 4 Final",
+        "certifications": ["UL 2200", "CSA"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "Large-frame diesel generator for hyperscale applications. 3.25MW standby power in a single unit.",
+      "key_features": [
+        "3.25MW standby power",
+        "Single largest Cat genset",
+        "Hyperscale optimized"
+      ],
+      "use_cases": ["Hyperscale", "Utility-scale data centers"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "caterpillar-3516c",
+      "vendor": { "name": "Caterpillar", "slug": "caterpillar" },
+      "name": "Cat 3516C Diesel Generator Set",
+      "slug": "3516c",
+      "model_number": "3516C",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 2250,
+        "prime_power_kw": 2000,
+        "standby_power_kva": 2813,
+        "voltage_v": [480, 4160],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "Caterpillar",
+          "model": "3516C",
+          "cylinders": 16,
+          "displacement_l": 78.1
+        },
+        "fuel_consumption_lph": {
+          "full_load": 490,
+          "three_quarter": 375,
+          "half_load": 265
+        },
+        "emissions": "EPA Tier 2",
+        "certifications": ["UL 2200", "CSA"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "Proven workhorse generator with decades of data center deployments. Cost-effective alternative to C175.",
+      "key_features": [
+        "2.25MW standby",
+        "Proven reliability",
+        "Wide service network",
+        "Cost-effective"
+      ],
+      "use_cases": ["Enterprise data centers", "Colocation"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "caterpillar-c32",
+      "vendor": { "name": "Caterpillar", "slug": "caterpillar" },
+      "name": "Cat C32 Diesel Generator Set",
+      "slug": "c32",
+      "model_number": "C32",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 1250,
+        "prime_power_kw": 1100,
+        "standby_power_kva": 1563,
+        "voltage_v": [480, 208, 240],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "Caterpillar",
+          "model": "C32",
+          "cylinders": 12,
+          "displacement_l": 32.1
+        },
+        "emissions": "EPA Tier 4 Final",
+        "certifications": ["UL 2200", "CSA"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "Mid-range generator ideal for smaller data centers and edge sites.",
+      "key_features": [
+        "1.25MW standby",
+        "Compact footprint",
+        "Tier 4 Final"
+      ],
+      "use_cases": ["Edge data centers", "Enterprise", "Colocation"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "caterpillar-g3516h-gas",
+      "vendor": { "name": "Caterpillar", "slug": "caterpillar" },
+      "name": "Cat G3516H Natural Gas Generator",
+      "slug": "g3516h",
+      "model_number": "G3516H",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "natural-gas",
+      "specs": {
+        "standby_power_kw": 2000,
+        "prime_power_kw": 1825,
+        "voltage_v": [480],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "Caterpillar",
+          "model": "G3516H",
+          "cylinders": 16
+        },
+        "emissions": "EPA compliant",
+        "certifications": ["UL 2200"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "Natural gas generator for locations with reliable gas supply. Lower emissions than diesel.",
+      "key_features": [
+        "2MW standby",
+        "Lower emissions",
+        "Continuous prime rating",
+        "Combined heat and power ready"
+      ],
+      "use_cases": ["Urban data centers", "Sustainability focus", "CHP applications"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "cummins-qsk95",
+      "vendor": { "name": "Cummins", "slug": "cummins" },
+      "name": "Cummins QSK95 Diesel Generator",
+      "slug": "qsk95",
+      "model_number": "C3000D5",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 2500,
+        "prime_power_kw": 2250,
+        "standby_power_kva": 3125,
+        "voltage_v": [480, 4160, 13800],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "Cummins",
+          "model": "QSK95",
+          "cylinders": 16,
+          "displacement_l": 95
+        },
+        "fuel_consumption_lph": {
+          "full_load": 525,
+          "three_quarter": 400,
+          "half_load": 280
+        },
+        "emissions": "EPA Tier 4 Final",
+        "certifications": ["UL 2200", "CSA", "CE"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true,
+        "load_bank_compatible": true
+      },
+      "description": "Cummins flagship data center generator. Direct competitor to Cat C175 with excellent reliability record.",
+      "key_features": [
+        "2.5MW standby power",
+        "EPA Tier 4 Final",
+        "10-second start",
+        "Cummins PowerCommand controls",
+        "Global service network"
+      ],
+      "use_cases": ["Hyperscale", "Mission-critical", "Enterprise"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "cummins-qsk60",
+      "vendor": { "name": "Cummins", "slug": "cummins" },
+      "name": "Cummins QSK60 Diesel Generator",
+      "slug": "qsk60",
+      "model_number": "C2250D5",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 2000,
+        "prime_power_kw": 1825,
+        "standby_power_kva": 2500,
+        "voltage_v": [480, 4160],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "Cummins",
+          "model": "QSK60",
+          "cylinders": 16,
+          "displacement_l": 60
+        },
+        "emissions": "EPA Tier 4 Final",
+        "certifications": ["UL 2200", "CSA"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "High-performance 2MW class generator with proven QSK60 engine platform.",
+      "key_features": [
+        "2MW standby",
+        "Proven QSK platform",
+        "Fast load acceptance"
+      ],
+      "use_cases": ["Enterprise", "Colocation", "Healthcare"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "cummins-qsk50",
+      "vendor": { "name": "Cummins", "slug": "cummins" },
+      "name": "Cummins QSK50 Diesel Generator",
+      "slug": "qsk50",
+      "model_number": "C1675D5",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 1500,
+        "prime_power_kw": 1350,
+        "standby_power_kva": 1875,
+        "voltage_v": [480],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "Cummins",
+          "model": "QSK50",
+          "cylinders": 16,
+          "displacement_l": 50
+        },
+        "emissions": "EPA Tier 4 Final",
+        "certifications": ["UL 2200", "CSA"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "Mid-range generator balancing power density and fuel efficiency.",
+      "key_features": [
+        "1.5MW standby",
+        "Balanced performance",
+        "Tier 4 Final"
+      ],
+      "use_cases": ["Enterprise", "Colocation"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "cummins-hsg50-hydrogen",
+      "vendor": { "name": "Cummins", "slug": "cummins" },
+      "name": "Cummins HSG50 Hydrogen Generator",
+      "slug": "hsg50",
+      "model_number": "HSG50",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "hydrogen",
+      "specs": {
+        "standby_power_kw": 1250,
+        "prime_power_kw": 1100,
+        "voltage_v": [480],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "emissions": "Zero emissions (water vapor only)",
+        "certifications": ["UL", "Pending EPA"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "Emerging hydrogen-fueled generator for zero-emission backup power. Currently in limited deployment.",
+      "key_features": [
+        "Zero CO2 emissions",
+        "Hydrogen fuel cell hybrid",
+        "Future-proof technology",
+        "Sustainability leader"
+      ],
+      "use_cases": ["Zero-emission requirements", "Sustainability leaders", "Pilot programs"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "kohler-kd3500",
+      "vendor": { "name": "Kohler", "slug": "kohler" },
+      "name": "Kohler KD Series 3500 Diesel Generator",
+      "slug": "kd3500",
+      "model_number": "KD3500",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 3500,
+        "prime_power_kw": 3200,
+        "standby_power_kva": 4375,
+        "voltage_v": [480, 4160, 13800],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "Kohler",
+          "model": "KD103V16",
+          "cylinders": 16,
+          "displacement_l": 103
+        },
+        "emissions": "EPA Tier 4 Final",
+        "certifications": ["UL 2200", "CSA", "CE"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "Kohler's largest diesel generator for hyperscale data centers. 3.5MW standby in single unit.",
+      "key_features": [
+        "3.5MW standby - one of largest available",
+        "Kohler proprietary engine",
+        "Advanced controls",
+        "Excellent power density"
+      ],
+      "use_cases": ["Hyperscale", "Maximum power density"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "kohler-kd2800",
+      "vendor": { "name": "Kohler", "slug": "kohler" },
+      "name": "Kohler KD Series 2800 Diesel Generator",
+      "slug": "kd2800",
+      "model_number": "KD2800",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 2800,
+        "prime_power_kw": 2500,
+        "standby_power_kva": 3500,
+        "voltage_v": [480, 4160],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "emissions": "EPA Tier 4 Final",
+        "certifications": ["UL 2200", "CSA"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "High-capacity generator optimized for data center applications.",
+      "key_features": [
+        "2.8MW standby",
+        "Excellent transient response",
+        "Tier 4 Final"
+      ],
+      "use_cases": ["Large data centers", "Hyperscale"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "kohler-kd2000",
+      "vendor": { "name": "Kohler", "slug": "kohler" },
+      "name": "Kohler KD Series 2000 Diesel Generator",
+      "slug": "kd2000",
+      "model_number": "KD2000",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 2000,
+        "prime_power_kw": 1825,
+        "standby_power_kva": 2500,
+        "voltage_v": [480],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "emissions": "EPA Tier 4 Final",
+        "certifications": ["UL 2200", "CSA"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "Workhorse 2MW generator with Kohler's advanced DECISCION 3500 controls.",
+      "key_features": [
+        "2MW standby",
+        "DECISCION controls",
+        "Strong service network"
+      ],
+      "use_cases": ["Enterprise", "Colocation"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "generac-sd2500",
+      "vendor": { "name": "Generac", "slug": "generac" },
+      "name": "Generac SD2500 Diesel Generator",
+      "slug": "sd2500",
+      "model_number": "SD2500",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 2500,
+        "prime_power_kw": 2250,
+        "standby_power_kva": 3125,
+        "voltage_v": [480, 4160],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "MTU",
+          "model": "16V4000"
+        },
+        "emissions": "EPA Tier 4 Final",
+        "certifications": ["UL 2200", "CSA"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "Generac's large-frame generator with MTU engine. Competitive pricing with major brands.",
+      "key_features": [
+        "2.5MW standby",
+        "MTU engine reliability",
+        "Competitive pricing",
+        "Growing market share"
+      ],
+      "use_cases": ["Enterprise", "Value-focused buyers"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "generac-sd1500",
+      "vendor": { "name": "Generac", "slug": "generac" },
+      "name": "Generac SD1500 Diesel Generator",
+      "slug": "sd1500",
+      "model_number": "SD1500",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 1500,
+        "prime_power_kw": 1350,
+        "standby_power_kva": 1875,
+        "voltage_v": [480],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "emissions": "EPA Tier 4 Final",
+        "certifications": ["UL 2200"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "Mid-range diesel generator with strong value proposition.",
+      "key_features": [
+        "1.5MW standby",
+        "Value pricing",
+        "Fast delivery"
+      ],
+      "use_cases": ["Enterprise", "Budget-conscious"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "mtu-16v4000-ds3000",
+      "vendor": { "name": "MTU (Rolls-Royce)", "slug": "mtu" },
+      "name": "MTU 16V 4000 DS3000",
+      "slug": "16v4000-ds3000",
+      "model_number": "16V4000DS3000",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 3000,
+        "prime_power_kw": 2720,
+        "standby_power_kva": 3750,
+        "voltage_v": [400, 480, 11000],
+        "frequency_hz": [50, 60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "MTU",
+          "model": "16V 4000 G83",
+          "cylinders": 16,
+          "displacement_l": 76.3
+        },
+        "emissions": "EPA Tier 4 Final / Stage V",
+        "certifications": ["UL", "CE", "ISO"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "German-engineered premium generator. Rolls-Royce reliability for mission-critical applications.",
+      "key_features": [
+        "3MW standby",
+        "Rolls-Royce quality",
+        "Global 50/60Hz support",
+        "Premium engineering"
+      ],
+      "use_cases": ["Premium facilities", "Global deployments"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "mtu-20v4000-ds4200",
+      "vendor": { "name": "MTU (Rolls-Royce)", "slug": "mtu" },
+      "name": "MTU 20V 4000 DS4200",
+      "slug": "20v4000-ds4200",
+      "model_number": "20V4000DS4200",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 4200,
+        "prime_power_kw": 3800,
+        "standby_power_kva": 5250,
+        "voltage_v": [400, 480, 11000, 13800],
+        "frequency_hz": [50, 60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "MTU",
+          "model": "20V 4000 G93",
+          "cylinders": 20
+        },
+        "emissions": "EPA Tier 4 Final / Stage V",
+        "certifications": ["UL", "CE"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "MTU's largest diesel generator. 4.2MW standby for hyperscale facilities.",
+      "key_features": [
+        "4.2MW standby - one of world's largest",
+        "20-cylinder powerhouse",
+        "Premium reliability"
+      ],
+      "use_cases": ["Hyperscale", "Maximum single-unit power"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "himoinsa-hrw-2030",
+      "vendor": { "name": "HIMOINSA", "slug": "himoinsa" },
+      "name": "HIMOINSA HRW-2030 T5",
+      "slug": "hrw-2030",
+      "model_number": "HRW-2030",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 2030,
+        "prime_power_kw": 1850,
+        "standby_power_kva": 2538,
+        "voltage_v": [480],
+        "frequency_hz": [60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "MTU",
+          "model": "16V 2000 G86"
+        },
+        "emissions": "EPA Tier 4 Final",
+        "certifications": ["UL 2200", "CSA"]
+      },
+      "enclosure": "sound-attenuated",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "European quality with MTU engines. Strong in international markets.",
+      "key_features": [
+        "2MW standby",
+        "MTU engine",
+        "Competitive pricing",
+        "Sound-attenuated enclosure"
+      ],
+      "use_cases": ["International projects", "Value-focused"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "sdmo-x2800c",
+      "vendor": { "name": "SDMO (Kohler-SDMO)", "slug": "sdmo" },
+      "name": "SDMO X2800C Diesel Generator",
+      "slug": "x2800c",
+      "model_number": "X2800C",
+      "category": "power",
+      "subcategory": "generator",
+      "fuel_type": "diesel",
+      "specs": {
+        "standby_power_kw": 2800,
+        "prime_power_kw": 2540,
+        "standby_power_kva": 3500,
+        "voltage_v": [400, 480],
+        "frequency_hz": [50, 60],
+        "phases": "three-phase",
+        "power_factor": 0.8,
+        "engine": {
+          "manufacturer": "MTU",
+          "model": "16V 4000 G63"
+        },
+        "emissions": "Stage V / Tier 4",
+        "certifications": ["CE", "UL"]
+      },
+      "enclosure": "weather-protected",
+      "features": {
+        "auto_start": true,
+        "paralleling_capable": true,
+        "remote_monitoring": true
+      },
+      "description": "Kohler-SDMO generator for European and international markets.",
+      "key_features": [
+        "2.8MW standby",
+        "Global frequency support",
+        "Kohler backing",
+        "European engineering"
+      ],
+      "use_cases": ["European data centers", "International"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    }
+  ]
+}

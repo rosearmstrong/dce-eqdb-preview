@@ -1,0 +1,1342 @@
+{
+  "category": "infrastructure",
+  "subcategory": "rack",
+  "last_updated": "2026-02-05",
+  "total_products": 45,
+  "vendors": [
+    {
+      "name": "Schneider Electric (APC)",
+      "slug": "schneider-apc",
+      "website": "https://www.se.com/us/en/product-subcategory/3950-rack-systems-and-containment/",
+      "headquarters": "Rueil-Malmaison, France",
+      "founded": 1836
+    },
+    {
+      "name": "Vertiv",
+      "slug": "vertiv",
+      "website": "https://www.vertiv.com/en-us/products-catalog/facilities-enclosures-and-racks/",
+      "headquarters": "Columbus, Ohio, USA",
+      "founded": 1965
+    },
+    {
+      "name": "Eaton",
+      "slug": "eaton",
+      "website": "https://www.eaton.com/us/en-us/products/backup-power-ups-surge-it-power-distribution/racks-enclosures-accessories.html",
+      "headquarters": "Dublin, Ireland",
+      "founded": 1911
+    },
+    {
+      "name": "Rittal",
+      "slug": "rittal",
+      "website": "https://www.rittal.com/",
+      "headquarters": "Herborn, Germany",
+      "founded": 1961
+    },
+    {
+      "name": "Chatsworth Products (CPI)",
+      "slug": "chatsworth-cpi",
+      "website": "https://www.chatsworth.com/",
+      "headquarters": "Westlake Village, California, USA",
+      "founded": 1991
+    },
+    {
+      "name": "Panduit",
+      "slug": "panduit",
+      "website": "https://www.panduit.com/en/products/cabinets-thermal-management-racks.html",
+      "headquarters": "Tinley Park, Illinois, USA",
+      "founded": 1955
+    },
+    {
+      "name": "Great Lakes Case & Cabinet",
+      "slug": "great-lakes",
+      "website": "https://www.enclosures.com/",
+      "headquarters": "Edinboro, Pennsylvania, USA",
+      "founded": 1962
+    },
+    {
+      "name": "Legrand",
+      "slug": "legrand",
+      "website": "https://www.legrand.us/solutions/data-center",
+      "headquarters": "Limoges, France",
+      "founded": 1860
+    }
+  ],
+  "products": [
+    {
+      "id": "schneider-apc-netshelter-sx-42u",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "NetShelter SX 42U 600mm x 1200mm",
+      "slug": "netshelter-sx-42u-600x1200",
+      "model_number": "AR3300",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "standard",
+      "specs": {
+        "rack_units": 42,
+        "usable_u": 42,
+        "dimensions": {
+          "height_mm": 1991,
+          "width_mm": 600,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1364,
+          "dynamic_kg": 1023
+        },
+        "frame": {
+          "material": "steel",
+          "welded": false,
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "cable_management": {
+          "vertical_fingers": true,
+          "horizontal_managers": true,
+          "cable_entry_top": true,
+          "cable_entry_bottom": true
+        },
+        "airflow": {
+          "front_door_perforation_percent": 63,
+          "rear_door_perforation_percent": 63
+        },
+        "power_density_kw": {
+          "air_cooled_max": 15
+        },
+        "certifications": ["UL", "cUL", "CE", "ROHS"]
+      },
+      "security": {
+        "locking_doors": true,
+        "locking_side_panels": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical", "1U-horizontal"],
+        "containment_ready": true,
+        "liquid_cooling_ready": true,
+        "busway_compatible": true
+      },
+      "options": {
+        "colors": ["Black", "White"],
+        "door_styles": ["Perforated", "Solid"],
+        "casters_available": true,
+        "seismic_kit_available": true
+      },
+      "description": "Industry-standard server rack with 63% perforated doors for optimal airflow. Fits through standard doorways and compatible with complete NetShelter ecosystem.",
+      "key_features": [
+        "63% perforated front and rear doors",
+        "2250 lb (1023 kg) dynamic load capacity",
+        "Tool-less side panels",
+        "Wide cable entry",
+        "Containment ready",
+        "EcoStruxure IT compatible"
+      ],
+      "use_cases": ["Data centers", "Server rooms", "Enterprise IT"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "schneider-apc-netshelter-sx-48u",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "NetShelter SX 48U 750mm x 1200mm",
+      "slug": "netshelter-sx-48u-750x1200",
+      "model_number": "AR3357",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "high-density",
+      "specs": {
+        "rack_units": 48,
+        "usable_u": 48,
+        "dimensions": {
+          "height_mm": 2258,
+          "width_mm": 750,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1364,
+          "dynamic_kg": 1023
+        },
+        "frame": {
+          "material": "steel",
+          "welded": false,
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "airflow": {
+          "front_door_perforation_percent": 63,
+          "rear_door_perforation_percent": 63
+        },
+        "power_density_kw": {
+          "air_cooled_max": 20,
+          "liquid_cooled_max": 50
+        },
+        "certifications": ["UL", "cUL", "CE", "TAA"]
+      },
+      "security": {
+        "locking_doors": true,
+        "locking_side_panels": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical", "1U-horizontal"],
+        "containment_ready": true,
+        "liquid_cooling_ready": true,
+        "busway_compatible": true
+      },
+      "description": "High-density 48U enclosure with extra width for high-power deployments. Wider frame accommodates additional PDUs and cable management.",
+      "key_features": [
+        "48U height for maximum density",
+        "750mm width for extra space",
+        "High-density ready",
+        "Rear door heat exchanger compatible"
+      ],
+      "use_cases": ["High-density computing", "AI clusters", "HPC"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "schneider-apc-netshelter-sx-gen2",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "NetShelter SX Gen 2 42U 750mm x 1070mm",
+      "slug": "netshelter-sx-gen2-42u",
+      "model_number": "AR3180",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "standard",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 1991,
+          "width_mm": 750,
+          "depth_mm": 1070
+        },
+        "weight_capacity": {
+          "static_kg": 1021,
+          "dynamic_kg": 1021
+        },
+        "frame": {
+          "material": "steel",
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "airflow": {
+          "front_door_perforation_percent": 77,
+          "rear_door_perforation_percent": 77
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical"],
+        "containment_ready": true,
+        "liquid_cooling_ready": false
+      },
+      "description": "Gen 2 design with improved 77% perforation for enhanced airflow. Optimized for modern high-heat equipment.",
+      "key_features": [
+        "77% door perforation",
+        "Gen 2 improved design",
+        "Enhanced airflow",
+        "Tool-less mounting"
+      ],
+      "use_cases": ["Server rooms", "Enterprise IT"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "schneider-apc-netshelter-ax",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "NetShelter AX 42U Deep Enclosure",
+      "slug": "netshelter-ax-42u",
+      "model_number": "AR4242",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "high-density",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 1991,
+          "width_mm": 600,
+          "depth_mm": 1070
+        },
+        "weight_capacity": {
+          "static_kg": 1500,
+          "dynamic_kg": 1130
+        },
+        "frame": {
+          "material": "steel",
+          "welded": true,
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "airflow": {
+          "front_door_perforation_percent": 65,
+          "rear_door_perforation_percent": 65
+        },
+        "power_density_kw": {
+          "air_cooled_max": 18
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical", "1U-horizontal"],
+        "containment_ready": true
+      },
+      "options": {
+        "colors": ["Black"],
+        "casters_available": true,
+        "seismic_kit_available": true
+      },
+      "description": "Fully welded frame for maximum strength. Designed for deep servers and high-density deployments.",
+      "key_features": [
+        "Welded frame construction",
+        "3300 lb static capacity",
+        "Deep server support",
+        "Enhanced cable management"
+      ],
+      "use_cases": ["High-density", "Deep servers", "Storage arrays"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-vr-rack-42u-600x1200",
+      "vendor": { "name": "Vertiv", "slug": "vertiv" },
+      "name": "VR Rack 42U 600mm x 1200mm",
+      "slug": "vr-rack-42u-600x1200",
+      "model_number": "VR3300",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "standard",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 600,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1361,
+          "dynamic_kg": 1134
+        },
+        "frame": {
+          "material": "steel",
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "airflow": {
+          "front_door_perforation_percent": 77,
+          "rear_door_perforation_percent": 77
+        },
+        "power_density_kw": {
+          "air_cooled_max": 18,
+          "liquid_cooled_max": 100
+        },
+        "certifications": ["UL 2416", "cUL", "CE", "RoHS"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical", "toolless"],
+        "containment_ready": true,
+        "liquid_cooling_ready": true,
+        "busway_compatible": true
+      },
+      "description": "High-performance rack with 77% perforated doors and tool-less PDU mounting. Deep frame provides 2.5 inches more usable depth than competitors.",
+      "key_features": [
+        "77% perforated doors",
+        "Tool-less PDU mounting",
+        "2.5\" extra usable depth",
+        "Dual-purpose cable management brackets",
+        "Full depth adjustability",
+        "High-density ready"
+      ],
+      "use_cases": ["Data centers", "High-density computing", "Colocation"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-vr-rack-42u-800x1200",
+      "vendor": { "name": "Vertiv", "slug": "vertiv" },
+      "name": "VR Rack 42U 800mm x 1200mm Wide",
+      "slug": "vr-rack-42u-800x1200",
+      "model_number": "VR3350",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "high-density",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 800,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1361,
+          "dynamic_kg": 1134
+        },
+        "airflow": {
+          "front_door_perforation_percent": 77,
+          "rear_door_perforation_percent": 77
+        },
+        "power_density_kw": {
+          "air_cooled_max": 25,
+          "liquid_cooled_max": 150
+        },
+        "certifications": ["UL 2416", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical", "toolless"],
+        "containment_ready": true,
+        "liquid_cooling_ready": true
+      },
+      "description": "Wide 800mm frame for high-power deployments with extra space for cooling and PDUs.",
+      "key_features": [
+        "Wide 800mm frame",
+        "High-power ready",
+        "Liquid cooling compatible",
+        "Extra PDU space"
+      ],
+      "use_cases": ["AI/ML clusters", "HPC", "High-density"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-vr-rack-45u",
+      "vendor": { "name": "Vertiv", "slug": "vertiv" },
+      "name": "VR Rack 45U 600mm x 1100mm",
+      "slug": "vr-rack-45u-600x1100",
+      "model_number": "VR3105",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "standard",
+      "specs": {
+        "rack_units": 45,
+        "dimensions": {
+          "height_mm": 2132,
+          "width_mm": 600,
+          "depth_mm": 1100
+        },
+        "weight_capacity": {
+          "static_kg": 1361,
+          "dynamic_kg": 1134
+        },
+        "airflow": {
+          "front_door_perforation_percent": 77,
+          "rear_door_perforation_percent": 77
+        },
+        "certifications": ["UL 2416", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "containment_ready": true
+      },
+      "description": "45U height provides extra space for network equipment while maintaining standard width.",
+      "key_features": [
+        "45U height",
+        "Standard 600mm width",
+        "77% perforated doors"
+      ],
+      "use_cases": ["Network deployments", "Mixed workloads"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-dce-rack-42u",
+      "vendor": { "name": "Vertiv", "slug": "vertiv" },
+      "name": "DCE 42U Colocation Cabinet",
+      "slug": "dce-42u-colocation",
+      "model_number": "DCE42612",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "colocation",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 600,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1360,
+          "dynamic_kg": 1135
+        },
+        "airflow": {
+          "front_door_perforation_percent": 65,
+          "rear_door_perforation_percent": 65
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "locking_side_panels": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical"],
+        "containment_ready": true
+      },
+      "description": "Designed specifically for colocation environments with enhanced security and flexibility.",
+      "key_features": [
+        "Colocation optimized",
+        "Enhanced security",
+        "Multi-tenant ready",
+        "Flexible configuration"
+      ],
+      "use_cases": ["Colocation", "Multi-tenant", "Wholesale DC"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-rsv-42u",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "RSV 42U Server Rack Enclosure",
+      "slug": "rsv-42u",
+      "model_number": "RSV4262B",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "standard",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2033,
+          "width_mm": 600,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1134,
+          "dynamic_kg": 907
+        },
+        "frame": {
+          "material": "steel",
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "airflow": {
+          "front_door_perforation_percent": 70,
+          "rear_door_perforation_percent": 70
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical", "1U-horizontal"],
+        "containment_ready": true
+      },
+      "options": {
+        "colors": ["Black"],
+        "door_styles": ["Perforated", "Glass"],
+        "casters_available": true,
+        "seismic_kit_available": true
+      },
+      "description": "Versatile server enclosure with 70% perforated doors and compatibility with Eaton PDU ecosystem.",
+      "key_features": [
+        "70% perforated doors",
+        "Eaton PDU optimized",
+        "Tool-less rails",
+        "Quick-release side panels"
+      ],
+      "use_cases": ["Data centers", "Server rooms", "Enterprise"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-rsv-48u",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "RSV 48U Deep Server Rack",
+      "slug": "rsv-48u-deep",
+      "model_number": "RSV4872B",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "high-density",
+      "specs": {
+        "rack_units": 48,
+        "dimensions": {
+          "height_mm": 2299,
+          "width_mm": 750,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1361,
+          "dynamic_kg": 1134
+        },
+        "airflow": {
+          "front_door_perforation_percent": 70,
+          "rear_door_perforation_percent": 70
+        },
+        "power_density_kw": {
+          "air_cooled_max": 20
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical"],
+        "containment_ready": true,
+        "liquid_cooling_ready": true
+      },
+      "description": "Extra-tall 48U enclosure with 750mm width for high-density deployments.",
+      "key_features": [
+        "48U maximum height",
+        "750mm width",
+        "High-density ready"
+      ],
+      "use_cases": ["High-density", "Large servers", "Storage"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-raa-42u-open",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "RAA 42U 4-Post Open Frame Rack",
+      "slug": "raa-42u-open",
+      "model_number": "RAA42",
+      "category": "infrastructure",
+      "subcategory": "open-frame",
+      "rack_type": "open-frame",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2033,
+          "width_mm": 508,
+          "depth_mm": 762
+        },
+        "weight_capacity": {
+          "static_kg": 680
+        },
+        "frame": {
+          "material": "aluminum",
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "certifications": ["UL", "cUL"]
+      },
+      "security": {
+        "locking_doors": false
+      },
+      "description": "Lightweight aluminum 4-post rack for network equipment and light server loads.",
+      "key_features": [
+        "4-post design",
+        "Lightweight aluminum",
+        "Open air cooling",
+        "Easy cable access"
+      ],
+      "use_cases": ["Network closets", "Light loads", "Telecom"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "rittal-vx-it-42u-600x1200",
+      "vendor": { "name": "Rittal", "slug": "rittal" },
+      "name": "VX IT 42U 600mm x 1200mm",
+      "slug": "vx-it-42u-600x1200",
+      "model_number": "5310.118",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "standard",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 600,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1500,
+          "dynamic_kg": 1200
+        },
+        "frame": {
+          "material": "steel",
+          "welded": true,
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "airflow": {
+          "front_door_perforation_percent": 80,
+          "rear_door_perforation_percent": 80
+        },
+        "power_density_kw": {
+          "air_cooled_max": 20
+        },
+        "certifications": ["UL 2416", "IEC 60950", "IEC 62368", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical"],
+        "containment_ready": true,
+        "liquid_cooling_ready": true
+      },
+      "options": {
+        "colors": ["RAL 7035 light grey", "RAL 7021 black grey"],
+        "door_styles": ["Perforated", "Glass", "Solid"],
+        "seismic_kit_available": true
+      },
+      "description": "World's fastest IT rack with 80% perforated doors. German engineering with RiMatrix NG platform compatibility.",
+      "key_features": [
+        "80% door perforation",
+        "RiMatrix NG compatible",
+        "Dynamic depth adjustability",
+        "German engineering",
+        "Certified to IEC 62368"
+      ],
+      "use_cases": ["Data centers", "Modular DC", "High-density"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "rittal-vx-it-42u-dynamic",
+      "vendor": { "name": "Rittal", "slug": "rittal" },
+      "name": "VX IT 42U Dynamic 800mm x 1200mm",
+      "slug": "vx-it-42u-dynamic",
+      "model_number": "5311.118",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "high-density",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 800,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1800,
+          "dynamic_kg": 1500
+        },
+        "airflow": {
+          "front_door_perforation_percent": 80,
+          "rear_door_perforation_percent": 80
+        },
+        "power_density_kw": {
+          "air_cooled_max": 25,
+          "liquid_cooled_max": 100
+        },
+        "certifications": ["UL 2416", "IEC 62368", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "containment_ready": true,
+        "liquid_cooling_ready": true,
+        "busway_compatible": true
+      },
+      "description": "Dynamic version with depth-variable 19\" mounting angles for maximum flexibility.",
+      "key_features": [
+        "Dynamic rail positioning",
+        "Depth-variable mounting",
+        "3968 lb static capacity",
+        "High-power ready"
+      ],
+      "use_cases": ["AI/HPC", "Dynamic workloads", "Enterprise"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "rittal-ts-it-42u",
+      "vendor": { "name": "Rittal", "slug": "rittal" },
+      "name": "TS IT 42U Server Rack",
+      "slug": "ts-it-42u",
+      "model_number": "5509.110",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "standard",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 600,
+          "depth_mm": 1000
+        },
+        "weight_capacity": {
+          "static_kg": 1300,
+          "dynamic_kg": 900
+        },
+        "airflow": {
+          "front_door_perforation_percent": 85,
+          "rear_door_perforation_percent": 85
+        },
+        "certifications": ["UL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "containment_ready": true
+      },
+      "description": "Premium TS IT series with 85% perforation for maximum airflow.",
+      "key_features": [
+        "85% perforation",
+        "Premium build quality",
+        "Wide accessory range"
+      ],
+      "use_cases": ["Data centers", "Server rooms"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "chatsworth-globalframe-42u",
+      "vendor": { "name": "Chatsworth Products (CPI)", "slug": "chatsworth-cpi" },
+      "name": "GF-Series GlobalFrame Cabinet 42U",
+      "slug": "globalframe-42u",
+      "model_number": "GF-1A220",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "standard",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 600,
+          "depth_mm": 1000
+        },
+        "weight_capacity": {
+          "static_kg": 1360
+        },
+        "frame": {
+          "material": "steel",
+          "welded": true,
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "airflow": {
+          "front_door_perforation_percent": 70,
+          "rear_door_perforation_percent": 70
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical", "horizontal"],
+        "containment_ready": true
+      },
+      "description": "Modular cabinet system with comprehensive accessory ecosystem. Welded frame for maximum durability.",
+      "key_features": [
+        "Welded frame construction",
+        "Modular design",
+        "Comprehensive accessories",
+        "3000 lb capacity"
+      ],
+      "use_cases": ["Enterprise", "Data centers", "Colocation"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "chatsworth-globalframe-48u",
+      "vendor": { "name": "Chatsworth Products (CPI)", "slug": "chatsworth-cpi" },
+      "name": "GF-Series GlobalFrame Cabinet 48U",
+      "slug": "globalframe-48u",
+      "model_number": "GF-3C420",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "high-density",
+      "specs": {
+        "rack_units": 48,
+        "dimensions": {
+          "height_mm": 2267,
+          "width_mm": 800,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1360
+        },
+        "airflow": {
+          "front_door_perforation_percent": 70,
+          "rear_door_perforation_percent": 70
+        },
+        "power_density_kw": {
+          "air_cooled_max": 20
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "containment_ready": true,
+        "liquid_cooling_ready": true
+      },
+      "description": "High-capacity 48U cabinet with 800mm width for high-density deployments.",
+      "key_features": [
+        "48U height",
+        "800mm width",
+        "High-density ready"
+      ],
+      "use_cases": ["High-density", "AI/ML", "HPC"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "chatsworth-globalframe-gen2-42u",
+      "vendor": { "name": "Chatsworth Products (CPI)", "slug": "chatsworth-cpi" },
+      "name": "GT-Series GlobalFrame Gen 2 Cabinet",
+      "slug": "globalframe-gen2-42u",
+      "model_number": "GT-Series",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "standard",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 600,
+          "depth_mm": 1070
+        },
+        "weight_capacity": {
+          "static_kg": 1360
+        },
+        "airflow": {
+          "front_door_perforation_percent": 78,
+          "rear_door_perforation_percent": 70
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "containment_ready": true
+      },
+      "description": "Gen 2 design with curved perforated front door for enhanced airflow and aesthetics.",
+      "key_features": [
+        "Curved front door design",
+        "Gen 2 improvements",
+        "78% front perforation",
+        "Modern aesthetics"
+      ],
+      "use_cases": ["Enterprise", "Colocation"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "chatsworth-f-series-42u",
+      "vendor": { "name": "Chatsworth Products (CPI)", "slug": "chatsworth-cpi" },
+      "name": "F-Series TeraFrame Cabinet",
+      "slug": "teraframe-42u",
+      "model_number": "F-Series",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "high-density",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 750,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1814
+        },
+        "airflow": {
+          "front_door_perforation_percent": 80,
+          "rear_door_perforation_percent": 80
+        },
+        "power_density_kw": {
+          "air_cooled_max": 30,
+          "liquid_cooled_max": 150
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "electronic"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical"],
+        "containment_ready": true,
+        "liquid_cooling_ready": true,
+        "busway_compatible": true
+      },
+      "description": "High-capacity frame designed for AI and HPC workloads up to 150kW with liquid cooling.",
+      "key_features": [
+        "4000 lb capacity",
+        "150kW liquid cooling ready",
+        "AI/HPC optimized",
+        "Electronic locking",
+        "80% perforation"
+      ],
+      "use_cases": ["AI clusters", "HPC", "Ultra-high-density"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "panduit-flexfusion-42u",
+      "vendor": { "name": "Panduit", "slug": "panduit" },
+      "name": "FlexFusion XD 42U Cabinet",
+      "slug": "flexfusion-xd-42u",
+      "model_number": "XD42",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "high-density",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 700,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1361,
+          "dynamic_kg": 1134
+        },
+        "frame": {
+          "material": "steel",
+          "welded": true,
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "airflow": {
+          "front_door_perforation_percent": 78,
+          "rear_door_perforation_percent": 78
+        },
+        "power_density_kw": {
+          "air_cooled_max": 20,
+          "liquid_cooled_max": 100
+        },
+        "certifications": ["UL", "cUL", "CE", "ROHS"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical", "toolless"],
+        "containment_ready": true,
+        "liquid_cooling_ready": true
+      },
+      "description": "High-density cabinet with 700mm width for optimal equipment and PDU placement.",
+      "key_features": [
+        "700mm optimal width",
+        "XD high-density design",
+        "SmartZone integration",
+        "100kW liquid cooling ready"
+      ],
+      "use_cases": ["High-density", "Enterprise", "Colocation"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "panduit-flexfusion-42u-standard",
+      "vendor": { "name": "Panduit", "slug": "panduit" },
+      "name": "FlexFusion 42U Standard Cabinet",
+      "slug": "flexfusion-42u-standard",
+      "model_number": "N8212",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "standard",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 600,
+          "depth_mm": 1070
+        },
+        "weight_capacity": {
+          "static_kg": 1134
+        },
+        "airflow": {
+          "front_door_perforation_percent": 70,
+          "rear_door_perforation_percent": 70
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "containment_ready": true
+      },
+      "description": "Standard width cabinet with proven Panduit quality and comprehensive accessories.",
+      "key_features": [
+        "Standard 600mm width",
+        "Proven design",
+        "Wide accessory range"
+      ],
+      "use_cases": ["Server rooms", "Enterprise"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "panduit-net-access-42u-open",
+      "vendor": { "name": "Panduit", "slug": "panduit" },
+      "name": "Net-Access N-Type 42U Open Frame",
+      "slug": "net-access-42u-open",
+      "model_number": "N8412",
+      "category": "infrastructure",
+      "subcategory": "open-frame",
+      "rack_type": "open-frame",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 508,
+          "depth_mm": 610
+        },
+        "weight_capacity": {
+          "static_kg": 680
+        },
+        "frame": {
+          "material": "steel",
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "certifications": ["UL", "cUL"]
+      },
+      "security": {
+        "locking_doors": false
+      },
+      "description": "Open frame rack for network and telecom equipment with excellent cable access.",
+      "key_features": [
+        "4-post open design",
+        "Easy cable access",
+        "Lightweight"
+      ],
+      "use_cases": ["Network closets", "Telecom", "Patch panels"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "great-lakes-es-42u",
+      "vendor": { "name": "Great Lakes Case & Cabinet", "slug": "great-lakes" },
+      "name": "ES Enclosure Series 42U",
+      "slug": "es-42u",
+      "model_number": "ES4236",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "standard",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 600,
+          "depth_mm": 1070
+        },
+        "weight_capacity": {
+          "static_kg": 1134
+        },
+        "frame": {
+          "material": "steel",
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "airflow": {
+          "front_door_perforation_percent": 65,
+          "rear_door_perforation_percent": 65
+        },
+        "certifications": ["UL", "cUL"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "containment_ready": true
+      },
+      "options": {
+        "colors": ["Black", "White", "Custom RAL"],
+        "door_styles": ["Perforated", "Glass", "Solid"],
+        "casters_available": true,
+        "seismic_kit_available": true
+      },
+      "description": "US-manufactured enclosure with extensive customization options and quick delivery.",
+      "key_features": [
+        "Made in USA",
+        "Extensive customization",
+        "Quick delivery",
+        "Competitive pricing"
+      ],
+      "use_cases": ["Enterprise", "Government", "Healthcare"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "great-lakes-es-48u-deep",
+      "vendor": { "name": "Great Lakes Case & Cabinet", "slug": "great-lakes" },
+      "name": "ES Enclosure Series 48U Deep",
+      "slug": "es-48u-deep",
+      "model_number": "ES4847",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "high-density",
+      "specs": {
+        "rack_units": 48,
+        "dimensions": {
+          "height_mm": 2266,
+          "width_mm": 600,
+          "depth_mm": 1200
+        },
+        "weight_capacity": {
+          "static_kg": 1361
+        },
+        "airflow": {
+          "front_door_perforation_percent": 65,
+          "rear_door_perforation_percent": 65
+        },
+        "certifications": ["UL", "cUL"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "description": "Extra-tall 48U deep enclosure for high-density server deployments.",
+      "key_features": [
+        "48U height",
+        "Deep 1200mm",
+        "Made in USA"
+      ],
+      "use_cases": ["High-density", "Deep servers"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "great-lakes-gl-720-42u-open",
+      "vendor": { "name": "Great Lakes Case & Cabinet", "slug": "great-lakes" },
+      "name": "GL720 Series 4-Post Rack 42U",
+      "slug": "gl720-42u-open",
+      "model_number": "GL720-4236",
+      "category": "infrastructure",
+      "subcategory": "open-frame",
+      "rack_type": "open-frame",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 508,
+          "depth_mm": 915
+        },
+        "weight_capacity": {
+          "static_kg": 454
+        },
+        "frame": {
+          "material": "steel",
+          "adjustable_rails": true
+        },
+        "certifications": ["UL"]
+      },
+      "security": {
+        "locking_doors": false
+      },
+      "description": "Economy 4-post open frame rack for network and light server loads.",
+      "key_features": [
+        "Economy pricing",
+        "4-post design",
+        "Made in USA"
+      ],
+      "use_cases": ["Network closets", "Telecom"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "legrand-ortronics-42u",
+      "vendor": { "name": "Legrand", "slug": "legrand" },
+      "name": "Ortronics Mighty Mo 20 42U",
+      "slug": "mighty-mo-20-42u",
+      "model_number": "MM20-46",
+      "category": "infrastructure",
+      "subcategory": "open-frame",
+      "rack_type": "open-frame",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2100,
+          "width_mm": 508,
+          "depth_mm": 610
+        },
+        "weight_capacity": {
+          "static_kg": 907
+        },
+        "frame": {
+          "material": "aluminum",
+          "adjustable_rails": true,
+          "rail_type": "square-hole"
+        },
+        "certifications": ["UL", "cUL"]
+      },
+      "security": {
+        "locking_doors": false
+      },
+      "description": "Premium aluminum 4-post rack with wide adjustability for network installations.",
+      "key_features": [
+        "Premium aluminum",
+        "Wide adjustability",
+        "Channel accessory system"
+      ],
+      "use_cases": ["Network", "Telecom", "AV"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "legrand-datacenter-42u",
+      "vendor": { "name": "Legrand", "slug": "legrand" },
+      "name": "Data Center Cabinet 42U 800x1100",
+      "slug": "datacenter-cabinet-42u",
+      "model_number": "LN-CK42U8110",
+      "category": "infrastructure",
+      "subcategory": "rack",
+      "rack_type": "standard",
+      "specs": {
+        "rack_units": 42,
+        "dimensions": {
+          "height_mm": 2000,
+          "width_mm": 800,
+          "depth_mm": 1100
+        },
+        "weight_capacity": {
+          "static_kg": 1250
+        },
+        "airflow": {
+          "front_door_perforation_percent": 72,
+          "rear_door_perforation_percent": 72
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "security": {
+        "locking_doors": true,
+        "lock_type": "key"
+      },
+      "compatibility": {
+        "pdu_mounting": ["0U-vertical"],
+        "containment_ready": true
+      },
+      "description": "Data center grade cabinet with 800mm width for server and PDU installation.",
+      "key_features": [
+        "800mm width",
+        "72% perforation",
+        "Data center grade"
+      ],
+      "use_cases": ["Data centers", "Server rooms"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    }
+  ]
+}

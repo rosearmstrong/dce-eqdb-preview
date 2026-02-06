@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Equipment Database | The Data Center Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #64748b;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+            --text: #1e293b;
+            --text-muted: #64748b;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container { max-width: 1400px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+            padding: 40px 0;
+        }
+        
+        header h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 10px; }
+        header p { font-size: 1.1rem; opacity: 0.9; max-width: 600px; }
+        
+        .header-stats { display: flex; gap: 30px; margin-top: 20px; flex-wrap: wrap; }
+        .stat { text-align: center; }
+        .stat-value { font-size: 2rem; font-weight: 700; color: #60a5fa; }
+        .stat-label { font-size: 0.85rem; opacity: 0.8; }
+        
+        /* Category Tabs */
+        .main-tabs {
+            display: flex;
+            gap: 0;
+            background: var(--card-bg);
+            border-radius: 12px 12px 0 0;
+            margin-top: 20px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .main-tab {
+            flex: 1;
+            padding: 16px 24px;
+            border: none;
+            background: transparent;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s;
+            border-bottom: 3px solid transparent;
+        }
+        
+        .main-tab:hover { background: #f1f5f9; }
+        .main-tab.active { color: var(--primary); border-bottom-color: var(--primary); background: white; }
+        
+        .main-tab .tab-count {
+            display: inline-block;
+            background: #e2e8f0;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-left: 8px;
+        }
+        
+        .main-tab.active .tab-count { background: #dbeafe; color: var(--primary); }
+        
+        /* Filters */
+        .filters {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 0 0 12px 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        .filter-group { display: flex; flex-direction: column; gap: 5px; }
+        .filter-group label { font-size: 0.75rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; }
+        
+        .filter-group input, .filter-group select {
+            padding: 10px 14px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 0.95rem;
+            min-width: 180px;
+        }
+        
+        .search-box { flex: 1; min-width: 250px; }
+        .search-box input { width: 100%; }
+        
+        .clear-filters {
+            padding: 10px 16px;
+            background: #f1f5f9;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+        
+        .clear-filters:hover { background: #e2e8f0; }
+        
+        /* Sub-category tabs */
+        .category-tabs {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .category-tab {
+            padding: 8px 16px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+        
+        .category-tab:hover { border-color: var(--primary); }
+        .category-tab.active { background: var(--primary); color: white; border-color: var(--primary); }
+        
+        /* Results header */
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 0;
+        }
+        
+        .results-count { color: var(--text-muted); }
+        
+        .view-toggle { display: flex; gap: 5px; }
+        .view-btn {
+            padding: 8px 12px;
+            border: 1px solid var(--border);
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .view-btn.active { background: var(--primary); color: white; border-color: var(--primary); }
+        
+        /* Products Grid */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .product-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 2px solid transparent;
+        }
+        
+        .product-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); border-color: var(--primary); }
+        
+        .product-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; }
+        .product-vendor { font-size: 0.85rem; color: var(--text-muted); }
+        
+        .product-category {
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+        
+        /* Category colors */
+        .product-category.cdu { background: #dbeafe; color: #1d4ed8; }
+        .product-category.direct-to-chip { background: #dcfce7; color: #166534; }
+        .product-category.immersion { background: #fef3c7; color: #92400e; }
+        .product-category.rear-door-hx { background: #fce7f3; color: #9d174d; }
+        .product-category.pdu { background: #e0e7ff; color: #3730a3; }
+        .product-category.ups { background: #fef9c3; color: #854d0e; }
+        .product-category.rack { background: #f3e8ff; color: #7c3aed; }
+        
+        .product-name { font-size: 1.1rem; font-weight: 600; margin-bottom: 8px; }
+        .product-description { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 15px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        
+        .product-specs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 15px; }
+        .spec-item { display: flex; flex-direction: column; }
+        .spec-label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; }
+        .spec-value { font-size: 0.9rem; font-weight: 500; }
+        .spec-value.highlight { color: var(--primary); }
+        
+        .product-features { display: flex; flex-wrap: wrap; gap: 6px; }
+        .feature-tag { font-size: 0.75rem; background: #f1f5f9; padding: 4px 8px; border-radius: 4px; }
+        
+        /* Table view */
+        .products-table { display: none; overflow-x: auto; }
+        .products-table.active { display: block; }
+        
+        .products-table table { width: 100%; border-collapse: collapse; background: var(--card-bg); border-radius: 12px; overflow: hidden; }
+        .products-table th, .products-table td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--border); }
+        .products-table th { background: #f8fafc; font-weight: 600; font-size: 0.85rem; color: var(--text-muted); }
+        .products-table tr:hover { background: #f8fafc; }
+        
+        /* Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .modal-overlay.active { display: flex; }
+        
+        .modal {
+            background: white;
+            border-radius: 16px;
+            max-width: 800px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+        
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .modal-header h2 { font-size: 1.5rem; }
+        .modal-close { background: none; border: none; font-size: 1.5rem; cursor: pointer; color: var(--text-muted); }
+        
+        .modal-body { padding: 24px; }
+        .modal-section { margin-bottom: 24px; }
+        .modal-section h3 { font-size: 1rem; color: var(--text-muted); margin-bottom: 12px; }
+        
+        .specs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+        .specs-grid .spec-item { background: #f8fafc; padding: 12px; border-radius: 8px; }
+        
+        .modal-features { display: flex; flex-wrap: wrap; gap: 8px; }
+        .modal-feature { background: #dcfce7; color: #166534; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; }
+        
+        /* Footer */
+        footer {
+            background: #1e293b;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        footer a { color: #60a5fa; }
+        
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.8rem; }
+            .filters { flex-direction: column; }
+            .filter-group input, .filter-group select { min-width: 100%; }
+            .main-tab { padding: 12px 16px; font-size: 0.85rem; }
+            .main-tab .tab-count { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🔌 Data Center Equipment Database</h1>
+            <p>The most comprehensive specification database for data center engineers. Compare products across cooling, power, and infrastructure.</p>
+            <div class="header-stats">
+                <div class="stat">
+                    <div class="stat-value" id="product-count">0</div>
+                    <div class="stat-label">Products</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="vendor-count">0</div>
+                    <div class="stat-label">Vendors</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="category-count">0</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <!-- Main Category Tabs -->
+        <div class="main-tabs">
+            <button class="main-tab active" data-category="cooling" onclick="setMainCategory('cooling')">
+                ❄️ Cooling <span class="tab-count" id="cooling-count">0</span>
+            </button>
+            <button class="main-tab" data-category="pdu" onclick="setMainCategory('pdu')">
+                🔌 PDUs <span class="tab-count" id="pdu-count">0</span>
+            </button>
+            <button class="main-tab" data-category="ups" onclick="setMainCategory('ups')">
+                🔋 UPS <span class="tab-count" id="ups-count">0</span>
+            </button>
+            <button class="main-tab" data-category="racks" onclick="setMainCategory('racks')">
+                🗄️ Racks <span class="tab-count" id="racks-count">0</span>
+            </button>
+            <button class="main-tab" data-category="generators" onclick="setMainCategory('generators')">
+                ⚡ Generators <span class="tab-count" id="generators-count">0</span>
+            </button>
+            <button class="main-tab" data-category="dcim" onclick="setMainCategory('dcim')">
+                📊 DCIM <span class="tab-count" id="dcim-count">0</span>
+            </button>
+        </div>
+        
+        <div class="filters">
+            <div class="filter-group search-box">
+                <label>Search</label>
+                <input type="text" id="search" placeholder="Search products, vendors, features...">
+            </div>
+            <div class="filter-group">
+                <label>Subcategory</label>
+                <select id="filter-subcategory">
+                    <option value="">All Types</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Vendor</label>
+                <select id="filter-vendor">
+                    <option value="">All Vendors</option>
+                </select>
+            </div>
+            <button class="clear-filters" onclick="clearFilters()">Clear Filters</button>
+        </div>
+        
+        <div class="results-header">
+            <span class="results-count" id="results-count">Showing 0 products</span>
+            <div class="view-toggle">
+                <button class="view-btn active" data-view="grid" onclick="setView('grid')">Grid</button>
+                <button class="view-btn" data-view="table" onclick="setView('table')">Table</button>
+            </div>
+        </div>
+        
+        <div class="products-grid" id="products-grid"></div>
+        
+        <div class="products-table" id="products-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Vendor</th>
+                        <th>Type</th>
+                        <th>Capacity</th>
+                        <th>Key Spec</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+            </table>
+        </div>
+    </main>
+    
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
+        <div class="modal" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <div>
+                    <div class="product-vendor" id="modal-vendor"></div>
+                    <h2 id="modal-title"></h2>
+                </div>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>Description</h3>
+                    <p id="modal-description"></p>
+                </div>
+                <div class="modal-section">
+                    <h3>Specifications</h3>
+                    <div class="specs-grid" id="modal-specs"></div>
+                </div>
+                <div class="modal-section">
+                    <h3>Key Features</h3>
+                    <div class="modal-features" id="modal-features"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Data Center Equipment Database</p>
+            <p>© 2026 <a href="https://thedatacenterengineer.com">The Data Center Engineer</a></p>
+            <p style="font-size: 0.85rem; margin-top: 15px;">Are you a vendor? <a href="mailto:info@thedatacenterengineer.com">Contact us</a> to update your listing.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Data storage
+        let allData = {
+            cooling: null,
+            pdu: null,
+            ups: null,
+            racks: null,
+            generators: null,
+            dcim: null
+        };
+        let currentCategory = 'cooling';
+        let filteredProducts = [];
+        let currentView = 'grid';
+        
+        // Data file mapping
+        const dataFiles = {
+            cooling: '../data/liquid-cooling-all.json',
+            pdu: '../data/pdu-all.json',
+            ups: '../data/ups-all.json',
+            racks: '../data/racks-all.json',
+            generators: '../data/generators-all.json',
+            dcim: '../data/dcim-all.json'
+        };
+        
+        // Subcategory mapping
+        const subcategories = {
+            cooling: [
+                { value: 'cdu', label: 'CDU' },
+                { value: 'direct-to-chip', label: 'Direct-to-Chip' },
+                { value: 'immersion', label: 'Immersion' },
+                { value: 'rear-door-hx', label: 'Rear Door HX' }
+            ],
+            pdu: [
+                { value: 'basic', label: 'Basic' },
+                { value: 'metered', label: 'Metered' },
+                { value: 'metered-by-outlet', label: 'Metered-by-Outlet' },
+                { value: 'switched', label: 'Switched' },
+                { value: 'switched-metered', label: 'Switched Metered' },
+                { value: 'intelligent', label: 'Intelligent' }
+            ],
+            ups: [
+                { value: 'online-double-conversion', label: 'Online Double-Conv.' },
+                { value: 'line-interactive', label: 'Line-Interactive' },
+                { value: 'modular-frame', label: 'Modular' },
+                { value: 'rack-mount', label: 'Rack Mount' },
+                { value: 'tower', label: 'Tower' }
+            ],
+            racks: [
+                { value: 'standard', label: 'Standard' },
+                { value: 'high-density', label: 'High-Density' },
+                { value: 'open-frame', label: 'Open Frame' },
+                { value: 'containment', label: 'Containment' }
+            ],
+            generators: [
+                { value: 'diesel', label: 'Diesel' },
+                { value: 'natural-gas', label: 'Natural Gas' },
+                { value: 'dual-fuel', label: 'Dual Fuel' },
+                { value: 'hydrogen', label: 'Hydrogen' }
+            ],
+            dcim: [
+                { value: 'cloud', label: 'Cloud/SaaS' },
+                { value: 'on-premises', label: 'On-Premises' },
+                { value: 'hybrid', label: 'Hybrid' }
+            ]
+        };
+        
+        // Load all data
+        async function loadAllData() {
+            const promises = Object.entries(dataFiles).map(async ([key, url]) => {
+                try {
+                    const response = await fetch(url);
+                    if (response.ok) {
+                        allData[key] = await response.json();
+                    }
+                } catch (e) {
+                    console.log(`No data for ${key}`);
+                }
+            });
+            
+            await Promise.all(promises);
+            initApp();
+        }
+        
+        function initApp() {
+            // Update counts
+            let totalProducts = 0;
+            let allVendors = new Set();
+            
+            Object.entries(allData).forEach(([key, data]) => {
+                if (data && data.products) {
+                    const count = data.products.length;
+                    document.getElementById(`${key}-count`).textContent = count;
+                    totalProducts += count;
+                    data.vendors.forEach(v => allVendors.add(v.name));
+                }
+            });
+            
+            document.getElementById('product-count').textContent = totalProducts;
+            document.getElementById('vendor-count').textContent = allVendors.size;
+            document.getElementById('category-count').textContent = Object.values(allData).filter(d => d).length;
+            
+            // Set up initial category
+            setMainCategory('cooling');
+            
+            // Event listeners
+            document.getElementById('search').addEventListener('input', applyFilters);
+            document.getElementById('filter-subcategory').addEventListener('change', applyFilters);
+            document.getElementById('filter-vendor').addEventListener('change', applyFilters);
+        }
+        
+        function setMainCategory(category) {
+            currentCategory = category;
+            
+            // Update tabs
+            document.querySelectorAll('.main-tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.category === category);
+            });
+            
+            // Update subcategory filter
+            const subSelect = document.getElementById('filter-subcategory');
+            subSelect.innerHTML = '<option value="">All Types</option>';
+            (subcategories[category] || []).forEach(sub => {
+                const opt = document.createElement('option');
+                opt.value = sub.value;
+                opt.textContent = sub.label;
+                subSelect.appendChild(opt);
+            });
+            
+            // Update vendor filter
+            const vendorSelect = document.getElementById('filter-vendor');
+            vendorSelect.innerHTML = '<option value="">All Vendors</option>';
+            const data = allData[category];
+            if (data && data.vendors) {
+                data.vendors.forEach(v => {
+                    const opt = document.createElement('option');
+                    opt.value = v.slug;
+                    opt.textContent = v.name;
+                    vendorSelect.appendChild(opt);
+                });
+            }
+            
+            applyFilters();
+        }
+        
+        function applyFilters() {
+            const data = allData[currentCategory];
+            if (!data || !data.products) {
+                filteredProducts = [];
+                renderProducts();
+                return;
+            }
+            
+            const search = document.getElementById('search').value.toLowerCase();
+            const subcategory = document.getElementById('filter-subcategory').value;
+            const vendor = document.getElementById('filter-vendor').value;
+            
+            filteredProducts = data.products.filter(p => {
+                // Subcategory filter - check multiple fields
+                if (subcategory) {
+                    const productSub = p.subcategory || p.pdu_type || p.topology || p.form_factor || '';
+                    if (productSub !== subcategory) return false;
+                }
+                if (vendor && p.vendor.slug !== vendor) return false;
+                if (search) {
+                    const searchStr = `${p.name} ${p.vendor.name} ${p.description || ''} ${(p.key_features || []).join(' ')}`.toLowerCase();
+                    if (!searchStr.includes(search)) return false;
+                }
+                return true;
+            });
+            
+            renderProducts();
+        }
+        
+        function clearFilters() {
+            document.getElementById('search').value = '';
+            document.getElementById('filter-subcategory').value = '';
+            document.getElementById('filter-vendor').value = '';
+            applyFilters();
+        }
+        
+        function renderProducts() {
+            document.getElementById('results-count').textContent = `Showing ${filteredProducts.length} products`;
+            
+            const grid = document.getElementById('products-grid');
+            grid.innerHTML = filteredProducts.map(p => `
+                <div class="product-card" onclick="showProduct('${p.id}')">
+                    <div class="product-header">
+                        <div class="product-vendor">${p.vendor.name}</div>
+                        <span class="product-category ${getSubcategoryClass(p)}">${formatSubcategory(p)}</span>
+                    </div>
+                    <div class="product-name">${p.name}</div>
+                    <div class="product-description">${p.description || ''}</div>
+                    <div class="product-specs">
+                        ${renderSpecPreview(p)}
+                    </div>
+                    ${p.key_features ? `
+                        <div class="product-features">
+                            ${p.key_features.slice(0, 3).map(f => `<span class="feature-tag">${f}</span>`).join('')}
+                        </div>
+                    ` : ''}
+                </div>
+            `).join('');
+            
+            const tbody = document.getElementById('table-body');
+            tbody.innerHTML = filteredProducts.map(p => `
+                <tr onclick="showProduct('${p.id}')" style="cursor:pointer">
+                    <td>${p.name}</td>
+                    <td>${p.vendor.name}</td>
+                    <td><span class="product-category ${getSubcategoryClass(p)}">${formatSubcategory(p)}</span></td>
+                    <td>${getCapacity(p)}</td>
+                    <td>${getKeySpec(p)}</td>
+                </tr>
+            `).join('');
+        }
+        
+        function getSubcategoryClass(p) {
+            return p.subcategory || p.pdu_type || 'default';
+        }
+        
+        function formatSubcategory(p) {
+            const sub = p.subcategory || p.pdu_type || p.topology || '';
+            const map = {
+                'direct-to-chip': 'Direct-to-Chip',
+                'immersion': 'Immersion',
+                'rear-door-hx': 'Rear Door HX',
+                'cdu': 'CDU',
+                'basic': 'Basic',
+                'metered': 'Metered',
+                'metered-by-outlet': 'Metered/Outlet',
+                'switched': 'Switched',
+                'switched-metered': 'Switched+Metered',
+                'intelligent': 'Intelligent',
+                'online-double-conversion': 'Online',
+                'line-interactive': 'Line-Interactive',
+                'modular-frame': 'Modular',
+                'rack-mount': 'Rack',
+                'tower': 'Tower'
+            };
+            return map[sub] || sub || 'N/A';
+        }
+        
+        function renderSpecPreview(p) {
+            const specs = [];
+            
+            // Cooling products
+            if (p.specs?.cooling_capacity_kw?.max) {
+                specs.push(`<div class="spec-item"><span class="spec-label">Capacity</span><span class="spec-value highlight">${p.specs.cooling_capacity_kw.max} kW</span></div>`);
+            }
+            
+            // PDU products
+            if (p.specs?.power_capacity_kw) {
+                specs.push(`<div class="spec-item"><span class="spec-label">Capacity</span><span class="spec-value highlight">${p.specs.power_capacity_kw} kW</span></div>`);
+            }
+            if (p.specs?.output?.total_outlets) {
+                specs.push(`<div class="spec-item"><span class="spec-label">Outlets</span><span class="spec-value">${p.specs.output.total_outlets}</span></div>`);
+            }
+            
+            // UPS products
+            if (p.specs?.capacity_kw) {
+                specs.push(`<div class="spec-item"><span class="spec-label">Capacity</span><span class="spec-value highlight">${p.specs.capacity_kw} kW</span></div>`);
+            }
+            if (p.specs?.efficiency?.online_mode_percent) {
+                specs.push(`<div class="spec-item"><span class="spec-label">Efficiency</span><span class="spec-value">${p.specs.efficiency.online_mode_percent}%</span></div>`);
+            }
+            
+            // Racks
+            if (p.specs?.rack_units) {
+                specs.push(`<div class="spec-item"><span class="spec-label">Height</span><span class="spec-value">${p.specs.rack_units}U</span></div>`);
+            }
+            if (p.specs?.max_load_kg) {
+                specs.push(`<div class="spec-item"><span class="spec-label">Max Load</span><span class="spec-value">${p.specs.max_load_kg} kg</span></div>`);
+            }
+            
+            // Generators
+            if (p.specs?.standby_power_kw) {
+                specs.push(`<div class="spec-item"><span class="spec-label">Standby</span><span class="spec-value highlight">${p.specs.standby_power_kw} kW</span></div>`);
+            }
+            if (p.fuel_type) {
+                specs.push(`<div class="spec-item"><span class="spec-label">Fuel</span><span class="spec-value">${p.fuel_type}</span></div>`);
+            }
+            
+            // DCIM
+            if (p.deployment) {
+                specs.push(`<div class="spec-item"><span class="spec-label">Deployment</span><span class="spec-value">${Array.isArray(p.deployment) ? p.deployment.join(', ') : p.deployment}</span></div>`);
+            }
+            if (p.pricing?.model) {
+                specs.push(`<div class="spec-item"><span class="spec-label">Pricing</span><span class="spec-value">${p.pricing.model}</span></div>`);
+            }
+            
+            // Form factor
+            if (p.form_factor) {
+                specs.push(`<div class="spec-item"><span class="spec-label">Form</span><span class="spec-value">${formatFormFactor(p.form_factor)}</span></div>`);
+            }
+            
+            return specs.slice(0, 4).join('');
+        }
+        
+        function getCapacity(p) {
+            if (p.specs?.cooling_capacity_kw?.max) return `${p.specs.cooling_capacity_kw.max} kW`;
+            if (p.specs?.power_capacity_kw) return `${p.specs.power_capacity_kw} kW`;
+            if (p.specs?.capacity_kw) return `${p.specs.capacity_kw} kW`;
+            if (p.specs?.rack_units) return `${p.specs.rack_units}U`;
+            return '-';
+        }
+        
+        function getKeySpec(p) {
+            if (p.specs?.efficiency?.online_mode_percent) return `${p.specs.efficiency.online_mode_percent}% eff`;
+            if (p.specs?.output?.total_outlets) return `${p.specs.output.total_outlets} outlets`;
+            if (p.cooling_technology) return formatFormFactor(p.cooling_technology);
+            return '-';
+        }
+        
+        function formatFormFactor(ff) {
+            const map = {
+                'cold-plate': 'Cold Plate',
+                'rack-mount': 'Rack Mount',
+                'rack-mount-vertical': 'Rack Vertical',
+                'in-row': 'In-Row',
+                'modular': 'Modular',
+                'modular-frame': 'Modular Frame',
+                'tower': 'Tower',
+                'rack-tower-convertible': 'Rack/Tower',
+                'single-phase': 'Single-Phase',
+                'two-phase': 'Two-Phase'
+            };
+            return map[ff] || ff || '-';
+        }
+        
+        function setView(view) {
+            currentView = view;
+            document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+            document.querySelector(`.view-btn[data-view="${view}"]`).classList.add('active');
+            document.getElementById('products-grid').style.display = view === 'grid' ? 'grid' : 'none';
+            document.getElementById('products-table').classList.toggle('active', view === 'table');
+        }
+        
+        function showProduct(id) {
+            const data = allData[currentCategory];
+            const product = data.products.find(p => p.id === id);
+            if (!product) return;
+            
+            document.getElementById('modal-vendor').textContent = product.vendor.name;
+            document.getElementById('modal-title').textContent = product.name;
+            document.getElementById('modal-description').textContent = product.description || 'No description available.';
+            
+            // Build specs
+            const specsHtml = [];
+            if (product.specs) {
+                flattenSpecs(product.specs, specsHtml);
+            }
+            document.getElementById('modal-specs').innerHTML = specsHtml.join('');
+            
+            // Features
+            document.getElementById('modal-features').innerHTML = (product.key_features || [])
+                .map(f => `<span class="modal-feature">✓ ${f}</span>`).join('');
+            
+            document.getElementById('modal-overlay').classList.add('active');
+        }
+        
+        function flattenSpecs(obj, arr, prefix = '') {
+            Object.entries(obj).forEach(([key, val]) => {
+                const label = (prefix + key).replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                if (val === null || val === undefined) return;
+                if (typeof val === 'object' && !Array.isArray(val)) {
+                    if (val.min !== undefined || val.max !== undefined) {
+                        const display = val.min && val.max ? `${val.min} - ${val.max}` : (val.max ? `Up to ${val.max}` : val.min);
+                        arr.push(`<div class="spec-item"><span class="spec-label">${label}</span><span class="spec-value">${display}</span></div>`);
+                    } else {
+                        flattenSpecs(val, arr, key + ' ');
+                    }
+                } else if (Array.isArray(val)) {
+                    arr.push(`<div class="spec-item"><span class="spec-label">${label}</span><span class="spec-value">${val.join(', ')}</span></div>`);
+                } else {
+                    arr.push(`<div class="spec-item"><span class="spec-label">${label}</span><span class="spec-value">${val}</span></div>`);
+                }
+            });
+        }
+        
+        function closeModal(e) {
+            if (!e || e.target === document.getElementById('modal-overlay')) {
+                document.getElementById('modal-overlay').classList.remove('active');
+            }
+        }
+        
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+        
+        // Initialize
+        loadAllData();
+    </script>
+</body>
+</html>

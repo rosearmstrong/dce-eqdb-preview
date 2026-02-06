@@ -1,0 +1,1981 @@
+{
+  "category": "power",
+  "subcategory": "ups",
+  "last_updated": "2026-02-05",
+  "total_products": 65,
+  "vendors": [
+    {
+      "name": "Schneider Electric (APC)",
+      "slug": "schneider-apc",
+      "website": "https://www.se.com/us/en/product-subcategory/4225-three-phase-ups/",
+      "headquarters": "Rueil-Malmaison, France",
+      "founded": 1836
+    },
+    {
+      "name": "Vertiv (Liebert)",
+      "slug": "vertiv-liebert",
+      "website": "https://www.vertiv.com/en-us/products-catalog/critical-power/uninterruptible-power-supplies-ups/",
+      "headquarters": "Columbus, Ohio, USA",
+      "founded": 1965
+    },
+    {
+      "name": "Eaton",
+      "slug": "eaton",
+      "website": "https://www.eaton.com/us/en-us/products/backup-power-ups-surge-it-power-distribution/backup-power-ups.html",
+      "headquarters": "Dublin, Ireland",
+      "founded": 1911
+    },
+    {
+      "name": "Delta Electronics",
+      "slug": "delta",
+      "website": "https://www.deltapowersolutions.com/en/mcis/ups.php",
+      "headquarters": "Taipei, Taiwan",
+      "founded": 1971
+    },
+    {
+      "name": "ABB",
+      "slug": "abb",
+      "website": "https://new.abb.com/ups",
+      "headquarters": "Zurich, Switzerland",
+      "founded": 1988
+    },
+    {
+      "name": "Mitsubishi Electric",
+      "slug": "mitsubishi",
+      "website": "https://www.mitsubishicritical.com/ups/",
+      "headquarters": "Tokyo, Japan",
+      "founded": 1921
+    },
+    {
+      "name": "Riello UPS",
+      "slug": "riello",
+      "website": "https://www.riello-ups.com/products/3-three-phase",
+      "headquarters": "Legnago, Italy",
+      "founded": 1986
+    },
+    {
+      "name": "CyberPower",
+      "slug": "cyberpower",
+      "website": "https://www.cyberpowersystems.com/products/ups/",
+      "headquarters": "New Taipei City, Taiwan",
+      "founded": 1997
+    }
+  ],
+  "products": [
+    {
+      "id": "schneider-apc-galaxy-vx",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "Galaxy VX",
+      "slug": "galaxy-vx",
+      "model_number": "GVX-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "modular-frame",
+      "specs": {
+        "capacity_kva": 500,
+        "capacity_kw": 500,
+        "power_factor": 1.0,
+        "scalable_to_kva": 750,
+        "input": {
+          "voltage_range_v": { "min": 305, "max": 477 },
+          "nominal_voltage_v": [380, 400, 415, 480],
+          "phases": "three-phase",
+          "frequency_hz": [50, 60],
+          "power_factor_corrected": true,
+          "thd_percent": 3
+        },
+        "output": {
+          "voltage_v": [380, 400, 415, 480],
+          "voltage_regulation_percent": 1,
+          "frequency_hz": [50, 60],
+          "waveform": "sine wave",
+          "thd_percent": 2,
+          "crest_factor": 3
+        },
+        "efficiency": {
+          "online_mode_percent": 97,
+          "eco_mode_percent": 99
+        },
+        "battery": {
+          "type": "lithium-ion",
+          "hot_swappable": true,
+          "expected_life_years": 15,
+          "external_battery_compatible": true
+        },
+        "transfer_time_ms": 0,
+        "dimensions": {
+          "height_mm": 1950,
+          "width_mm": 1200,
+          "depth_mm": 900
+        },
+        "weight_kg": 2150,
+        "certifications": ["UL", "cUL", "CE", "IEC 62040-3"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 6,
+        "n_plus_x_support": true,
+        "internal_redundancy": "N+1 power modules"
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet", "serial"],
+        "protocols": ["SNMP v3", "Modbus", "BACnet", "EcoStruxure IT"],
+        "dcim_compatible": true,
+        "remote_management": true,
+        "shutdown_software": ["PowerChute", "EcoStruxure IT"]
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true,
+        "cold_start": true,
+        "intelligent_battery_management": true,
+        "predictive_failure_analysis": true
+      },
+      "description": "Highly efficient, scalable 3-phase power protection for large data centers and business-critical applications. Modular architecture allows pay-as-you-grow deployment.",
+      "key_features": [
+        "500kW to 750kW scalable",
+        "97% efficiency in double-conversion",
+        "99% in ECOnversion mode",
+        "Lithium-ion battery compatible",
+        "N+1 internal redundancy",
+        "EcoStruxure IT Expert compatible",
+        "Front-access servicing"
+      ],
+      "use_cases": ["Large data centers", "Industrial facilities", "Healthcare"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "schneider-apc-galaxy-vl",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "Galaxy VL",
+      "slug": "galaxy-vl",
+      "model_number": "GVL-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "modular-frame",
+      "specs": {
+        "capacity_kva": 200,
+        "capacity_kw": 200,
+        "power_factor": 1.0,
+        "scalable_to_kva": 500,
+        "input": {
+          "nominal_voltage_v": [380, 400, 415, 480],
+          "phases": "three-phase",
+          "frequency_hz": [50, 60],
+          "power_factor_corrected": true
+        },
+        "output": {
+          "voltage_v": [380, 400, 415, 480],
+          "waveform": "sine wave"
+        },
+        "efficiency": {
+          "online_mode_percent": 97,
+          "eco_mode_percent": 99
+        },
+        "battery": {
+          "type": "lithium-ion",
+          "hot_swappable": true,
+          "external_battery_compatible": true
+        },
+        "transfer_time_ms": 0,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4,
+        "n_plus_x_support": true
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "EcoStruxure IT"],
+        "dcim_compatible": true,
+        "remote_management": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true,
+        "cold_start": true
+      },
+      "description": "Compact, modular UPS delivering high efficiency and flexibility for medium data centers.",
+      "key_features": [
+        "200kW to 500kW",
+        "Compact footprint",
+        "Modular design",
+        "Live-swappable modules"
+      ],
+      "use_cases": ["Medium data centers", "Manufacturing", "Commercial"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "schneider-apc-galaxy-vs",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "Galaxy VS",
+      "slug": "galaxy-vs",
+      "model_number": "GVS-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 100,
+        "capacity_kw": 100,
+        "power_factor": 1.0,
+        "scalable_to_kva": 100,
+        "input": {
+          "nominal_voltage_v": [380, 400, 415, 480],
+          "phases": "three-phase",
+          "frequency_hz": [50, 60],
+          "power_factor_corrected": true
+        },
+        "output": {
+          "voltage_v": [380, 400, 415, 480],
+          "waveform": "sine wave"
+        },
+        "efficiency": {
+          "online_mode_percent": 97,
+          "eco_mode_percent": 99
+        },
+        "battery": {
+          "type": "lithium-ion",
+          "hot_swappable": true,
+          "external_battery_compatible": true
+        },
+        "transfer_time_ms": 0,
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4,
+        "n_plus_x_support": true
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "EcoStruxure IT"],
+        "dcim_compatible": true,
+        "remote_management": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true,
+        "cold_start": true
+      },
+      "description": "Highly efficient, modular, easy-to-deploy 20-100kVA UPS for edge, small, and medium data centers.",
+      "key_features": [
+        "20kVA to 100kVA",
+        "Easy deployment",
+        "Modular architecture",
+        "External battery flexibility"
+      ],
+      "use_cases": ["Edge computing", "Small data centers", "Commercial buildings"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "schneider-apc-symmetra-px",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "Symmetra PX",
+      "slug": "symmetra-px",
+      "model_number": "SY-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "modular-frame",
+      "specs": {
+        "capacity_kva": 250,
+        "capacity_kw": 250,
+        "power_factor": 1.0,
+        "scalable_to_kva": 500,
+        "input": {
+          "nominal_voltage_v": [400, 480],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [400, 480]
+        },
+        "efficiency": {
+          "online_mode_percent": 96
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "hot_swappable": true,
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4,
+        "n_plus_x_support": true,
+        "internal_redundancy": "N+1 power modules"
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "Modular, scalable, high-efficiency power protection with N+1 redundancy.",
+      "key_features": [
+        "Modular architecture",
+        "N+1 fault tolerance",
+        "Scalable 48kW increments",
+        "Hot-swappable components"
+      ],
+      "use_cases": ["Data centers", "Industrial", "Healthcare"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "schneider-apc-smart-ups-vt",
+      "vendor": { "name": "Schneider Electric (APC)", "slug": "schneider-apc" },
+      "name": "Smart-UPS VT",
+      "slug": "smart-ups-vt",
+      "model_number": "SUVT-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 30,
+        "capacity_kw": 24,
+        "power_factor": 0.8,
+        "input": {
+          "nominal_voltage_v": [208, 480],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [208, 480]
+        },
+        "efficiency": {
+          "online_mode_percent": 94
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "hot_swappable": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "Three-phase power protection for small data centers and network rooms.",
+      "key_features": [
+        "10-40kVA range",
+        "Simple deployment",
+        "Low TCO"
+      ],
+      "use_cases": ["Small data centers", "Network closets", "Retail"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-liebert-exl-s1",
+      "vendor": { "name": "Vertiv (Liebert)", "slug": "vertiv-liebert" },
+      "name": "Liebert EXL S1",
+      "slug": "liebert-exl-s1",
+      "model_number": "EXL-S1-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 1250,
+        "capacity_kw": 1250,
+        "power_factor": 1.0,
+        "scalable_to_kva": 1250,
+        "input": {
+          "voltage_range_v": { "min": 305, "max": 477 },
+          "nominal_voltage_v": [380, 400, 415, 480],
+          "phases": "three-phase",
+          "frequency_hz": [50, 60],
+          "power_factor_corrected": true,
+          "thd_percent": 3
+        },
+        "output": {
+          "voltage_v": [380, 400, 415, 480],
+          "voltage_regulation_percent": 1,
+          "waveform": "sine wave",
+          "thd_percent": 2
+        },
+        "efficiency": {
+          "online_mode_percent": 97.5,
+          "eco_mode_percent": 99
+        },
+        "battery": {
+          "type": "lithium-ion",
+          "hot_swappable": true,
+          "expected_life_years": 15,
+          "external_battery_compatible": true
+        },
+        "transfer_time_ms": 0,
+        "certifications": ["UL", "cUL", "CE", "IEC 62040-3"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 6,
+        "n_plus_x_support": true
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet", "serial"],
+        "protocols": ["SNMP v3", "Modbus", "Liebert Nform", "Trellis"],
+        "dcim_compatible": true,
+        "remote_management": true,
+        "shutdown_software": ["Liebert SiteScan", "Trellis"]
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true,
+        "cold_start": true,
+        "intelligent_battery_management": true,
+        "predictive_failure_analysis": true
+      },
+      "description": "Monolithic, transformer-free UPS with industry-leading footprint and power density. Optimized for AI and high-density computing.",
+      "key_features": [
+        "250kW to 1250kW",
+        "97.5% efficiency",
+        "Industry-leading footprint",
+        "Intelligent paralleling",
+        "Lithium-ion compatible",
+        "LIFE Services ready"
+      ],
+      "use_cases": ["Large data centers", "AI infrastructure", "Hyperscale"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-liebert-exl",
+      "vendor": { "name": "Vertiv (Liebert)", "slug": "vertiv-liebert" },
+      "name": "Liebert EXL",
+      "slug": "liebert-exl",
+      "model_number": "EXL-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 1200,
+        "capacity_kw": 1200,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [380, 400, 415, 480],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [380, 400, 415, 480]
+        },
+        "efficiency": {
+          "online_mode_percent": 96
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 6
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "Modbus"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "Proven large-scale UPS for critical facilities.",
+      "key_features": [
+        "625-1200 kVA",
+        "Transformer-based design",
+        "Robust protection"
+      ],
+      "use_cases": ["Data centers", "Industrial"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-liebert-apm",
+      "vendor": { "name": "Vertiv (Liebert)", "slug": "vertiv-liebert" },
+      "name": "Liebert APM",
+      "slug": "liebert-apm",
+      "model_number": "APM-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "modular-frame",
+      "specs": {
+        "capacity_kva": 90,
+        "capacity_kw": 90,
+        "power_factor": 1.0,
+        "scalable_to_kva": 90,
+        "input": {
+          "nominal_voltage_v": [208, 400, 480],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [208, 400, 480]
+        },
+        "efficiency": {
+          "online_mode_percent": 96
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "hot_swappable": true,
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4,
+        "n_plus_x_support": true,
+        "internal_redundancy": "15kW modules"
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "Row-based, transformerless modular UPS with FlexPower hardware assemblies.",
+      "key_features": [
+        "15-90kW",
+        "FlexPower modules",
+        "No additional floorspace",
+        "Quick capacity increases"
+      ],
+      "use_cases": ["Row-based protection", "Medium data centers"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-liebert-exs",
+      "vendor": { "name": "Vertiv (Liebert)", "slug": "vertiv-liebert" },
+      "name": "Liebert EXS",
+      "slug": "liebert-exs",
+      "model_number": "EXS-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 80,
+        "capacity_kw": 80,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [400],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [400]
+        },
+        "efficiency": {
+          "online_mode_percent": 96,
+          "eco_mode_percent": 99
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "Compact, efficient UPS for small to medium installations.",
+      "key_features": [
+        "15-80kVA",
+        "Compact footprint",
+        "Unity power factor"
+      ],
+      "use_cases": ["Small data centers", "Industrial", "Healthcare"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "vertiv-liebert-gxt5",
+      "vendor": { "name": "Vertiv (Liebert)", "slug": "vertiv-liebert" },
+      "name": "Liebert GXT5",
+      "slug": "liebert-gxt5",
+      "model_number": "GXT5-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "rack-tower-convertible",
+      "specs": {
+        "capacity_kva": 10,
+        "capacity_kw": 10,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [120, 208, 230],
+          "phases": "single-phase"
+        },
+        "output": {
+          "voltage_v": [120, 208, 230]
+        },
+        "efficiency": {
+          "online_mode_percent": 94
+        },
+        "battery": {
+          "type": "lithium-ion",
+          "hot_swappable": true,
+          "expected_life_years": 10
+        },
+        "dimensions": {
+          "rack_units": 6
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": false
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet", "usb"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true,
+        "shutdown_software": ["Liebert Nform"]
+      },
+      "features": {
+        "eco_mode": true,
+        "cold_start": true
+      },
+      "description": "Single-phase UPS with lithium-ion battery option for edge and IT closets.",
+      "key_features": [
+        "500VA to 10kVA",
+        "Lithium-ion option",
+        "Rack/tower convertible",
+        "Extended runtime options"
+      ],
+      "use_cases": ["Edge computing", "Network closets", "Retail"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-93pm-208v",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "93PM 208V",
+      "slug": "93pm-208v",
+      "model_number": "93PM-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "modular-frame",
+      "specs": {
+        "capacity_kva": 200,
+        "capacity_kw": 200,
+        "power_factor": 1.0,
+        "scalable_to_kva": 400,
+        "input": {
+          "voltage_range_v": { "min": 277, "max": 485 },
+          "nominal_voltage_v": [208, 480],
+          "phases": "three-phase",
+          "frequency_hz": [50, 60],
+          "power_factor_corrected": true,
+          "thd_percent": 3
+        },
+        "output": {
+          "voltage_v": [208, 480],
+          "voltage_regulation_percent": 1,
+          "waveform": "sine wave"
+        },
+        "efficiency": {
+          "online_mode_percent": 97.4,
+          "eco_mode_percent": 99
+        },
+        "battery": {
+          "type": "lithium-ion",
+          "hot_swappable": true,
+          "expected_life_years": 10,
+          "external_battery_compatible": true
+        },
+        "transfer_time_ms": 0,
+        "certifications": ["UL", "cUL", "CE", "IEC 62040-3"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 6,
+        "n_plus_x_support": true,
+        "internal_redundancy": "50kW power modules"
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet", "serial"],
+        "protocols": ["SNMP v3", "Modbus", "BACnet"],
+        "dcim_compatible": true,
+        "remote_management": true,
+        "shutdown_software": ["Intelligent Power Manager", "IPM"]
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true,
+        "cold_start": true,
+        "intelligent_battery_management": true,
+        "predictive_failure_analysis": true
+      },
+      "description": "Three-phase modular UPS combining efficiency, reliability, and scalability. Perfect for modern data centers with lithium-ion battery support.",
+      "key_features": [
+        "30kW to 400kW",
+        "97.4% efficiency",
+        "Lithium-ion compatible",
+        "Front-to-top or front-to-back ventilation",
+        "Hot-swappable modules",
+        "Integrated accessories"
+      ],
+      "use_cases": ["Data centers", "Industrial", "Healthcare"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-93pm-480v",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "93PM 480V",
+      "slug": "93pm-480v",
+      "model_number": "93PM-480-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "modular-frame",
+      "specs": {
+        "capacity_kva": 400,
+        "capacity_kw": 400,
+        "power_factor": 1.0,
+        "scalable_to_kva": 400,
+        "input": {
+          "nominal_voltage_v": [480],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [480]
+        },
+        "efficiency": {
+          "online_mode_percent": 97.4,
+          "eco_mode_percent": 99
+        },
+        "battery": {
+          "type": "lithium-ion",
+          "hot_swappable": true,
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 6,
+        "n_plus_x_support": true
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "Modbus"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "480V variant optimized for North American utility infrastructure.",
+      "key_features": [
+        "Up to 400kW",
+        "480V optimized",
+        "Same modular architecture as 208V"
+      ],
+      "use_cases": ["US data centers", "Industrial"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-9395p",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "9395P",
+      "slug": "9395p",
+      "model_number": "9395P-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 1100,
+        "capacity_kw": 1100,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [480],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [480]
+        },
+        "efficiency": {
+          "online_mode_percent": 97
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 8
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "High-capacity transformer-based UPS for large facilities.",
+      "key_features": [
+        "250kVA to 1100kVA",
+        "Transformer-based",
+        "Large facility design"
+      ],
+      "use_cases": ["Large data centers", "Industrial campuses"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-9pxm",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "9PXM",
+      "slug": "9pxm",
+      "model_number": "9PXM-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "rack-mount",
+      "specs": {
+        "capacity_kva": 16,
+        "capacity_kw": 16,
+        "power_factor": 1.0,
+        "scalable_to_kva": 16,
+        "input": {
+          "nominal_voltage_v": [208, 220, 230, 240],
+          "phases": "single-phase"
+        },
+        "output": {
+          "voltage_v": [208, 220, 230, 240]
+        },
+        "efficiency": {
+          "online_mode_percent": 95
+        },
+        "battery": {
+          "type": "lithium-ion",
+          "hot_swappable": true,
+          "expected_life_years": 8
+        },
+        "dimensions": {
+          "rack_units": 8
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 2
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet", "usb"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "cold_start": true
+      },
+      "description": "Scalable, modular rack UPS with hot-swappable components.",
+      "key_features": [
+        "4-16kVA scalable",
+        "Modular power & battery",
+        "Rack-optimized"
+      ],
+      "use_cases": ["Edge", "Network closets", "Small data rooms"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "eaton-9px",
+      "vendor": { "name": "Eaton", "slug": "eaton" },
+      "name": "9PX",
+      "slug": "9px",
+      "model_number": "9PX-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "rack-tower-convertible",
+      "specs": {
+        "capacity_kva": 11,
+        "capacity_kw": 10,
+        "power_factor": 0.9,
+        "input": {
+          "nominal_voltage_v": [120, 208, 230],
+          "phases": "single-phase"
+        },
+        "output": {
+          "voltage_v": [120, 208, 230]
+        },
+        "efficiency": {
+          "online_mode_percent": 94
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "hot_swappable": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": false
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet", "usb"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "cold_start": true
+      },
+      "description": "Versatile single-phase UPS for IT and network applications.",
+      "key_features": [
+        "700VA to 11kVA",
+        "Rack/tower convertible",
+        "Energy Star qualified"
+      ],
+      "use_cases": ["Edge", "Retail", "SMB"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "delta-dpm-gen2",
+      "vendor": { "name": "Delta Electronics", "slug": "delta" },
+      "name": "Ultron DPM Gen2",
+      "slug": "dpm-gen2",
+      "model_number": "DPM-Gen2-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "modular-frame",
+      "specs": {
+        "capacity_kva": 2100,
+        "capacity_kw": 2100,
+        "power_factor": 1.0,
+        "scalable_to_kva": 2100,
+        "input": {
+          "nominal_voltage_v": [380, 400, 415, 480],
+          "phases": "three-phase",
+          "frequency_hz": [50, 60],
+          "power_factor_corrected": true,
+          "thd_percent": 3
+        },
+        "output": {
+          "voltage_v": [380, 400, 415, 480],
+          "waveform": "sine wave"
+        },
+        "efficiency": {
+          "online_mode_percent": 97.4,
+          "eco_mode_percent": 99
+        },
+        "battery": {
+          "type": "lithium-ion",
+          "hot_swappable": true,
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 8,
+        "n_plus_x_support": true,
+        "internal_redundancy": "N+1 modules"
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "Modbus"],
+        "dcim_compatible": true,
+        "remote_management": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true,
+        "cold_start": true
+      },
+      "description": "High-capacity modular UPS for hyperscale and large data center applications. Industry-leading 2.1MW single-frame capacity.",
+      "key_features": [
+        "300kW to 2100kW",
+        "97.4% efficiency",
+        "Modular 300kW frames",
+        "Lithium-ion ready",
+        "Hot-swappable modules"
+      ],
+      "use_cases": ["Hyperscale", "Large data centers", "Industrial"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "delta-hph-gen2",
+      "vendor": { "name": "Delta Electronics", "slug": "delta" },
+      "name": "Ultron HPH Gen2",
+      "slug": "hph-gen2",
+      "model_number": "HPH-Gen2-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 40,
+        "capacity_kw": 40,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [208, 380, 400, 415],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [208, 380, 400, 415]
+        },
+        "efficiency": {
+          "online_mode_percent": 96.5
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "hot_swappable": true,
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "Compact three-phase UPS for small data centers with excellent efficiency.",
+      "key_features": [
+        "20-40kVA",
+        "96.5% efficiency",
+        "Compact design",
+        "Three-level IGBT topology"
+      ],
+      "use_cases": ["Small data centers", "Medical", "Industrial"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "delta-hph",
+      "vendor": { "name": "Delta Electronics", "slug": "delta" },
+      "name": "Ultron HPH",
+      "slug": "hph",
+      "model_number": "HPH-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 200,
+        "capacity_kw": 200,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [380, 400, 415, 480],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [380, 400, 415, 480]
+        },
+        "efficiency": {
+          "online_mode_percent": 96
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "Medium to large capacity UPS for data centers and critical facilities.",
+      "key_features": [
+        "60-200kVA",
+        "Transformerless design",
+        "Parallel capable"
+      ],
+      "use_cases": ["Data centers", "Industrial", "Commercial"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "delta-nt",
+      "vendor": { "name": "Delta Electronics", "slug": "delta" },
+      "name": "Ultron NT",
+      "slug": "nt",
+      "model_number": "NT-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 500,
+        "capacity_kw": 500,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [380, 400, 415],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [380, 400, 415]
+        },
+        "efficiency": {
+          "online_mode_percent": 96
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "external_battery_compatible": true
+        },
+        "certifications": ["CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 6
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "High-capacity monolithic UPS for large installations.",
+      "key_features": [
+        "20-500kVA",
+        "Single cabinet design",
+        "High fault clearing"
+      ],
+      "use_cases": ["Large data centers", "Industrial plants"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "delta-dph-modular",
+      "vendor": { "name": "Delta Electronics", "slug": "delta" },
+      "name": "Modulon DPH",
+      "slug": "dph-modular",
+      "model_number": "DPH-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "modular-frame",
+      "specs": {
+        "capacity_kva": 200,
+        "capacity_kw": 200,
+        "power_factor": 1.0,
+        "scalable_to_kva": 200,
+        "input": {
+          "nominal_voltage_v": [208, 400],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [208, 400]
+        },
+        "efficiency": {
+          "online_mode_percent": 96
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "hot_swappable": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4,
+        "n_plus_x_support": true,
+        "internal_redundancy": "25kW modules"
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static"
+      },
+      "description": "Modular UPS with pay-as-you-grow scalability.",
+      "key_features": [
+        "25kW modules",
+        "Up to 200kW",
+        "Hot-swappable",
+        "N+1 redundancy"
+      ],
+      "use_cases": ["Growing data centers", "Colocation"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "abb-powerprotect-plus",
+      "vendor": { "name": "ABB", "slug": "abb" },
+      "name": "PowerProtect Plus",
+      "slug": "powerprotect-plus",
+      "model_number": "PPP-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "modular-frame",
+      "specs": {
+        "capacity_kva": 500,
+        "capacity_kw": 500,
+        "power_factor": 1.0,
+        "scalable_to_kva": 3000,
+        "input": {
+          "nominal_voltage_v": [380, 400, 415, 480],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [380, 400, 415, 480]
+        },
+        "efficiency": {
+          "online_mode_percent": 97,
+          "eco_mode_percent": 99
+        },
+        "battery": {
+          "type": "lithium-ion",
+          "hot_swappable": true,
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 6,
+        "n_plus_x_support": true
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "Modbus", "BACnet"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true,
+        "intelligent_battery_management": true
+      },
+      "description": "Modular UPS for medium to large data centers with superior efficiency.",
+      "key_features": [
+        "100-500kW per frame",
+        "Parallel to 3MW",
+        "97% efficiency",
+        "Lithium-ion support"
+      ],
+      "use_cases": ["Data centers", "Industrial", "Healthcare"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "abb-megaflex-dpa",
+      "vendor": { "name": "ABB", "slug": "abb" },
+      "name": "MegaFlex DPA",
+      "slug": "megaflex-dpa",
+      "model_number": "MF-DPA-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "modular-frame",
+      "specs": {
+        "capacity_kva": 1500,
+        "capacity_kw": 1500,
+        "power_factor": 1.0,
+        "scalable_to_kva": 3000,
+        "input": {
+          "nominal_voltage_v": [380, 400, 415, 480],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [380, 400, 415, 480]
+        },
+        "efficiency": {
+          "online_mode_percent": 96
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "external_battery_compatible": true
+        },
+        "certifications": ["CE", "IEC"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4,
+        "n_plus_x_support": true
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "High-capacity modular UPS with Decentralized Parallel Architecture.",
+      "key_features": [
+        "500-1500kVA per frame",
+        "DPA architecture",
+        "Parallel to 3MW"
+      ],
+      "use_cases": ["Large data centers", "Hyperscale"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "abb-powervalue-11rt",
+      "vendor": { "name": "ABB", "slug": "abb" },
+      "name": "PowerValue 11 RT G2",
+      "slug": "powervalue-11rt",
+      "model_number": "PV11RT-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "rack-tower-convertible",
+      "specs": {
+        "capacity_kva": 10,
+        "capacity_kw": 9,
+        "power_factor": 0.9,
+        "input": {
+          "nominal_voltage_v": [120, 208, 230],
+          "phases": "single-phase"
+        },
+        "output": {
+          "voltage_v": [120, 208, 230]
+        },
+        "efficiency": {
+          "online_mode_percent": 93
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "hot_swappable": true
+        },
+        "dimensions": {
+          "rack_units": 6
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": false
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet", "usb"],
+        "protocols": ["SNMP v2c"],
+        "dcim_compatible": false
+      },
+      "features": {
+        "eco_mode": false,
+        "cold_start": true
+      },
+      "description": "Entry-level rack/tower UPS for IT and server protection.",
+      "key_features": [
+        "1-10kVA",
+        "Rack/tower convertible",
+        "Extended runtime options"
+      ],
+      "use_cases": ["Small IT", "Network closets", "SMB"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "mitsubishi-9900b",
+      "vendor": { "name": "Mitsubishi Electric", "slug": "mitsubishi" },
+      "name": "9900B",
+      "slug": "9900b",
+      "model_number": "9900B-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 1500,
+        "capacity_kw": 1500,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [480],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [480]
+        },
+        "efficiency": {
+          "online_mode_percent": 97
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 8
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "Modbus"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "High-reliability transformer-based UPS with Mitsubishi quality.",
+      "key_features": [
+        "750-1500kVA",
+        "Transformer-based",
+        "Parallel redundancy",
+        "High fault clearing"
+      ],
+      "use_cases": ["Critical facilities", "Large data centers"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "mitsubishi-9900a",
+      "vendor": { "name": "Mitsubishi Electric", "slug": "mitsubishi" },
+      "name": "9900A",
+      "slug": "9900a",
+      "model_number": "9900A-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 500,
+        "capacity_kw": 500,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [480],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [480]
+        },
+        "efficiency": {
+          "online_mode_percent": 96
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "Medium-capacity transformer-based UPS.",
+      "key_features": [
+        "225-500kVA",
+        "Proven reliability",
+        "Parallel capable"
+      ],
+      "use_cases": ["Data centers", "Industrial"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "mitsubishi-diamond-hp",
+      "vendor": { "name": "Mitsubishi Electric", "slug": "mitsubishi" },
+      "name": "Diamond HP",
+      "slug": "diamond-hp",
+      "model_number": "DHP-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 150,
+        "capacity_kw": 150,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [480],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [480]
+        },
+        "efficiency": {
+          "online_mode_percent": 95
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "Compact, efficient UPS for medium installations.",
+      "key_features": [
+        "50-150kVA",
+        "Compact footprint",
+        "Transformerless design"
+      ],
+      "use_cases": ["Small data centers", "Commercial"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "riello-master-mps",
+      "vendor": { "name": "Riello UPS", "slug": "riello" },
+      "name": "Master MPS",
+      "slug": "master-mps",
+      "model_number": "MPS-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 800,
+        "capacity_kw": 800,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [380, 400, 415],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [380, 400, 415]
+        },
+        "efficiency": {
+          "online_mode_percent": 96,
+          "eco_mode_percent": 99
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "external_battery_compatible": true
+        },
+        "certifications": ["CE", "IEC"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 6
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3", "Modbus"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "High-capacity UPS with European engineering quality.",
+      "key_features": [
+        "100-800kVA",
+        "Transformerless",
+        "European quality"
+      ],
+      "use_cases": ["Data centers", "Industrial", "Healthcare"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "riello-multi-power",
+      "vendor": { "name": "Riello UPS", "slug": "riello" },
+      "name": "Multi Power",
+      "slug": "multi-power",
+      "model_number": "MP-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "modular-frame",
+      "specs": {
+        "capacity_kva": 210,
+        "capacity_kw": 210,
+        "power_factor": 1.0,
+        "scalable_to_kva": 840,
+        "input": {
+          "nominal_voltage_v": [380, 400, 415],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [380, 400, 415]
+        },
+        "efficiency": {
+          "online_mode_percent": 96.5
+        },
+        "battery": {
+          "type": "lithium-ion",
+          "hot_swappable": true,
+          "external_battery_compatible": true
+        },
+        "certifications": ["CE", "IEC"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4,
+        "n_plus_x_support": true,
+        "internal_redundancy": "42kW modules"
+      },
+      "monitoring": {
+        "display_type": "touchscreen",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static"
+      },
+      "description": "Modular UPS system with 42kW hot-swappable modules.",
+      "key_features": [
+        "42kW modules",
+        "Up to 840kW",
+        "Lithium-ion ready",
+        "N+X redundancy"
+      ],
+      "use_cases": ["Growing data centers", "Colocation"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "riello-sentryum",
+      "vendor": { "name": "Riello UPS", "slug": "riello" },
+      "name": "Sentryum",
+      "slug": "sentryum",
+      "model_number": "SEN-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 120,
+        "capacity_kw": 120,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [380, 400, 415],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [380, 400, 415]
+        },
+        "efficiency": {
+          "online_mode_percent": 96
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "external_battery_compatible": true
+        },
+        "certifications": ["CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true
+      },
+      "description": "Compact three-phase UPS for small and medium facilities.",
+      "key_features": [
+        "10-120kVA",
+        "Compact footprint",
+        "High efficiency"
+      ],
+      "use_cases": ["SMB", "Light industrial", "Commercial"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "cyberpower-hstp3t",
+      "vendor": { "name": "CyberPower", "slug": "cyberpower" },
+      "name": "HSTP3T Online UPS",
+      "slug": "hstp3t",
+      "model_number": "HSTP3T-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "tower",
+      "specs": {
+        "capacity_kva": 200,
+        "capacity_kw": 200,
+        "power_factor": 1.0,
+        "input": {
+          "nominal_voltage_v": [208, 220, 380, 400, 415],
+          "phases": "three-phase"
+        },
+        "output": {
+          "voltage_v": [208, 220, 380, 400, 415]
+        },
+        "efficiency": {
+          "online_mode_percent": 96,
+          "eco_mode_percent": 99
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "external_battery_compatible": true
+        },
+        "certifications": ["UL", "cUL", "CE"]
+      },
+      "redundancy": {
+        "parallel_capable": true,
+        "max_parallel_units": 4
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet", "serial"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": true,
+        "shutdown_software": ["PowerPanel Business"]
+      },
+      "features": {
+        "eco_mode": true,
+        "bypass": "internal-static",
+        "generator_compatible": true,
+        "cold_start": true
+      },
+      "description": "Three-phase online UPS with competitive pricing for growing businesses.",
+      "key_features": [
+        "30-200kVA",
+        "96% efficiency",
+        "ECO mode",
+        "Competitive pricing"
+      ],
+      "use_cases": ["Mid-market", "Industrial", "Commercial"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "cyberpower-ol-series",
+      "vendor": { "name": "CyberPower", "slug": "cyberpower" },
+      "name": "Smart App Online",
+      "slug": "ol-series",
+      "model_number": "OL-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "online-double-conversion",
+      "form_factor": "rack-tower-convertible",
+      "specs": {
+        "capacity_kva": 10,
+        "capacity_kw": 9,
+        "power_factor": 0.9,
+        "input": {
+          "nominal_voltage_v": [120, 208, 230],
+          "phases": "single-phase"
+        },
+        "output": {
+          "voltage_v": [120, 208, 230]
+        },
+        "efficiency": {
+          "online_mode_percent": 91
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "hot_swappable": true
+        },
+        "dimensions": {
+          "rack_units": 6
+        },
+        "certifications": ["UL", "cUL", "FCC"]
+      },
+      "redundancy": {
+        "parallel_capable": false
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["ethernet", "usb"],
+        "protocols": ["SNMP v3"],
+        "dcim_compatible": false,
+        "shutdown_software": ["PowerPanel Business"]
+      },
+      "features": {
+        "eco_mode": false,
+        "cold_start": true
+      },
+      "description": "Rack/tower UPS for servers and network equipment at budget-friendly price.",
+      "key_features": [
+        "2-10kVA",
+        "GreenPower UPS design",
+        "USB/Serial communication",
+        "Budget-friendly"
+      ],
+      "use_cases": ["SMB", "Network closets", "Retail IT"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    },
+    {
+      "id": "cyberpower-pr-series",
+      "vendor": { "name": "CyberPower", "slug": "cyberpower" },
+      "name": "Smart App Sinewave",
+      "slug": "pr-series",
+      "model_number": "PR-Series",
+      "category": "power",
+      "subcategory": "ups",
+      "topology": "line-interactive",
+      "form_factor": "rack-tower-convertible",
+      "specs": {
+        "capacity_kva": 3,
+        "capacity_kw": 2.7,
+        "power_factor": 0.9,
+        "input": {
+          "nominal_voltage_v": [120],
+          "phases": "single-phase"
+        },
+        "output": {
+          "voltage_v": [120],
+          "waveform": "sine wave"
+        },
+        "efficiency": {
+          "online_mode_percent": 89
+        },
+        "battery": {
+          "type": "vrla-agm",
+          "hot_swappable": true
+        },
+        "transfer_time_ms": 4,
+        "dimensions": {
+          "rack_units": 2
+        },
+        "certifications": ["UL", "cUL", "FCC"]
+      },
+      "redundancy": {
+        "parallel_capable": false
+      },
+      "monitoring": {
+        "display_type": "lcd",
+        "network_interface": ["usb"],
+        "protocols": [],
+        "dcim_compatible": false
+      },
+      "features": {
+        "cold_start": true
+      },
+      "description": "Line-interactive UPS with pure sine wave output for sensitive equipment.",
+      "key_features": [
+        "750VA-3kVA",
+        "Pure sine wave",
+        "4ms transfer time",
+        "Budget-friendly"
+      ],
+      "use_cases": ["SMB", "Home office", "Retail"],
+      "last_updated": "2026-02-05",
+      "data_source": "manual"
+    }
+  ]
+}

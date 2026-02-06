@@ -1,0 +1,5165 @@
+{
+  "category": "liquid-cooling",
+  "vendor_count": 45,
+  "product_count": 200,
+  "last_updated": "2026-02-05",
+  "vendors": [
+    {
+      "name": "CoolIT Systems",
+      "slug": "coolit",
+      "website": "https://www.coolitsystems.com",
+      "headquarters": "Calgary, Canada",
+      "founded": 2001,
+      "description": "Pioneer in direct liquid cooling (DLC) with 24+ years experience. Multi-gigawatt production capability."
+    },
+    {
+      "name": "Accelsius",
+      "slug": "accelsius",
+      "website": "https://www.accelsius.com",
+      "headquarters": "Austin, TX, USA",
+      "founded": 2021,
+      "description": "Two-phase liquid cooling specialist for AI/HPC workloads."
+    },
+    {
+      "name": "GRC (Green Revolution Cooling)",
+      "slug": "grc",
+      "website": "https://www.grcooling.com",
+      "headquarters": "Austin, TX, USA",
+      "founded": 2009,
+      "description": "Pioneer of single-phase immersion cooling. Deployed in 13+ countries."
+    },
+    {
+      "name": "Submer",
+      "slug": "submer",
+      "website": "https://submer.com",
+      "headquarters": "Barcelona, Spain",
+      "founded": 2015,
+      "description": "Immersion cooling pods and solutions. 300+ MW deployed globally."
+    },
+    {
+      "name": "ZutaCore",
+      "slug": "zutacore",
+      "website": "https://zutacore.com",
+      "headquarters": "Israel",
+      "founded": 2017,
+      "description": "Two-phase direct-to-chip evaporative cooling. Claims 82% energy reduction."
+    },
+    {
+      "name": "Asetek",
+      "slug": "asetek",
+      "website": "https://www.asetek.com",
+      "headquarters": "Aalborg, Denmark",
+      "founded": 2000,
+      "description": "Direct-to-chip liquid cooling pioneer. Ingredient cooler technology for CPUs/GPUs."
+    },
+    {
+      "name": "Schneider Electric (Motivair)",
+      "slug": "schneider-motivair",
+      "website": "https://www.se.com",
+      "headquarters": "France",
+      "founded": 1836,
+      "description": "Acquired Motivair for liquid cooling. Full-stack DC infrastructure provider."
+    },
+    {
+      "name": "Vertiv",
+      "slug": "vertiv",
+      "website": "https://www.vertiv.com",
+      "headquarters": "Columbus, OH, USA",
+      "founded": 2016,
+      "description": "Critical digital infrastructure solutions including thermal management."
+    },
+    {
+      "name": "Iceotope",
+      "slug": "iceotope",
+      "website": "https://www.iceotope.com",
+      "headquarters": "Sheffield, UK",
+      "founded": 2012,
+      "description": "Precision liquid cooling using chassis-level immersion technology."
+    },
+    {
+      "name": "LiquidCool Solutions",
+      "slug": "liquidcool",
+      "website": "https://www.liquidcoolsolutions.com",
+      "headquarters": "Rochester, MN, USA",
+      "founded": 2007,
+      "description": "Total-submersion liquid cooling for servers."
+    },
+    {
+      "name": "JetCool Technologies",
+      "slug": "jetcool",
+      "website": "https://www.jetcool.com",
+      "headquarters": "Littleton, MA, USA",
+      "founded": 2017,
+      "description": "Microconvective cooling technology with Flex partnership for global manufacturing."
+    },
+    {
+      "name": "Boyd Corporation",
+      "slug": "boyd",
+      "website": "https://www.boydcorp.com",
+      "headquarters": "Pleasanton, CA, USA",
+      "founded": 1928,
+      "description": "Delivered 5M+ liquid cold plates to hyperscalers. High-volume manufacturing."
+    },
+    {
+      "name": "nVent",
+      "slug": "nvent",
+      "website": "https://www.nvent.com",
+      "headquarters": "London, UK",
+      "founded": 2018,
+      "description": "Enclosure and thermal management solutions including RDHx and CDUs."
+    },
+    {
+      "name": "Rittal",
+      "slug": "rittal",
+      "website": "https://www.rittal.com",
+      "headquarters": "Herborn, Germany",
+      "founded": 1961,
+      "description": "Enclosures, power distribution, and climate control solutions."
+    },
+    {
+      "name": "Asperitas",
+      "slug": "asperitas",
+      "website": "https://www.asperitas.com",
+      "headquarters": "Amsterdam, Netherlands",
+      "founded": 2014,
+      "description": "Immersion cooling with natural convection. No pumps required in IT loop."
+    },
+    {
+      "name": "LiquidStack",
+      "slug": "liquidstack",
+      "website": "https://liquidstack.com",
+      "headquarters": "USA",
+      "founded": 2018,
+      "description": "Single and two-phase immersion cooling. Up to 252kW per tank."
+    },
+    {
+      "name": "Midas Immersion Cooling",
+      "slug": "midas",
+      "website": "https://midasimmersion.com",
+      "headquarters": "USA",
+      "founded": 2018,
+      "description": "Over 0.5 GW installed capacity. Plug-and-play immersion systems."
+    },
+    {
+      "name": "DUG Technology",
+      "slug": "dug",
+      "website": "https://dug.com",
+      "headquarters": "Perth, Australia",
+      "founded": 2003,
+      "description": "Operates some of the largest immersion-cooled facilities in the world."
+    },
+    {
+      "name": "Fujitsu",
+      "slug": "fujitsu",
+      "website": "https://www.fujitsu.com",
+      "headquarters": "Tokyo, Japan",
+      "founded": 1935,
+      "description": "Liquid immersion cooling for PRIMERGY servers. 40% power savings."
+    },
+    {
+      "name": "Chilldyne",
+      "slug": "chilldyne",
+      "website": "https://chilldyne.com",
+      "headquarters": "San Jose, CA, USA",
+      "founded": 2012,
+      "description": "Leak-proof direct-to-chip liquid cooling with negative pressure system."
+    },
+    {
+      "name": "Delta Electronics",
+      "slug": "delta",
+      "website": "https://www.deltapowersolutions.com",
+      "headquarters": "Taiwan",
+      "founded": 1971,
+      "description": "Up to 40% energy savings with CDUs. GoCool product line."
+    },
+    {
+      "name": "Lenovo",
+      "slug": "lenovo",
+      "website": "https://www.lenovo.com",
+      "headquarters": "Beijing, China",
+      "founded": 1984,
+      "description": "Neptune direct water-cooling platform. 95%+ heat capture."
+    },
+    {
+      "name": "HPE (Hewlett Packard Enterprise)",
+      "slug": "hpe",
+      "website": "https://www.hpe.com",
+      "headquarters": "Houston, TX, USA",
+      "founded": 2015,
+      "description": "Apollo Direct Liquid Cooling System for HPC and AI."
+    },
+    {
+      "name": "Stulz",
+      "slug": "stulz",
+      "website": "https://www.stulz.com",
+      "headquarters": "Hamburg, Germany",
+      "founded": 1947,
+      "description": "CyberCool CMU coolant management and distribution unit."
+    },
+    {
+      "name": "TMGcore",
+      "slug": "tmgcore",
+      "website": "https://tmgcore.com",
+      "headquarters": "Plano, TX, USA",
+      "founded": 2017,
+      "description": "OTTO platform with robot-managed immersion data centers."
+    },
+    {
+      "name": "DCX Liquid Cooling",
+      "slug": "dcx",
+      "website": "https://dcx.eu",
+      "headquarters": "Poland",
+      "founded": 2015,
+      "description": "Server immersion enclosures, CDUs, cold plates, and manifolds."
+    },
+    {
+      "name": "Nortek Data Center Cooling",
+      "slug": "nortek",
+      "website": "https://www.nortekdatacenter.com",
+      "headquarters": "USA",
+      "founded": 1987,
+      "description": "CDUs and precision air conditioning for data centers."
+    },
+    {
+      "name": "Trane",
+      "slug": "trane",
+      "website": "https://www.trane.com",
+      "headquarters": "Ireland",
+      "founded": 1885,
+      "description": "Next-gen CDU with up to 10MW cooling capacity."
+    },
+    {
+      "name": "ColdLogik (USystems)",
+      "slug": "coldlogik",
+      "website": "https://www.coldlogik.com",
+      "headquarters": "UK",
+      "founded": 2011,
+      "description": "Rear door heat exchangers with EER over 100. Year-round free cooling."
+    },
+    {
+      "name": "CoolCentric",
+      "slug": "coolcentric",
+      "website": "https://coolcentric.com",
+      "headquarters": "USA",
+      "founded": 2010,
+      "description": "Passive and active liquid cooled rear door heat exchangers."
+    },
+    {
+      "name": "Supermicro",
+      "slug": "supermicro",
+      "website": "https://www.supermicro.com",
+      "headquarters": "San Jose, CA, USA",
+      "founded": 1993,
+      "description": "Rack-scale liquid cooling solutions with cold plates and CDMs."
+    },
+    {
+      "name": "Gigabyte",
+      "slug": "gigabyte",
+      "website": "https://www.gigabyte.com",
+      "headquarters": "Taiwan",
+      "founded": 1986,
+      "description": "DLC solutions with CoolIT and LiquidStack partnerships."
+    },
+    {
+      "name": "ACT (Advanced Cooling Technologies)",
+      "slug": "act",
+      "website": "https://www.1-act.com",
+      "headquarters": "Lancaster, PA, USA",
+      "founded": 2003,
+      "description": "End-of-row and in-rack CDUs for data centers."
+    },
+    {
+      "name": "Nidec",
+      "slug": "nidec",
+      "website": "https://www.nidec.com",
+      "headquarters": "Kyoto, Japan",
+      "founded": 1973,
+      "description": "CDUs for high thermal load processing. Partners with Fujitsu."
+    },
+    {
+      "name": "Triton Thermal",
+      "slug": "triton",
+      "website": "https://tritonthermal.com",
+      "headquarters": "USA",
+      "founded": 2015,
+      "description": "RDHx solutions reducing PUE by 30-50%. Up to 50kW per rack."
+    },
+    {
+      "name": "Allied Control (Bitfury)",
+      "slug": "allied-control",
+      "website": "https://bitfury.com",
+      "headquarters": "Hong Kong",
+      "founded": 2011,
+      "description": "World's largest 40MW immersion DC. 252kW per rack, 3M Novec fluids."
+    },
+    {
+      "name": "Wiwynn",
+      "slug": "wiwynn",
+      "website": "https://www.wiwynn.com",
+      "headquarters": "Taiwan",
+      "founded": 2012,
+      "description": "Cloud IT infrastructure with ZutaCore partnership. 90%+ heat dissipation."
+    },
+    {
+      "name": "Inspur",
+      "slug": "inspur",
+      "website": "https://www.inspur.com",
+      "headquarters": "Jinan, China",
+      "founded": 1945,
+      "description": "100+ liquid cooling patents. PUE below 1.1. Cold plate and immersion."
+    },
+    {
+      "name": "Airedale (Modine)",
+      "slug": "airedale",
+      "website": "https://www.airedale.com",
+      "headquarters": "Leeds, UK",
+      "founded": 1974,
+      "description": "400kW-2MW+ CDUs. TurboChill DCS for direct liquid cooling."
+    },
+    {
+      "name": "Penguin Solutions",
+      "slug": "penguin",
+      "website": "https://www.penguinsolutions.com",
+      "headquarters": "USA",
+      "founded": 1998,
+      "description": "HPC infrastructure with Shell partnership for immersion cooling."
+    },
+    {
+      "name": "EKWB",
+      "slug": "ekwb",
+      "website": "https://www.ekwb.com",
+      "headquarters": "Slovenia",
+      "founded": 2003,
+      "description": "Enterprise liquid cooling expanding from enthusiast market."
+    },
+    {
+      "name": "Aqua Computer",
+      "slug": "aqua-computer",
+      "website": "https://aquacomputer.de",
+      "headquarters": "Germany",
+      "founded": 1999,
+      "description": "High-performance liquid cooling components."
+    },
+    {
+      "name": "Aspen Systems",
+      "slug": "aspen-systems",
+      "website": "https://www.aspensystems.com",
+      "headquarters": "USA",
+      "founded": 1980,
+      "description": "Custom thermal solutions and heat exchangers."
+    },
+    {
+      "name": "Cooler Master",
+      "slug": "coolermaster",
+      "website": "https://www.coolermaster.com",
+      "headquarters": "Taiwan",
+      "founded": 1992,
+      "description": "Expanding into data center liquid cooling."
+    },
+    {
+      "name": "3M",
+      "slug": "3m",
+      "website": "https://www.3m.com",
+      "headquarters": "Minnesota, USA",
+      "founded": 1902,
+      "description": "Novec and Fluorinert dielectric cooling fluids."
+    }
+  ],
+  "products": [
+    {
+      "id": "coolit-chx1500",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "CHx1500 CDU",
+      "slug": "chx1500",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Highest-performing liquid-to-liquid CDU. Supports 9x NVIDIA GB200 NVL72 racks.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 1500
+        },
+        "flow_rate_lpm_per_kw": 1.2,
+        "approach_temp_diff_c": 5,
+        "cooling_density_kw_m2": 1516,
+        "secondary_pressure_psi": {
+          "max": 44
+        }
+      },
+      "key_features": [
+        "1500 kW peak cooling",
+        "Hot-swappable components",
+        "Redfish/SNMP/Modbus support"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-chx750",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "CHx750 CDU",
+      "slug": "chx750",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Mid-range liquid-to-liquid CDU for AI/HPC.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 750
+        }
+      },
+      "key_features": [
+        "750 kW capacity",
+        "Compact form factor"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-chx350",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "CHx350 CDU",
+      "slug": "chx350",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Entry-level row CDU for moderate density.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 350
+        }
+      },
+      "key_features": [
+        "350 kW capacity",
+        "Easy deployment"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-rack-cdu",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "Rack CDU",
+      "slug": "rack-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "In-rack coolant distribution for single rack deployments.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "100 kW per rack",
+        "Self-contained"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-cold-plate-4000w",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "4000W Cold Plate",
+      "slug": "cold-plate-4000w",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Next-gen cold plate for 4000W processors.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 4
+        }
+      },
+      "key_features": [
+        "4000W per chip",
+        "Future-proof design"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-cpu-cold-plate",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "CPU Cold Plate",
+      "slug": "cpu-cold-plate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Standard CPU cold plate for Intel/AMD processors.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 0.4
+        }
+      },
+      "compatibility": {
+        "cpu_sockets": [
+          "Intel Xeon",
+          "AMD EPYC"
+        ]
+      },
+      "key_features": [
+        "Universal CPU support",
+        "Low thermal resistance"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-gpu-cold-plate",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "GPU Cold Plate",
+      "slug": "gpu-cold-plate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "GPU cold plate for NVIDIA and AMD accelerators.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 0.7
+        }
+      },
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA H100",
+          "NVIDIA A100",
+          "AMD MI300"
+        ]
+      },
+      "key_features": [
+        "High-power GPU support",
+        "Optimized flow paths"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "accelsius-neucool-coldplate",
+      "vendor": {
+        "name": "Accelsius",
+        "slug": "accelsius"
+      },
+      "name": "NeuCool Cold Plate",
+      "slug": "neucool-coldplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "two-phase",
+      "form_factor": "cold-plate",
+      "description": "Industry record 4,500W per chip two-phase cooling.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 4.5
+        },
+        "inlet_temp_c": {
+          "max": 40
+        }
+      },
+      "key_features": [
+        "4,500W industry record",
+        "Works with 40\u00b0C water",
+        "25%+ energy savings"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "accelsius-neucool-cdu",
+      "vendor": {
+        "name": "Accelsius",
+        "slug": "accelsius"
+      },
+      "name": "NeuCool In-Row CDU",
+      "slug": "neucool-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "two-phase",
+      "form_factor": "in-row",
+      "description": "Two-phase CDU for 250kW racks with warm water.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "typical": 250
+        },
+        "flow_rate_lpm": 375,
+        "inlet_temp_c": {
+          "max": 40
+        }
+      },
+      "key_features": [
+        "250 kW per rack",
+        "Warm water capable",
+        "Two-phase efficiency"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "grc-icetank",
+      "vendor": {
+        "name": "GRC (Green Revolution Cooling)",
+        "slug": "grc"
+      },
+      "name": "ICEtank Modular Data Center",
+      "slug": "icetank",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "modular",
+      "description": "Immersion-cooled modular DC. 41% energy savings.",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "min": 25,
+          "max": 100
+        },
+        "energy_savings_percent": 41
+      },
+      "pricing": {
+        "model": "capex",
+        "notes": "$1-3 per watt"
+      },
+      "key_features": [
+        "41% energy savings",
+        "Environmental resilience",
+        "No fans required"
+      ],
+      "notable_deployments": [
+        "US Air Force"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "grc-iceraq",
+      "vendor": {
+        "name": "GRC (Green Revolution Cooling)",
+        "slug": "grc"
+      },
+      "name": "ICEraQ Series",
+      "slug": "iceraq",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "rack-mount",
+      "description": "Rack-based immersion cooling. Up to 200kW/rack.",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 200
+        },
+        "pue_claimed": 1.03
+      },
+      "key_features": [
+        "200 kW per rack",
+        "PUE 1.03",
+        "Standard 42U form"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "grc-iceraq-mini",
+      "vendor": {
+        "name": "GRC (Green Revolution Cooling)",
+        "slug": "grc"
+      },
+      "name": "ICEraQ Mini",
+      "slug": "iceraq-mini",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "rack-mount",
+      "description": "Compact immersion tank for edge deployments.",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 50
+        }
+      },
+      "key_features": [
+        "Edge-ready",
+        "Compact footprint"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "submer-smartpod-evo",
+      "vendor": {
+        "name": "Submer",
+        "slug": "submer"
+      },
+      "name": "SmartPod EVO",
+      "slug": "smartpod-evo",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "pod",
+      "description": "Modular immersion pod. Sub-1.1 PUE.",
+      "specs": {
+        "pue_claimed": 1.03,
+        "power_density_kw_per_rack": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "Sub-1.1 PUE",
+        "300+ MW deployed",
+        "No water consumption"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "submer-smartpod-exo",
+      "vendor": {
+        "name": "Submer",
+        "slug": "submer"
+      },
+      "name": "SmartPod EXO",
+      "slug": "smartpod-exo",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "pod",
+      "description": "High-density pod for edge and HPC.",
+      "specs": {
+        "pue_claimed": 1.05
+      },
+      "key_features": [
+        "Edge-ready",
+        "HPC optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "submer-microdc",
+      "vendor": {
+        "name": "Submer",
+        "slug": "submer"
+      },
+      "name": "MicroDC",
+      "slug": "microdc",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "pod",
+      "description": "Ultra-compact immersion solution for edge.",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 30
+        }
+      },
+      "key_features": [
+        "Micro footprint",
+        "Edge deployment"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "zutacore-hypercool",
+      "vendor": {
+        "name": "ZutaCore",
+        "slug": "zutacore"
+      },
+      "name": "HyperCool",
+      "slug": "hypercool",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "two-phase",
+      "form_factor": "cold-plate",
+      "description": "Two-phase evaporative direct-on-chip. 82% energy reduction.",
+      "specs": {
+        "energy_savings_percent": 82,
+        "power_density_kw_per_rack": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "82% cooling energy reduction",
+        "Waterless at rack",
+        "10x compute density"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "zutacore-hypercool-hx",
+      "vendor": {
+        "name": "ZutaCore",
+        "slug": "zutacore"
+      },
+      "name": "HyperCool HX",
+      "slug": "hypercool-hx",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "two-phase",
+      "form_factor": "in-row",
+      "description": "Heat exchanger unit for HyperCool system.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 200
+        }
+      },
+      "key_features": [
+        "200 kW capacity",
+        "Two-phase compatible"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "asetek-d2c-ingredient",
+      "vendor": {
+        "name": "Asetek",
+        "slug": "asetek"
+      },
+      "name": "D2C Ingredient Cooler",
+      "slug": "d2c-ingredient",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Integrated pump and cold plate. 60-80% heat capture.",
+      "specs": {
+        "heat_capture_percent": {
+          "min": 60,
+          "max": 80
+        }
+      },
+      "compatibility": {
+        "cpu_sockets": [
+          "Intel Xeon",
+          "AMD EPYC"
+        ]
+      },
+      "key_features": [
+        "Integrated pump",
+        "60-80% heat capture"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "asetek-inrackcdu",
+      "vendor": {
+        "name": "Asetek",
+        "slug": "asetek"
+      },
+      "name": "InRackCDU",
+      "slug": "inrackcdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Rack-mountable CDU for D2C loops.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 80
+        }
+      },
+      "key_features": [
+        "In-rack design",
+        "Works with D2C"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "asetek-gpu-cooler",
+      "vendor": {
+        "name": "Asetek",
+        "slug": "asetek"
+      },
+      "name": "GPU Liquid Cooler",
+      "slug": "gpu-cooler",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "GPU-specific liquid cooling solution.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 0.5
+        }
+      },
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      "key_features": [
+        "GPU optimized",
+        "Quick-connect"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "schneider-motivair-mcdu70",
+      "vendor": {
+        "name": "Schneider Electric (Motivair)",
+        "slug": "schneider-motivair"
+      },
+      "name": "MCDU-70 CDU",
+      "slug": "mcdu-70",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "2.5MW per unit, scalable to 10MW+.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 2500
+        }
+      },
+      "key_features": [
+        "2.5 MW capacity",
+        "Scalable to 10MW",
+        "AI/HPC optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "schneider-motivair-cdu-500",
+      "vendor": {
+        "name": "Schneider Electric (Motivair)",
+        "slug": "schneider-motivair"
+      },
+      "name": "Motivair CDU 500",
+      "slug": "cdu-500",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Mid-range CDU for data centers.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 500
+        }
+      },
+      "key_features": [
+        "500 kW capacity",
+        "Schneider ecosystem"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "schneider-chilleddoor",
+      "vendor": {
+        "name": "Schneider Electric (Motivair)",
+        "slug": "schneider-motivair"
+      },
+      "name": "ChilledDoor Rack Cooling",
+      "slug": "chilleddoor",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "Rear-door heat exchanger. Up to 75kW.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 75
+        }
+      },
+      "deployment": {
+        "retrofit_capable": true
+      },
+      "key_features": [
+        "75 kW per rack",
+        "Retrofit-friendly",
+        "Neutral air discharge"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "schneider-dynamic-coldplate",
+      "vendor": {
+        "name": "Schneider Electric (Motivair)",
+        "slug": "schneider-motivair"
+      },
+      "name": "Dynamic Cold Plate",
+      "slug": "dynamic-coldplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Chip-level cooling with contamination protection.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 1
+        }
+      },
+      "key_features": [
+        "Contamination protection",
+        "Chip-level cooling"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "schneider-hdu",
+      "vendor": {
+        "name": "Schneider Electric (Motivair)",
+        "slug": "schneider-motivair"
+      },
+      "name": "Heat Dissipation Unit (HDU)",
+      "slug": "hdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "air-assisted",
+      "form_factor": "outdoor",
+      "description": "Rejects heat to air when chilled water unavailable.",
+      "specs": {},
+      "key_features": [
+        "No chilled water needed",
+        "EC fans",
+        "PLC control"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "schneider-ecostruxure-pod",
+      "vendor": {
+        "name": "Schneider Electric (Motivair)",
+        "slug": "schneider-motivair"
+      },
+      "name": "EcoStruxure Pod Data Center",
+      "slug": "ecostruxure-pod",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "modular",
+      "description": "Prefabricated modular pod up to 1MW+.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 1000
+        }
+      },
+      "key_features": [
+        "Up to 1MW per pod",
+        "Prefabricated",
+        "Hot aisle containment"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "vertiv-coolchip-cdu",
+      "vendor": {
+        "name": "Vertiv",
+        "slug": "vertiv"
+      },
+      "name": "CoolChip CDU",
+      "slug": "coolchip-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "70-1350 kW CDU range.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "min": 70,
+          "max": 1350
+        }
+      },
+      "key_features": [
+        "70-1350 kW range",
+        "Scalable"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "vertiv-liebert-xdu",
+      "vendor": {
+        "name": "Vertiv",
+        "slug": "vertiv"
+      },
+      "name": "Liebert XDU",
+      "slug": "liebert-xdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "High-capacity CDU up to 1400 kW.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 1400
+        }
+      },
+      "key_features": [
+        "1400 kW capacity",
+        "AI/HPC ready"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "vertiv-liebert-xdu-300",
+      "vendor": {
+        "name": "Vertiv",
+        "slug": "vertiv"
+      },
+      "name": "Liebert XDU 300",
+      "slug": "liebert-xdu-300",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Mid-range 300 kW CDU.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 300
+        }
+      },
+      "key_features": [
+        "300 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "vertiv-rdhx",
+      "vendor": {
+        "name": "Vertiv",
+        "slug": "vertiv"
+      },
+      "name": "Liebert RDHx",
+      "slug": "liebert-rdhx",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "Rear door heat exchanger solution.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 50
+        }
+      },
+      "key_features": [
+        "50 kW per rack",
+        "Retrofit capable"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "vertiv-immersion-pod",
+      "vendor": {
+        "name": "Vertiv",
+        "slug": "vertiv"
+      },
+      "name": "Vertiv Immersion Pod",
+      "slug": "immersion-pod",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "pod",
+      "description": "Immersion cooling pod launched 2025.",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 150
+        }
+      },
+      "key_features": [
+        "150 kW density",
+        "2025 launch"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "iceotope-kul",
+      "vendor": {
+        "name": "Iceotope",
+        "slug": "iceotope"
+      },
+      "name": "KUL Precision Liquid Cooling",
+      "slug": "kul",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "rack-mount",
+      "description": "Chassis-level precision immersion.",
+      "specs": {
+        "pue_claimed": 1.05
+      },
+      "key_features": [
+        "Chassis-level",
+        "Sealed per server"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "iceotope-kul-edge",
+      "vendor": {
+        "name": "Iceotope",
+        "slug": "iceotope"
+      },
+      "name": "KUL Edge Module",
+      "slug": "kul-edge",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "modular",
+      "description": "Sealed immersion for edge/telecom.",
+      "specs": {},
+      "key_features": [
+        "Edge optimized",
+        "Vibration isolation",
+        "Onboard diagnostics"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "liquidcool-lcs",
+      "vendor": {
+        "name": "LiquidCool Solutions",
+        "slug": "liquidcool"
+      },
+      "name": "LCS Immersion System",
+      "slug": "lcs",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Total server submersion.",
+      "specs": {
+        "pue_claimed": 1.03
+      },
+      "key_features": [
+        "Complete submersion",
+        "PUE 1.03",
+        "Zero fans"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "jetcool-smartplate",
+      "vendor": {
+        "name": "JetCool Technologies",
+        "slug": "jetcool"
+      },
+      "name": "SmartPlate Cold Plate",
+      "slug": "smartplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Microconvective cooling. 25% better than competition.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 2
+        }
+      },
+      "key_features": [
+        "25% better performance",
+        "Jet impingement",
+        "Flex partnership"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "jetcool-smartsense-cdu",
+      "vendor": {
+        "name": "JetCool Technologies",
+        "slug": "jetcool"
+      },
+      "name": "SmartSense CDU",
+      "slug": "smartsense-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "6U liquid-to-liquid CDU.",
+      "specs": {
+        "dimensions": {
+          "rack_units": 6
+        }
+      },
+      "key_features": [
+        "6U form factor",
+        "Intelligent controls"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "boyd-liquid-cold-plates",
+      "vendor": {
+        "name": "Boyd Corporation",
+        "slug": "boyd"
+      },
+      "name": "Liquid Cold Plates",
+      "slug": "liquid-cold-plates",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "5M+ delivered to hyperscalers.",
+      "specs": {},
+      "key_features": [
+        "5M+ delivered",
+        "100% leak tested",
+        "Custom geometries"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "boyd-cdu",
+      "vendor": {
+        "name": "Boyd Corporation",
+        "slug": "boyd"
+      },
+      "name": "Boyd CDU",
+      "slug": "boyd-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Coolant distribution for rack systems.",
+      "specs": {},
+      "key_features": [
+        "Custom designed",
+        "Server rack integration"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "nvent-cooltherm-rdhx",
+      "vendor": {
+        "name": "nVent",
+        "slug": "nvent"
+      },
+      "name": "CoolTherm RDHx",
+      "slug": "cooltherm-rdhx",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "Passive rear-door cooling.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 50
+        }
+      },
+      "key_features": [
+        "50 kW capacity",
+        "Passive operation"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "nvent-rdhx-pro",
+      "vendor": {
+        "name": "nVent",
+        "slug": "nvent"
+      },
+      "name": "RDHx Pro",
+      "slug": "rdhx-pro",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "Active RDHx with hot-swappable components.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 80
+        }
+      },
+      "key_features": [
+        "80 kW capacity",
+        "Hot-swappable fans/PSUs",
+        "Free cooling optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "nvent-rackchiller-cdu800",
+      "vendor": {
+        "name": "nVent",
+        "slug": "nvent"
+      },
+      "name": "RackChiller CDU800",
+      "slug": "rackchiller-cdu800",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "In-rack CDU for efficient supply.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 80
+        }
+      },
+      "key_features": [
+        "21-inch rack compatible"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "rittal-lcp",
+      "vendor": {
+        "name": "Rittal",
+        "slug": "rittal"
+      },
+      "name": "LCP Liquid Cooling Package",
+      "slug": "lcp",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "In-row cooling with integrated liquid.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 55
+        }
+      },
+      "key_features": [
+        "55 kW capacity",
+        "Rittal rack integration"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "rittal-lcp-inline",
+      "vendor": {
+        "name": "Rittal",
+        "slug": "rittal"
+      },
+      "name": "LCP Inline",
+      "slug": "lcp-inline",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Inline cooling package.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 35
+        }
+      },
+      "key_features": [
+        "35 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "rittal-lcp-dx",
+      "vendor": {
+        "name": "Rittal",
+        "slug": "rittal"
+      },
+      "name": "LCP DX",
+      "slug": "lcp-dx",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Direct expansion cooling.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 25
+        }
+      },
+      "key_features": [
+        "25 kW DX cooling"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "asperitas-aic24",
+      "vendor": {
+        "name": "Asperitas",
+        "slug": "asperitas"
+      },
+      "name": "AIC24 Immersion",
+      "slug": "aic24",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Natural convection immersion. No IT-side pumps.",
+      "specs": {
+        "pue_claimed": 1.02,
+        "power_density_kw_per_rack": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "PUE 1.02",
+        "No pumps in IT loop",
+        "Natural convection"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "asperitas-aic24-open",
+      "vendor": {
+        "name": "Asperitas",
+        "slug": "asperitas"
+      },
+      "name": "AIC24 Open",
+      "slug": "aic24-open",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Open-bath immersion variant.",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 80
+        }
+      },
+      "key_features": [
+        "Open bath design",
+        "Easy access"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "liquidstack-single-phase",
+      "vendor": {
+        "name": "LiquidStack",
+        "slug": "liquidstack"
+      },
+      "name": "Single Phase Immersion Tank",
+      "slug": "single-phase-tank",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Up to 110kW, supports 1000W TDP chips.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 110
+        },
+        "chip_tdp_w": {
+          "max": 1000
+        }
+      },
+      "key_features": [
+        "110 kW capacity",
+        "1000W chip support"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "liquidstack-two-phase",
+      "vendor": {
+        "name": "LiquidStack",
+        "slug": "liquidstack"
+      },
+      "name": "Two Phase Immersion Tank",
+      "slug": "two-phase-tank",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-two-phase",
+      "form_factor": "tank",
+      "description": "Up to 252kW per tank. Most efficient solution.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 252
+        }
+      },
+      "key_features": [
+        "252 kW capacity",
+        "Two-phase efficiency",
+        "Highest performance"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "liquidstack-datamod",
+      "vendor": {
+        "name": "LiquidStack",
+        "slug": "liquidstack"
+      },
+      "name": "DataMod",
+      "slug": "datamod",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "modular",
+      "description": "Modular immersion data center.",
+      "specs": {},
+      "key_features": [
+        "Modular design",
+        "Scalable"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "midas-xci-150",
+      "vendor": {
+        "name": "Midas Immersion Cooling",
+        "slug": "midas"
+      },
+      "name": "XCI 150kW Tank",
+      "slug": "xci-150",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Up to 150kW per tank. Plug-and-play.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 150
+        }
+      },
+      "key_features": [
+        "150 kW capacity",
+        "Plug-and-play",
+        "0.5 GW+ installed"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "midas-12u",
+      "vendor": {
+        "name": "Midas Immersion Cooling",
+        "slug": "midas"
+      },
+      "name": "Midas 12U Tank",
+      "slug": "midas-12u",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "12U compact immersion tank. 18kW.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 18
+        },
+        "dimensions": {
+          "rack_units": 12
+        }
+      },
+      "key_features": [
+        "18 kW capacity",
+        "12U form factor"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "dug-cool",
+      "vendor": {
+        "name": "DUG Technology",
+        "slug": "dug"
+      },
+      "name": "DUG Cool",
+      "slug": "dug-cool",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Proven in world's largest immersion facilities.",
+      "specs": {},
+      "key_features": [
+        "Decade proven",
+        "Biodegradable fluid",
+        "Scalable"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "dug-nomad-40",
+      "vendor": {
+        "name": "DUG Technology",
+        "slug": "dug"
+      },
+      "name": "DUG Nomad 40",
+      "slug": "nomad-40",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "modular",
+      "description": "1MW containerized immersion DC.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 1000
+        }
+      },
+      "key_features": [
+        "1 MW capacity",
+        "40-foot container",
+        "Portable"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "fujitsu-lics",
+      "vendor": {
+        "name": "Fujitsu",
+        "slug": "fujitsu"
+      },
+      "name": "Liquid Immersion Cooling System",
+      "slug": "lics",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "40% power savings vs air cooling.",
+      "specs": {
+        "energy_savings_percent": 40
+      },
+      "key_features": [
+        "40% power savings",
+        "PRIMERGY compatible",
+        "Fluorinert coolant"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "fujitsu-cool-central",
+      "vendor": {
+        "name": "Fujitsu",
+        "slug": "fujitsu"
+      },
+      "name": "Cool-Central Liquid Cooling",
+      "slug": "cool-central",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "DLC for PRIMERGY scale-out servers.",
+      "specs": {},
+      "key_features": [
+        "PRIMERGY optimized",
+        "Best PUE"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "chilldyne-cf-cdu300",
+      "vendor": {
+        "name": "Chilldyne",
+        "slug": "chilldyne"
+      },
+      "name": "CF-CDU300",
+      "slug": "cf-cdu300",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Leak-proof CDU up to 300kW.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 300
+        }
+      },
+      "key_features": [
+        "300 kW capacity",
+        "Never leaks",
+        "Negative pressure"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "chilldyne-starter-kit",
+      "vendor": {
+        "name": "Chilldyne",
+        "slug": "chilldyne"
+      },
+      "name": "Liquid Cooling Starter Kit",
+      "slug": "starter-kit",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Plug-and-play kit. 150kW per rack.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 150
+        }
+      },
+      "key_features": [
+        "150 kW per rack",
+        "Two CDUs included",
+        "Plug-and-play"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "chilldyne-cold-plate",
+      "vendor": {
+        "name": "Chilldyne",
+        "slug": "chilldyne"
+      },
+      "name": "Chilldyne Cold Plate",
+      "slug": "chilldyne-coldplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Leak-proof cold plate design.",
+      "specs": {},
+      "key_features": [
+        "Leak-proof design",
+        "Negative pressure"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "delta-gocool-cdu",
+      "vendor": {
+        "name": "Delta Electronics",
+        "slug": "delta"
+      },
+      "name": "GoCool L2L CDU",
+      "slug": "gocool-l2l-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Up to 1.5MW. 40% energy savings.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 1500
+        },
+        "energy_savings_percent": 40
+      },
+      "key_features": [
+        "1.5 MW capacity",
+        "40% energy savings",
+        "100kW+ racks"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "delta-aalc",
+      "vendor": {
+        "name": "Delta Electronics",
+        "slug": "delta"
+      },
+      "name": "Air Assisted Liquid Cooling",
+      "slug": "aalc",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "AALC for existing data centers.",
+      "specs": {},
+      "key_features": [
+        "Retrofit friendly",
+        "Air + liquid hybrid"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "lenovo-neptune-sd650",
+      "vendor": {
+        "name": "Lenovo",
+        "slug": "lenovo"
+      },
+      "name": "ThinkSystem SD650 V3 Neptune",
+      "slug": "sd650-v3",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Direct water-cooling server.",
+      "specs": {
+        "heat_capture_percent": {
+          "max": 95
+        }
+      },
+      "key_features": [
+        "95%+ heat capture",
+        "No fans",
+        "240W operation"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "lenovo-neptune-sd665",
+      "vendor": {
+        "name": "Lenovo",
+        "slug": "lenovo"
+      },
+      "name": "ThinkSystem SD665-N V3 Neptune",
+      "slug": "sd665-n-v3",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "GPU-optimized Neptune server.",
+      "specs": {},
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA"
+        ]
+      },
+      "key_features": [
+        "NVIDIA GPU optimized",
+        "Exascale performance"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "lenovo-n1380-chassis",
+      "vendor": {
+        "name": "Lenovo",
+        "slug": "lenovo"
+      },
+      "name": "ThinkSystem N1380 Neptune Chassis",
+      "slug": "n1380",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "100% heat removal. 100kW+ racks.",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "100% heat removal",
+        "100kW+ racks",
+        "NVIDIA Blackwell ready"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "hpe-apollo-dlc",
+      "vendor": {
+        "name": "HPE (Hewlett Packard Enterprise)",
+        "slug": "hpe"
+      },
+      "name": "Apollo Direct Liquid Cooling",
+      "slug": "apollo-dlc",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "DLC for Apollo 2000 Gen10 Plus.",
+      "specs": {},
+      "key_features": [
+        "Apollo optimized",
+        "Asetek partnership",
+        "HPC ready"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "hpe-rack-cdu",
+      "vendor": {
+        "name": "HPE (Hewlett Packard Enterprise)",
+        "slug": "hpe"
+      },
+      "name": "HPE Rack CDU",
+      "slug": "hpe-rack-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Rack cooling distribution unit.",
+      "specs": {},
+      "key_features": [
+        "Apollo integration",
+        "HPC cooling"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "stulz-cybercool-cmu",
+      "vendor": {
+        "name": "Stulz",
+        "slug": "stulz"
+      },
+      "name": "CyberCool CMU",
+      "slug": "cybercool-cmu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Coolant management and distribution.",
+      "specs": {},
+      "key_features": [
+        "High efficiency",
+        "Small footprint",
+        "Precise control"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "stulz-ilcs",
+      "vendor": {
+        "name": "Stulz",
+        "slug": "stulz"
+      },
+      "name": "Integrated Liquid Cooling System",
+      "slug": "ilcs",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Year-round free cooling capable.",
+      "specs": {},
+      "key_features": [
+        "Free cooling capable",
+        "EC fans",
+        "Inverter pumps"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "stulz-hx-door",
+      "vendor": {
+        "name": "Stulz",
+        "slug": "stulz"
+      },
+      "name": "Stulz Heat Exchanger Door",
+      "slug": "hx-door",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "Rear door HX up to 50kW.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 50
+        }
+      },
+      "key_features": [
+        "50 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "tmgcore-otto",
+      "vendor": {
+        "name": "TMGcore",
+        "slug": "tmgcore"
+      },
+      "name": "OTTO Platform",
+      "slug": "otto",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-two-phase",
+      "form_factor": "modular",
+      "description": "Robot-managed two-phase immersion.",
+      "specs": {},
+      "key_features": [
+        "Robot-managed",
+        "Autonomous operation",
+        "Two-phase cooling"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "tmgcore-otto-120m",
+      "vendor": {
+        "name": "TMGcore",
+        "slug": "tmgcore"
+      },
+      "name": "OTTO 120 M",
+      "slug": "otto-120m",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-two-phase",
+      "form_factor": "modular",
+      "description": "Modular OTTO for edge applications.",
+      "specs": {},
+      "key_features": [
+        "Edge-ready",
+        "Modular design"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "tmgcore-computecore",
+      "vendor": {
+        "name": "TMGcore",
+        "slug": "tmgcore"
+      },
+      "name": "ComputeCore",
+      "slug": "computecore",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Single-phase HPC module.",
+      "specs": {},
+      "key_features": [
+        "HPC optimized",
+        "Single-phase"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "dcx-cdu-300",
+      "vendor": {
+        "name": "DCX Liquid Cooling",
+        "slug": "dcx"
+      },
+      "name": "DCX CDU 300kW",
+      "slug": "dcx-cdu-300",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "In-cabinet 300kW CDU.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 300
+        }
+      },
+      "key_features": [
+        "300 kW capacity",
+        "In-cabinet design"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "dcx-cpu-coldplate",
+      "vendor": {
+        "name": "DCX Liquid Cooling",
+        "slug": "dcx"
+      },
+      "name": "DCX CPU Cold Plate",
+      "slug": "dcx-cpu-coldplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "DLC processor cold plates.",
+      "specs": {},
+      "key_features": [
+        "CPU optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "dcx-immersion",
+      "vendor": {
+        "name": "DCX Liquid Cooling",
+        "slug": "dcx"
+      },
+      "name": "DCX Server Immersion Enclosure",
+      "slug": "dcx-immersion",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Server immersion tanks.",
+      "specs": {},
+      "key_features": [
+        "Server enclosures"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "nortek-cdu",
+      "vendor": {
+        "name": "Nortek Data Center Cooling",
+        "slug": "nortek"
+      },
+      "name": "Nortek CDU",
+      "slug": "nortek-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Close-controlled coolant distribution.",
+      "specs": {},
+      "key_features": [
+        "Close control",
+        "Multiple device support"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "trane-cdu-10mw",
+      "vendor": {
+        "name": "Trane",
+        "slug": "trane"
+      },
+      "name": "Trane CDU",
+      "slug": "trane-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Up to 10MW cooling capacity.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 10000
+        }
+      },
+      "key_features": [
+        "10 MW capacity",
+        "Hyperscale ready"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coldlogik-rdhx",
+      "vendor": {
+        "name": "ColdLogik (USystems)",
+        "slug": "coldlogik"
+      },
+      "name": "ColdLogik RDHx",
+      "slug": "coldlogik-rdhx",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "AALC with EER over 100.",
+      "specs": {
+        "eer": {
+          "min": 100
+        }
+      },
+      "key_features": [
+        "EER over 100",
+        "Year-round free cooling",
+        "Hot-swappable"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coldlogik-rdhx-pro",
+      "vendor": {
+        "name": "ColdLogik (USystems)",
+        "slug": "coldlogik"
+      },
+      "name": "ColdLogik RDHx Pro",
+      "slug": "coldlogik-rdhx-pro",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "Enhanced active cooling variant.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 80
+        }
+      },
+      "key_features": [
+        "80 kW capacity",
+        "Enhanced PCB"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolcentric-rdhx",
+      "vendor": {
+        "name": "CoolCentric",
+        "slug": "coolcentric"
+      },
+      "name": "CoolCentric RDHx",
+      "slug": "coolcentric-rdhx",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "Passive and active variants.",
+      "specs": {},
+      "key_features": [
+        "Passive/active options",
+        "Standard door replacement"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "supermicro-dlc",
+      "vendor": {
+        "name": "Supermicro",
+        "slug": "supermicro"
+      },
+      "name": "Supermicro DLC Solution",
+      "slug": "supermicro-dlc",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Cold plates on CPUs, GPUs, DIMMs.",
+      "specs": {},
+      "compatibility": {
+        "cpu_sockets": [
+          "Intel",
+          "AMD"
+        ],
+        "gpu_support": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      "key_features": [
+        "Full component cooling",
+        "DIMM cooling support"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "supermicro-cdm",
+      "vendor": {
+        "name": "Supermicro",
+        "slug": "supermicro"
+      },
+      "name": "Coolant Distribution Manifold",
+      "slug": "supermicro-cdm",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Distributes coolant to servers.",
+      "specs": {},
+      "key_features": [
+        "Per-server distribution",
+        "Rack integrated"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "supermicro-rdhx",
+      "vendor": {
+        "name": "Supermicro",
+        "slug": "supermicro"
+      },
+      "name": "Supermicro RDHx",
+      "slug": "supermicro-rdhx",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "Rear door cooling solution.",
+      "specs": {},
+      "key_features": [
+        "Supermicro rack compatible"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "gigabyte-dlc-coolit",
+      "vendor": {
+        "name": "Gigabyte",
+        "slug": "gigabyte"
+      },
+      "name": "Gigabyte CoolIT DLC",
+      "slug": "gigabyte-coolit-dlc",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "CoolIT partnership DLC.",
+      "specs": {},
+      "key_features": [
+        "CoolIT technology",
+        "Passive cold plates"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "gigabyte-liquidstack",
+      "vendor": {
+        "name": "Gigabyte",
+        "slug": "gigabyte"
+      },
+      "name": "Gigabyte LiquidStack Two-Phase",
+      "slug": "gigabyte-liquidstack",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-two-phase",
+      "form_factor": "tank",
+      "description": "LiquidStack partnership immersion.",
+      "specs": {},
+      "key_features": [
+        "Open bath system",
+        "Two-phase immersion"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "act-cdu-eor",
+      "vendor": {
+        "name": "ACT (Advanced Cooling Technologies)",
+        "slug": "act"
+      },
+      "name": "ACT End-of-Row CDU",
+      "slug": "act-cdu-eor",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "End-of-row placement CDU.",
+      "specs": {},
+      "key_features": [
+        "End-of-row design",
+        "Chip-level management"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "act-cdu-inrack",
+      "vendor": {
+        "name": "ACT (Advanced Cooling Technologies)",
+        "slug": "act"
+      },
+      "name": "ACT In-Rack CDU",
+      "slug": "act-cdu-inrack",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "In-rack placement CDU.",
+      "specs": {},
+      "key_features": [
+        "In-rack design"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "nidec-cdu",
+      "vendor": {
+        "name": "Nidec",
+        "slug": "nidec"
+      },
+      "name": "Nidec CDU",
+      "slug": "nidec-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "CDU for high thermal loads.",
+      "specs": {},
+      "key_features": [
+        "High thermal capacity",
+        "Fujitsu partnership"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "triton-rdhx",
+      "vendor": {
+        "name": "Triton Thermal",
+        "slug": "triton"
+      },
+      "name": "Triton RDHx",
+      "slug": "triton-rdhx",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "PUE reduction 30-50%. Up to 50kW.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 50
+        },
+        "pue_reduction_percent": {
+          "min": 30,
+          "max": 50
+        }
+      },
+      "key_features": [
+        "30-50% PUE reduction",
+        "50 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-manifold",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "CoolIT Manifold System",
+      "slug": "coolit-manifold",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Coolant distribution manifolds.",
+      "specs": {},
+      "key_features": [
+        "Rack-level distribution"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "accelsius-retrofit-kit",
+      "vendor": {
+        "name": "Accelsius",
+        "slug": "accelsius"
+      },
+      "name": "Accelsius Retrofit Kit",
+      "slug": "retrofit-kit",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "two-phase",
+      "form_factor": "cold-plate",
+      "description": "Retrofit kit for existing servers.",
+      "specs": {},
+      "deployment": {
+        "retrofit_capable": true
+      },
+      "key_features": [
+        "Retrofit existing servers",
+        "Two-phase upgrade"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "grc-electrosafe",
+      "vendor": {
+        "name": "GRC (Green Revolution Cooling)",
+        "slug": "grc"
+      },
+      "name": "ElectroSafe Coolant",
+      "slug": "electrosafe",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Dielectric immersion fluid.",
+      "specs": {},
+      "key_features": [
+        "Dielectric fluid",
+        "GRC proprietary"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "submer-smartcoolant",
+      "vendor": {
+        "name": "Submer",
+        "slug": "submer"
+      },
+      "name": "SmartCoolant",
+      "slug": "smartcoolant",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Submer's dielectric fluid.",
+      "specs": {},
+      "key_features": [
+        "Biodegradable",
+        "High thermal conductivity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "zutacore-cdu",
+      "vendor": {
+        "name": "ZutaCore",
+        "slug": "zutacore"
+      },
+      "name": "ZutaCore CDU",
+      "slug": "zutacore-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "two-phase",
+      "form_factor": "in-row",
+      "description": "CDU for HyperCool system.",
+      "specs": {},
+      "key_features": [
+        "HyperCool compatible",
+        "Two-phase support"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "asetek-rackscale",
+      "vendor": {
+        "name": "Asetek",
+        "slug": "asetek"
+      },
+      "name": "Asetek RackScale CDU",
+      "slug": "rackscale-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Full rack liquid cooling solution.",
+      "specs": {},
+      "key_features": [
+        "Full rack coverage"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "motivair-chilleddoor-active",
+      "vendor": {
+        "name": "Schneider Electric (Motivair)",
+        "slug": "schneider-motivair"
+      },
+      "name": "ChilledDoor Active",
+      "slug": "chilleddoor-active",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "Active variant with fans.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "100 kW capacity",
+        "Active cooling"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "vertiv-xdc",
+      "vendor": {
+        "name": "Vertiv",
+        "slug": "vertiv"
+      },
+      "name": "Vertiv XDC",
+      "slug": "xdc",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Extreme density cooling.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 500
+        }
+      },
+      "key_features": [
+        "500 kW capacity",
+        "Extreme density"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "iceotope-kul-precision",
+      "vendor": {
+        "name": "Iceotope",
+        "slug": "iceotope"
+      },
+      "name": "KUL Precision",
+      "slug": "kul-precision",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "rack-mount",
+      "description": "High-precision chassis immersion.",
+      "specs": {},
+      "key_features": [
+        "High precision",
+        "Per-chassis cooling"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "liquidcool-blade",
+      "vendor": {
+        "name": "LiquidCool Solutions",
+        "slug": "liquidcool"
+      },
+      "name": "LCS Blade System",
+      "slug": "lcs-blade",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Blade server immersion.",
+      "specs": {},
+      "key_features": [
+        "Blade optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "jetcool-hpc-plate",
+      "vendor": {
+        "name": "JetCool Technologies",
+        "slug": "jetcool"
+      },
+      "name": "JetCool HPC Cold Plate",
+      "slug": "hpc-coldplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "HPC-optimized cold plate.",
+      "specs": {},
+      "key_features": [
+        "HPC optimized",
+        "High heat flux"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "boyd-gpu-coldplate",
+      "vendor": {
+        "name": "Boyd Corporation",
+        "slug": "boyd"
+      },
+      "name": "Boyd GPU Cold Plate",
+      "slug": "boyd-gpu-coldplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "GPU-specific cold plates.",
+      "specs": {},
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      "key_features": [
+        "GPU optimized",
+        "Custom skylines"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "nvent-passive-rdhx",
+      "vendor": {
+        "name": "nVent",
+        "slug": "nvent"
+      },
+      "name": "nVent Passive RDHx",
+      "slug": "passive-rdhx",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "Passive rear door solution.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 30
+        }
+      },
+      "key_features": [
+        "30 kW passive",
+        "No moving parts"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "rittal-lcp-hybrid",
+      "vendor": {
+        "name": "Rittal",
+        "slug": "rittal"
+      },
+      "name": "LCP Hybrid",
+      "slug": "lcp-hybrid",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Air + liquid hybrid cooling.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 40
+        }
+      },
+      "key_features": [
+        "Hybrid air/liquid",
+        "40 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "asperitas-aic24-edge",
+      "vendor": {
+        "name": "Asperitas",
+        "slug": "asperitas"
+      },
+      "name": "AIC24 Edge",
+      "slug": "aic24-edge",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Edge-optimized immersion.",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 50
+        }
+      },
+      "key_features": [
+        "Edge deployment",
+        "Compact design"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "liquidstack-cdu",
+      "vendor": {
+        "name": "LiquidStack",
+        "slug": "liquidstack"
+      },
+      "name": "LiquidStack CDU",
+      "slug": "liquidstack-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "CDU for immersion systems.",
+      "specs": {},
+      "key_features": [
+        "Immersion compatible",
+        "Centralized control"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "midas-xci-edge",
+      "vendor": {
+        "name": "Midas Immersion Cooling",
+        "slug": "midas"
+      },
+      "name": "XCI Edge",
+      "slug": "xci-edge",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Edge-ready immersion tank.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 30
+        }
+      },
+      "key_features": [
+        "Edge deployment",
+        "Compact"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "dug-cool-tank",
+      "vendor": {
+        "name": "DUG Technology",
+        "slug": "dug"
+      },
+      "name": "DUG Cool Tank",
+      "slug": "dug-cool-tank",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Standard immersion tank unit.",
+      "specs": {},
+      "key_features": [
+        "Standard deployment"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "fujitsu-primergy-dlc",
+      "vendor": {
+        "name": "Fujitsu",
+        "slug": "fujitsu"
+      },
+      "name": "PRIMERGY DLC System",
+      "slug": "primergy-dlc",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "DLC for PRIMERGY CX400.",
+      "specs": {},
+      "key_features": [
+        "CX400 compatible",
+        "Nidec partnership"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "chilldyne-cf-cdu15",
+      "vendor": {
+        "name": "Chilldyne",
+        "slug": "chilldyne"
+      },
+      "name": "CF-CDU15",
+      "slug": "cf-cdu15",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Rack-scale demo unit.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 15
+        }
+      },
+      "key_features": [
+        "15 kW capacity",
+        "Demo/test unit"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "delta-inrow-cdu",
+      "vendor": {
+        "name": "Delta Electronics",
+        "slug": "delta"
+      },
+      "name": "Delta InRow CDU",
+      "slug": "delta-inrow-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Standard in-row CDU.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 200
+        }
+      },
+      "key_features": [
+        "200 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "lenovo-neptune-cdu",
+      "vendor": {
+        "name": "Lenovo",
+        "slug": "lenovo"
+      },
+      "name": "Neptune CDU",
+      "slug": "neptune-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "CDU for Neptune ecosystem.",
+      "specs": {},
+      "key_features": [
+        "Neptune ecosystem",
+        "ASHRAE compliant"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "hpe-dlc-coldplate",
+      "vendor": {
+        "name": "HPE (Hewlett Packard Enterprise)",
+        "slug": "hpe"
+      },
+      "name": "HPE DLC Cold Plate",
+      "slug": "hpe-dlc-coldplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Cold plates for Apollo servers.",
+      "specs": {},
+      "key_features": [
+        "Apollo integration"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "stulz-cybercool-row",
+      "vendor": {
+        "name": "Stulz",
+        "slug": "stulz"
+      },
+      "name": "CyberCool Row",
+      "slug": "cybercool-row",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Row-based cooling solution.",
+      "specs": {},
+      "key_features": [
+        "Row-based design"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "tmgcore-otto-ai",
+      "vendor": {
+        "name": "TMGcore",
+        "slug": "tmgcore"
+      },
+      "name": "OTTO AI",
+      "slug": "otto-ai",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-two-phase",
+      "form_factor": "modular",
+      "description": "AI-optimized OTTO variant.",
+      "specs": {},
+      "key_features": [
+        "AI workload optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "dcx-manifold",
+      "vendor": {
+        "name": "DCX Liquid Cooling",
+        "slug": "dcx"
+      },
+      "name": "DCX Manifold",
+      "slug": "dcx-manifold",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Coolant distribution manifolds.",
+      "specs": {},
+      "key_features": [
+        "Distribution system"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "nortek-precision-cdu",
+      "vendor": {
+        "name": "Nortek Data Center Cooling",
+        "slug": "nortek"
+      },
+      "name": "Nortek Precision CDU",
+      "slug": "nortek-precision-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "High-precision CDU.",
+      "specs": {},
+      "key_features": [
+        "High precision control"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "triton-active-rdhx",
+      "vendor": {
+        "name": "Triton Thermal",
+        "slug": "triton"
+      },
+      "name": "Triton Active RDHx",
+      "slug": "triton-active-rdhx",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "Active rear door variant.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 80
+        }
+      },
+      "key_features": [
+        "80 kW active",
+        "Fan-assisted"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolcentric-active-rdhx",
+      "vendor": {
+        "name": "CoolCentric",
+        "slug": "coolcentric"
+      },
+      "name": "CoolCentric Active RDHx",
+      "slug": "coolcentric-active-rdhx",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "description": "Active variant with fans.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 60
+        }
+      },
+      "key_features": [
+        "60 kW capacity",
+        "Active fans"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "supermicro-liquid-rack",
+      "vendor": {
+        "name": "Supermicro",
+        "slug": "supermicro"
+      },
+      "name": "Supermicro Liquid-Cooled Rack",
+      "slug": "liquid-rack",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Complete liquid-cooled rack solution.",
+      "specs": {},
+      "key_features": [
+        "Complete rack solution"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "gigabyte-dlc-gpu",
+      "vendor": {
+        "name": "Gigabyte",
+        "slug": "gigabyte"
+      },
+      "name": "Gigabyte GPU DLC",
+      "slug": "gigabyte-dlc-gpu",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "GPU liquid cooling solution.",
+      "specs": {},
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      "key_features": [
+        "GPU cooling"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "act-coldplate",
+      "vendor": {
+        "name": "ACT (Advanced Cooling Technologies)",
+        "slug": "act"
+      },
+      "name": "ACT Cold Plates",
+      "slug": "act-coldplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Precision cold plates.",
+      "specs": {},
+      "key_features": [
+        "Precision design"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "nidec-coldplate",
+      "vendor": {
+        "name": "Nidec",
+        "slug": "nidec"
+      },
+      "name": "Nidec Cold Plate",
+      "slug": "nidec-coldplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Cold plates for high loads.",
+      "specs": {},
+      "key_features": [
+        "High thermal load"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "allied-immersion-rack",
+      "vendor": {
+        "name": "Allied Control (Bitfury)",
+        "slug": "allied-control"
+      },
+      "name": "Immersion Cooling Rack",
+      "slug": "immersion-rack",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-two-phase",
+      "form_factor": "rack-mount",
+      "description": "252kW per rack density. 3M Novec fluids.",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 252
+        }
+      },
+      "key_features": [
+        "252 kW per rack",
+        "100kW/sqm density",
+        "3M Novec fluids"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "allied-40mw-dc",
+      "vendor": {
+        "name": "Allied Control (Bitfury)",
+        "slug": "allied-control"
+      },
+      "name": "40MW Immersion Data Center",
+      "slug": "40mw-dc",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-two-phase",
+      "form_factor": "modular",
+      "description": "World's largest immersion-cooled facility.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 40000
+        }
+      },
+      "key_features": [
+        "40 MW facility",
+        "World's largest immersion DC"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "wiwynn-gs1400a",
+      "vendor": {
+        "name": "Wiwynn",
+        "slug": "wiwynn"
+      },
+      "name": "GS1400A Server",
+      "slug": "gs1400a",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "NVIDIA MGX 4U with 8x H200 GPUs.",
+      "specs": {},
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA H200"
+        ]
+      },
+      "key_features": [
+        "8x H200 GPUs",
+        "NVLink/NVSwitch",
+        "4U form factor"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "wiwynn-gs1300n",
+      "vendor": {
+        "name": "Wiwynn",
+        "slug": "wiwynn"
+      },
+      "name": "GS1300N Server",
+      "slug": "gs1300n",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "3U server with 90%+ heat dissipation.",
+      "specs": {
+        "heat_capture_percent": {
+          "max": 90
+        }
+      },
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA Hopper",
+          "NVIDIA Blackwell"
+        ]
+      },
+      "key_features": [
+        "90%+ heat dissipation",
+        "3U compact",
+        "ZutaCore partnership"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "wiwynn-dlc-coldplate",
+      "vendor": {
+        "name": "Wiwynn",
+        "slug": "wiwynn"
+      },
+      "name": "Wiwynn DLC Cold Plate",
+      "slug": "wiwynn-dlc",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Cold plate with ZutaCore for 2.5kW TDP.",
+      "specs": {
+        "chip_tdp_w": {
+          "max": 2500
+        }
+      },
+      "key_features": [
+        "2.5 kW TDP support",
+        "ZutaCore partnership"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "inspur-ors3000s",
+      "vendor": {
+        "name": "Inspur",
+        "slug": "inspur"
+      },
+      "name": "ORS3000S Server",
+      "slug": "ors3000s",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "JD Cloud partnership. PUE below 1.1.",
+      "specs": {
+        "pue_claimed": 1.1
+      },
+      "key_features": [
+        "PUE below 1.1",
+        "JD Cloud design",
+        "Micro/nano-cavity tech"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "inspur-g7-dlc",
+      "vendor": {
+        "name": "Inspur",
+        "slug": "inspur"
+      },
+      "name": "G7 Server Liquid Cooling",
+      "slug": "g7-dlc",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "G7 servers with 70%+ power coverage.",
+      "specs": {
+        "heat_capture_percent": {
+          "max": 70
+        }
+      },
+      "key_features": [
+        "70%+ liquid coverage",
+        "100+ patents"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "inspur-sleeper-arch",
+      "vendor": {
+        "name": "Inspur",
+        "slug": "inspur"
+      },
+      "name": "Sleeper Architecture System",
+      "slug": "sleeper-arch",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Novel horizontal cooling architecture.",
+      "specs": {},
+      "key_features": [
+        "Sleeper design",
+        "Easier maintenance",
+        "Reduced damage risk"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "inspur-cdu",
+      "vendor": {
+        "name": "Inspur",
+        "slug": "inspur"
+      },
+      "name": "Inspur CDU",
+      "slug": "inspur-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Primary and secondary circulation CDU.",
+      "specs": {},
+      "key_features": [
+        "Full system solution"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "airedale-cdu-2mw",
+      "vendor": {
+        "name": "Airedale (Modine)",
+        "slug": "airedale"
+      },
+      "name": "Airedale CDU 400kW-2MW+",
+      "slug": "airedale-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "400kW to 2MW+ CDU. Stainless steel, redundant pumps.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "min": 400,
+          "max": 2000
+        }
+      },
+      "key_features": [
+        "400kW-2MW+ range",
+        "Stainless steel",
+        "Redundant pumps",
+        "Seismic Category D"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "airedale-turbochill",
+      "vendor": {
+        "name": "Airedale (Modine)",
+        "slug": "airedale"
+      },
+      "name": "TurboChill DCS",
+      "slug": "turbochill-dcs",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "outdoor",
+      "description": "Stainless steel chiller for DLC systems.",
+      "specs": {},
+      "key_features": [
+        "Stainless steel",
+        "Global deployment",
+        "Precise filtration"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "airedale-smartcool",
+      "vendor": {
+        "name": "Airedale (Modine)",
+        "slug": "airedale"
+      },
+      "name": "SmartCool Precision",
+      "slug": "smartcool",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Ultra-efficient precision cooling.",
+      "specs": {},
+      "key_features": [
+        "Ultra-efficient",
+        "Quiet operation"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "penguin-dlc-solution",
+      "vendor": {
+        "name": "Penguin Solutions",
+        "slug": "penguin"
+      },
+      "name": "Penguin DLC Solution",
+      "slug": "penguin-dlc",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "HPC and AI infrastructure cooling.",
+      "specs": {},
+      "key_features": [
+        "HPC optimized",
+        "Shell partnership"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "penguin-immersion",
+      "vendor": {
+        "name": "Penguin Solutions",
+        "slug": "penguin"
+      },
+      "name": "Penguin Immersion Cooling",
+      "slug": "penguin-immersion",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Immersion cooling for HPC.",
+      "specs": {},
+      "key_features": [
+        "Shell partnership",
+        "Sustainable HPC"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "3m-novec-7100",
+      "vendor": {
+        "name": "3M",
+        "slug": "3m"
+      },
+      "name": "Novec 7100 Engineered Fluid",
+      "slug": "novec-7100",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "Dielectric fluid for single-phase immersion.",
+      "specs": {},
+      "key_features": [
+        "Non-flammable",
+        "Low GWP",
+        "Single-phase"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "3m-novec-649",
+      "vendor": {
+        "name": "3M",
+        "slug": "3m"
+      },
+      "name": "Novec 649",
+      "slug": "novec-649",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-two-phase",
+      "form_factor": "tank",
+      "description": "Low-boiling fluid for two-phase immersion.",
+      "specs": {},
+      "key_features": [
+        "Two-phase capable",
+        "Low boiling point",
+        "Zero ODP"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "3m-fluorinert",
+      "vendor": {
+        "name": "3M",
+        "slug": "3m"
+      },
+      "name": "Fluorinert FC-3283",
+      "slug": "fluorinert",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "High-performance dielectric fluid.",
+      "specs": {},
+      "key_features": [
+        "High dielectric strength",
+        "Chemically stable"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "vertiv-xdu-070",
+      "vendor": {
+        "name": "Vertiv",
+        "slug": "vertiv"
+      },
+      "name": "Liebert XDU 070",
+      "slug": "xdu-070",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "air-assisted",
+      "form_factor": "in-row",
+      "description": "Liquid-to-air heat exchanger for chip cooling.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 70
+        }
+      },
+      "key_features": [
+        "70 kW capacity",
+        "Liquid-to-air"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "vertiv-xdm-split",
+      "vendor": {
+        "name": "Vertiv",
+        "slug": "vertiv"
+      },
+      "name": "Liebert XDM Split Indoor Chiller",
+      "slug": "xdm-split",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Liquid-to-fluid exchanger for RDHx.",
+      "specs": {},
+      "key_features": [
+        "RDHx support",
+        "Easy deployment"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "schneider-it-pod",
+      "vendor": {
+        "name": "Schneider Electric (Motivair)",
+        "slug": "schneider-motivair"
+      },
+      "name": "IT Pod Data Center",
+      "slug": "it-pod",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "modular",
+      "description": "Prefabricated high-density pod.",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 150
+        }
+      },
+      "key_features": [
+        "Prefabricated",
+        "High density",
+        "Tested before deployment"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-chx200",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "CHx200 CDU",
+      "slug": "chx200",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Compact 200kW rack CDU.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 200
+        }
+      },
+      "key_features": [
+        "200 kW capacity",
+        "Rack-mountable"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-chx100",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "CHx100 CDU",
+      "slug": "chx100",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Entry-level 100kW CDU.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "100 kW capacity",
+        "Entry-level"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "asetek-gpu-hybrid",
+      "vendor": {
+        "name": "Asetek",
+        "slug": "asetek"
+      },
+      "name": "Asetek Hybrid GPU Cooler",
+      "slug": "hybrid-gpu",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "Hybrid air/liquid GPU cooling.",
+      "specs": {},
+      "key_features": [
+        "Hybrid design",
+        "GPU optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "grc-hashraQ",
+      "vendor": {
+        "name": "GRC (Green Revolution Cooling)",
+        "slug": "grc"
+      },
+      "name": "HashraQ Crypto Cooling",
+      "slug": "hashraq",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "rack-mount",
+      "description": "Optimized for crypto mining.",
+      "specs": {},
+      "key_features": [
+        "Crypto optimized",
+        "High-density ASIC support"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "jetcool-gpu-coldplate",
+      "vendor": {
+        "name": "JetCool Technologies",
+        "slug": "jetcool"
+      },
+      "name": "JetCool GPU Cold Plate",
+      "slug": "jetcool-gpu",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "description": "GPU-specific microconvective cooling.",
+      "specs": {},
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      "key_features": [
+        "GPU optimized",
+        "Jet impingement"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "submer-smartcdu",
+      "vendor": {
+        "name": "Submer",
+        "slug": "submer"
+      },
+      "name": "SmartCDU",
+      "slug": "smartcdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "CDU for SmartPod systems.",
+      "specs": {},
+      "key_features": [
+        "SmartPod integration",
+        "Intelligent control"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "delta-rack-cdu",
+      "vendor": {
+        "name": "Delta Electronics",
+        "slug": "delta"
+      },
+      "name": "Delta Rack CDU",
+      "slug": "delta-rack-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "In-rack coolant distribution.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "100 kW per rack",
+        "Compact"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "lenovo-sd665-v4",
+      "vendor": {
+        "name": "Lenovo",
+        "slug": "lenovo"
+      },
+      "name": "ThinkSystem SD665 V4",
+      "slug": "sd665-v4",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Latest Neptune DWC server.",
+      "specs": {},
+      "key_features": [
+        "Latest generation",
+        "Fan-less design"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "liquidstack-rack-cdu",
+      "vendor": {
+        "name": "LiquidStack",
+        "slug": "liquidstack"
+      },
+      "name": "LiquidStack Rack CDU",
+      "slug": "liquidstack-rack-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Smallest form factor CDU.",
+      "specs": {},
+      "key_features": [
+        "Smallest form factor",
+        "Critical thermal management"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "asperitas-aic24-hpc",
+      "vendor": {
+        "name": "Asperitas",
+        "slug": "asperitas"
+      },
+      "name": "AIC24 HPC",
+      "slug": "aic24-hpc",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "description": "HPC-optimized immersion.",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 120
+        }
+      },
+      "key_features": [
+        "120 kW capacity",
+        "HPC optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "stulz-micro-cdu",
+      "vendor": {
+        "name": "Stulz",
+        "slug": "stulz"
+      },
+      "name": "Stulz Micro CDU",
+      "slug": "micro-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "description": "Compact rack CDU.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 50
+        }
+      },
+      "key_features": [
+        "50 kW capacity",
+        "Compact design"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "rittal-lcp-cw",
+      "vendor": {
+        "name": "Rittal",
+        "slug": "rittal"
+      },
+      "name": "LCP CW",
+      "slug": "lcp-cw",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "description": "Chilled water LCP.",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 60
+        }
+      },
+      "key_features": [
+        "60 kW chilled water",
+        "In-row design"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-chx1000",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "CHx1000 CDU",
+      "slug": "chx1000",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 1000
+        }
+      },
+      "key_features": [
+        "1000 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-chx500",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "CHx500 CDU",
+      "slug": "chx500",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 500
+        }
+      },
+      "key_features": [
+        "500 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-dimm-cooler",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "DIMM Cooler",
+      "slug": "dimm-cooler",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "key_features": [
+        "Memory cooling"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coolit-vrm-cooler",
+      "vendor": {
+        "name": "CoolIT Systems",
+        "slug": "coolit"
+      },
+      "name": "VRM Cooler",
+      "slug": "vrm-cooler",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "key_features": [
+        "VRM cooling"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "accelsius-edge-cdu",
+      "vendor": {
+        "name": "Accelsius",
+        "slug": "accelsius"
+      },
+      "name": "NeuCool Edge CDU",
+      "slug": "edge-cdu",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "two-phase",
+      "form_factor": "rack-mount",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "Edge optimized",
+        "Two-phase"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "accelsius-gpu-plate",
+      "vendor": {
+        "name": "Accelsius",
+        "slug": "accelsius"
+      },
+      "name": "NeuCool GPU Plate",
+      "slug": "neucool-gpu",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "two-phase",
+      "form_factor": "cold-plate",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 2
+        }
+      },
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA H100",
+          "NVIDIA H200"
+        ]
+      },
+      "key_features": [
+        "GPU optimized",
+        "2 kW per GPU"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "grc-iceraq-3",
+      "vendor": {
+        "name": "GRC (Green Revolution Cooling)",
+        "slug": "grc"
+      },
+      "name": "ICEraQ 3 Series",
+      "slug": "iceraq-3",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "rack-mount",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 250
+        }
+      },
+      "key_features": [
+        "250 kW per rack",
+        "Latest generation"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "grc-lifecycle-mgmt",
+      "vendor": {
+        "name": "GRC (Green Revolution Cooling)",
+        "slug": "grc"
+      },
+      "name": "Coolant Lifecycle Management",
+      "slug": "lifecycle-mgmt",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "rack-mount",
+      "key_features": [
+        "Real-time monitoring",
+        "Predictive maintenance",
+        "Cloud integrated"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "submer-megapod",
+      "vendor": {
+        "name": "Submer",
+        "slug": "submer"
+      },
+      "name": "MegaPod",
+      "slug": "megapod",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "modular",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 500
+        }
+      },
+      "key_features": [
+        "500 kW capacity",
+        "Hyperscale ready"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "zutacore-gpu-module",
+      "vendor": {
+        "name": "ZutaCore",
+        "slug": "zutacore"
+      },
+      "name": "HyperCool GPU Module",
+      "slug": "hypercool-gpu",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "two-phase",
+      "form_factor": "cold-plate",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 1.5
+        }
+      },
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      "key_features": [
+        "GPU optimized",
+        "Waterless"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "zutacore-server-kit",
+      "vendor": {
+        "name": "ZutaCore",
+        "slug": "zutacore"
+      },
+      "name": "HyperCool Server Kit",
+      "slug": "hypercool-kit",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "two-phase",
+      "form_factor": "cold-plate",
+      "key_features": [
+        "Complete server kit",
+        "Retrofit capable"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "vertiv-xdu-250",
+      "vendor": {
+        "name": "Vertiv",
+        "slug": "vertiv"
+      },
+      "name": "Liebert XDU 250",
+      "slug": "xdu-250",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 250
+        }
+      },
+      "key_features": [
+        "250 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "vertiv-xdu-500",
+      "vendor": {
+        "name": "Vertiv",
+        "slug": "vertiv"
+      },
+      "name": "Liebert XDU 500",
+      "slug": "xdu-500",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 500
+        }
+      },
+      "key_features": [
+        "500 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "vertiv-xdu-800",
+      "vendor": {
+        "name": "Vertiv",
+        "slug": "vertiv"
+      },
+      "name": "Liebert XDU 800",
+      "slug": "xdu-800",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 800
+        }
+      },
+      "key_features": [
+        "800 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "vertiv-xdu-1000",
+      "vendor": {
+        "name": "Vertiv",
+        "slug": "vertiv"
+      },
+      "name": "Liebert XDU 1000",
+      "slug": "xdu-1000",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 1000
+        }
+      },
+      "key_features": [
+        "1000 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "schneider-cdu-250",
+      "vendor": {
+        "name": "Schneider Electric (Motivair)",
+        "slug": "schneider-motivair"
+      },
+      "name": "Motivair CDU 250",
+      "slug": "cdu-250",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 250
+        }
+      },
+      "key_features": [
+        "250 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "schneider-cdu-750",
+      "vendor": {
+        "name": "Schneider Electric (Motivair)",
+        "slug": "schneider-motivair"
+      },
+      "name": "Motivair CDU 750",
+      "slug": "cdu-750",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 750
+        }
+      },
+      "key_features": [
+        "750 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "schneider-cdu-1000",
+      "vendor": {
+        "name": "Schneider Electric (Motivair)",
+        "slug": "schneider-motivair"
+      },
+      "name": "Motivair CDU 1000",
+      "slug": "cdu-1000",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 1000
+        }
+      },
+      "key_features": [
+        "1000 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "liquidstack-modpod",
+      "vendor": {
+        "name": "LiquidStack",
+        "slug": "liquidstack"
+      },
+      "name": "ModPod",
+      "slug": "modpod",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-two-phase",
+      "form_factor": "modular",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 300
+        }
+      },
+      "key_features": [
+        "300 kW modular",
+        "Two-phase"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "midas-xci-ai",
+      "vendor": {
+        "name": "Midas Immersion Cooling",
+        "slug": "midas"
+      },
+      "name": "XCI AI Tank",
+      "slug": "xci-ai",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 200
+        }
+      },
+      "key_features": [
+        "200 kW AI optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "midas-xci-hpc",
+      "vendor": {
+        "name": "Midas Immersion Cooling",
+        "slug": "midas"
+      },
+      "name": "XCI HPC Tank",
+      "slug": "xci-hpc",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 180
+        }
+      },
+      "key_features": [
+        "180 kW HPC optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "dug-nomad-20",
+      "vendor": {
+        "name": "DUG Technology",
+        "slug": "dug"
+      },
+      "name": "DUG Nomad 20",
+      "slug": "nomad-20",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "modular",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 500
+        }
+      },
+      "key_features": [
+        "500 kW",
+        "20-foot container"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "iceotope-kul-ai",
+      "vendor": {
+        "name": "Iceotope",
+        "slug": "iceotope"
+      },
+      "name": "KUL AI Module",
+      "slug": "kul-ai",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "rack-mount",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "AI workload optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "delta-l2a-cdu",
+      "vendor": {
+        "name": "Delta Electronics",
+        "slug": "delta"
+      },
+      "name": "GoCool L2A CDU",
+      "slug": "gocool-l2a",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "air-assisted",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 300
+        }
+      },
+      "key_features": [
+        "300 kW",
+        "Liquid-to-air"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "lenovo-sd650-v4",
+      "vendor": {
+        "name": "Lenovo",
+        "slug": "lenovo"
+      },
+      "name": "ThinkSystem SD650 V4",
+      "slug": "sd650-v4",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "specs": {
+        "heat_capture_percent": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "100% heat capture",
+        "Latest generation"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "lenovo-sr680a",
+      "vendor": {
+        "name": "Lenovo",
+        "slug": "lenovo"
+      },
+      "name": "ThinkSystem SR680a V3 Neptune",
+      "slug": "sr680a",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA H100",
+          "AMD MI300X"
+        ]
+      },
+      "key_features": [
+        "8-GPU support",
+        "AI optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "hpe-apollo-6500",
+      "vendor": {
+        "name": "HPE (Hewlett Packard Enterprise)",
+        "slug": "hpe"
+      },
+      "name": "Apollo 6500 DLC",
+      "slug": "apollo-6500",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA"
+        ]
+      },
+      "key_features": [
+        "GPU optimized",
+        "HPC ready"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "hpe-cray-ex",
+      "vendor": {
+        "name": "HPE (Hewlett Packard Enterprise)",
+        "slug": "hpe"
+      },
+      "name": "Cray EX Liquid Cooling",
+      "slug": "cray-ex",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "key_features": [
+        "Exascale ready",
+        "Cabinet-level"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "boyd-cpu-coldplate",
+      "vendor": {
+        "name": "Boyd Corporation",
+        "slug": "boyd"
+      },
+      "name": "Boyd CPU Cold Plate",
+      "slug": "boyd-cpu-coldplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "key_features": [
+        "CPU optimized",
+        "Custom geometries"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "boyd-asic-coldplate",
+      "vendor": {
+        "name": "Boyd Corporation",
+        "slug": "boyd"
+      },
+      "name": "Boyd ASIC Cold Plate",
+      "slug": "boyd-asic",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "key_features": [
+        "ASIC optimized",
+        "High density"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "nvent-cdu-1200",
+      "vendor": {
+        "name": "nVent",
+        "slug": "nvent"
+      },
+      "name": "RackChiller CDU1200",
+      "slug": "cdu1200",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 120
+        }
+      },
+      "key_features": [
+        "120 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "asperitas-aic24-ai",
+      "vendor": {
+        "name": "Asperitas",
+        "slug": "asperitas"
+      },
+      "name": "AIC24 AI",
+      "slug": "aic24-ai",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-single-phase",
+      "form_factor": "tank",
+      "specs": {
+        "power_density_kw_per_rack": {
+          "max": 150
+        }
+      },
+      "key_features": [
+        "150 kW AI optimized",
+        "Natural convection"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "tmgcore-otto-hpc",
+      "vendor": {
+        "name": "TMGcore",
+        "slug": "tmgcore"
+      },
+      "name": "OTTO HPC",
+      "slug": "otto-hpc",
+      "category": "liquid-cooling",
+      "subcategory": "immersion",
+      "cooling_technology": "immersion-two-phase",
+      "form_factor": "modular",
+      "key_features": [
+        "HPC optimized",
+        "Robot managed"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "fujitsu-cx400-dlc",
+      "vendor": {
+        "name": "Fujitsu",
+        "slug": "fujitsu"
+      },
+      "name": "PRIMERGY CX400 DLC",
+      "slug": "cx400-dlc",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "key_features": [
+        "CX400 optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "chilldyne-cf-cdu100",
+      "vendor": {
+        "name": "Chilldyne",
+        "slug": "chilldyne"
+      },
+      "name": "CF-CDU100",
+      "slug": "cf-cdu100",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "100 kW",
+        "Negative pressure"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "chilldyne-cf-cdu200",
+      "vendor": {
+        "name": "Chilldyne",
+        "slug": "chilldyne"
+      },
+      "name": "CF-CDU200",
+      "slug": "cf-cdu200",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 200
+        }
+      },
+      "key_features": [
+        "200 kW",
+        "Leak-proof"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "jetcool-cpu-coldplate",
+      "vendor": {
+        "name": "JetCool Technologies",
+        "slug": "jetcool"
+      },
+      "name": "SmartPlate CPU",
+      "slug": "smartplate-cpu",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "key_features": [
+        "CPU optimized",
+        "25% better performance"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "jetcool-cdu-12u",
+      "vendor": {
+        "name": "JetCool Technologies",
+        "slug": "jetcool"
+      },
+      "name": "SmartSense CDU 12U",
+      "slug": "smartsense-12u",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "specs": {
+        "dimensions": {
+          "rack_units": 12
+        },
+        "cooling_capacity_kw": {
+          "max": 200
+        }
+      },
+      "key_features": [
+        "12U form",
+        "200 kW"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "dcx-gpu-coldplate",
+      "vendor": {
+        "name": "DCX Liquid Cooling",
+        "slug": "dcx"
+      },
+      "name": "DCX GPU Cold Plate",
+      "slug": "dcx-gpu",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA",
+          "AMD"
+        ]
+      },
+      "key_features": [
+        "GPU optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "dcx-cdu-100",
+      "vendor": {
+        "name": "DCX Liquid Cooling",
+        "slug": "dcx"
+      },
+      "name": "DCX CDU 100kW",
+      "slug": "dcx-cdu-100",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "rack-mount",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 100
+        }
+      },
+      "key_features": [
+        "100 kW"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "dcx-cdu-200",
+      "vendor": {
+        "name": "DCX Liquid Cooling",
+        "slug": "dcx"
+      },
+      "name": "DCX CDU 200kW",
+      "slug": "dcx-cdu-200",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 200
+        }
+      },
+      "key_features": [
+        "200 kW"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "supermicro-coldplate-cpu",
+      "vendor": {
+        "name": "Supermicro",
+        "slug": "supermicro"
+      },
+      "name": "Supermicro CPU Cold Plate",
+      "slug": "sm-cpu-coldplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "key_features": [
+        "Factory installed"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "supermicro-coldplate-gpu",
+      "vendor": {
+        "name": "Supermicro",
+        "slug": "supermicro"
+      },
+      "name": "Supermicro GPU Cold Plate",
+      "slug": "sm-gpu-coldplate",
+      "category": "liquid-cooling",
+      "subcategory": "direct-to-chip",
+      "cooling_technology": "single-phase",
+      "form_factor": "cold-plate",
+      "compatibility": {
+        "gpu_support": [
+          "NVIDIA H100",
+          "NVIDIA A100"
+        ]
+      },
+      "key_features": [
+        "GPU optimized"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coldlogik-rdhx-40",
+      "vendor": {
+        "name": "ColdLogik (USystems)",
+        "slug": "coldlogik"
+      },
+      "name": "ColdLogik RDHx 40kW",
+      "slug": "rdhx-40",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 40
+        }
+      },
+      "key_features": [
+        "40 kW passive"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "coldlogik-rdhx-60",
+      "vendor": {
+        "name": "ColdLogik (USystems)",
+        "slug": "coldlogik"
+      },
+      "name": "ColdLogik RDHx 60kW",
+      "slug": "rdhx-60",
+      "category": "liquid-cooling",
+      "subcategory": "rear-door-hx",
+      "cooling_technology": "water-cooled",
+      "form_factor": "rear-door",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 60
+        }
+      },
+      "key_features": [
+        "60 kW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "trane-cdu-5mw",
+      "vendor": {
+        "name": "Trane",
+        "slug": "trane"
+      },
+      "name": "Trane CDU 5MW",
+      "slug": "trane-cdu-5mw",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 5000
+        }
+      },
+      "key_features": [
+        "5 MW capacity",
+        "Hyperscale"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    },
+    {
+      "id": "trane-cdu-2mw",
+      "vendor": {
+        "name": "Trane",
+        "slug": "trane"
+      },
+      "name": "Trane CDU 2MW",
+      "slug": "trane-cdu-2mw",
+      "category": "liquid-cooling",
+      "subcategory": "cdu",
+      "cooling_technology": "single-phase",
+      "form_factor": "in-row",
+      "specs": {
+        "cooling_capacity_kw": {
+          "max": 2000
+        }
+      },
+      "key_features": [
+        "2 MW capacity"
+      ],
+      "data_source": "manual",
+      "last_updated": "2026-02-05"
+    }
+  ],
+  "subcategories": {
+    "direct-to-chip": {
+      "name": "Direct-to-Chip (D2C)",
+      "description": "Cold plates attached directly to CPUs/GPUs. Liquid removes heat at source.",
+      "typical_capacity": "Up to 4500W per chip",
+      "pros": [
+        "Highest efficiency",
+        "Retrofit-friendly",
+        "Works with existing racks"
+      ],
+      "cons": [
+        "Requires leak detection",
+        "Complex manifolds"
+      ]
+    },
+    "immersion": {
+      "name": "Immersion Cooling",
+      "description": "Servers submerged in dielectric fluid.",
+      "typical_capacity": "50-250 kW per tank",
+      "pros": [
+        "Eliminates fans",
+        "Protects from dust",
+        "Very low PUE"
+      ],
+      "cons": [
+        "Specialized hardware",
+        "Harder to service"
+      ]
+    },
+    "rear-door-hx": {
+      "name": "Rear Door Heat Exchanger (RDHx)",
+      "description": "Liquid-cooled door removes heat from exhaust air.",
+      "typical_capacity": "Up to 100 kW per rack",
+      "pros": [
+        "Easy retrofit",
+        "Works with air-cooled servers"
+      ],
+      "cons": [
+        "Less efficient than D2C"
+      ]
+    },
+    "cdu": {
+      "name": "Coolant Distribution Unit (CDU)",
+      "description": "Central unit that conditions and distributes coolant.",
+      "typical_capacity": "70-10000 kW",
+      "pros": [
+        "Centralized management",
+        "Scalable"
+      ],
+      "cons": [
+        "Single point of failure risk"
+      ]
+    }
+  }
+}
